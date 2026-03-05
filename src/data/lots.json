@@ -52,49 +52,49 @@
   {
     "id": "lot-002",
     "date": "2026-03-05",
-    "name": "Tallgrass Prairie Homestead",
-    "tagline": "20 Acres of Rolling Kansas Prairie with Pond",
+    "name": "Cascade Timberland",
+    "tagline": "10 Acres of Pacific Northwest Forest Near Mt. Rainier",
     "location": {
-      "city": "Cottonwood Falls",
-      "county": "Chase",
-      "state": "Kansas",
-      "zip": "66845",
-      "coordinates": { "lat": 38.3722, "lng": -96.5428 }
+      "city": "Packwood",
+      "county": "Lewis",
+      "state": "Washington",
+      "zip": "98361",
+      "coordinates": { "lat": 46.6043, "lng": -121.6773 }
     },
-    "price": 40000,
-    "acreage": 20,
-    "dimensions": "933' x 933'",
-    "apn": "065-120-04-0-00-00-003",
+    "price": 48750,
+    "acreage": 10,
+    "dimensions": "660' x 660'",
+    "apn": "032417-000-000",
     "features": [
-      "Stocked pond",
-      "Native tallgrass prairie",
-      "Windmill and cistern",
-      "Gravel road frontage",
-      "Adjacent to Flint Hills",
-      "Hunting permitted"
+      "Old-growth timber",
+      "Year-round creek",
+      "Mountain views",
+      "Paved road access",
+      "Well already drilled",
+      "Near national forest"
     ],
-    "description": "Twenty acres of native tallgrass prairie in the heart of the Kansas Flint Hills — one of the last intact tallgrass ecosystems on Earth. A spring-fed pond sits in the southeast corner, stocked with bluegill and channel catfish. An old stone windmill base and working cistern remain from an 1890s homestead.\n\nThe Flint Hills are hauntingly beautiful — miles of undulating grass that shifts from emerald green in spring to copper and gold in autumn. Chase County has the lowest population density in Kansas. This is real solitude, real sky, and real land at a price that's hard to believe.",
+    "description": "Ten acres of towering Douglas fir and western red cedar in the shadow of Mt. Rainier. A year-round creek runs along the northern boundary, and the property backs up to Gifford Pinchot National Forest — giving you millions of acres of wilderness as your backyard.\n\nThe town of Packwood is a classic mountain community with a general store, cafes, and access to White Pass Ski Area. A well has already been drilled and capped on the property. The building site sits on a gentle rise above the creek, with filtered views of the Cascade Range through the timber.",
     "details": {
-      "roadConditions": "Gravel county road, maintained",
-      "utilities": "Electric 0.25 miles — line extension available",
-      "water": "Cistern on-site + pond (non-potable), well permitted",
-      "sewer": "Septic approved",
-      "zoning": "Agricultural — unrestricted",
-      "annualTaxes": 58,
-      "terrain": "Rolling tallgrass prairie with spring-fed pond",
-      "restrictions": "None"
+      "roadConditions": "Paved county road",
+      "utilities": "Electric at road, phone available",
+      "water": "Well drilled and capped on-site",
+      "sewer": "Septic approved — perc tested",
+      "zoning": "Rural Residential / Forestry",
+      "annualTaxes": 210,
+      "terrain": "Forested mountain land with creek",
+      "restrictions": "Timber management plan recommended"
     },
     "media": {
       "poster": "/images/lot-002-hero.jpg",
       "photos": [
-        { "url": "/images/lot-002-1.jpg", "alt": "Rolling tallgrass prairie in the Flint Hills", "caption": "Twenty acres of native tallgrass prairie" },
-        { "url": "/images/lot-002-2.jpg", "alt": "Spring-fed pond reflecting blue sky", "caption": "Stocked pond in the southeast corner" },
-        { "url": "/images/lot-002-3.jpg", "alt": "Old stone windmill base on prairie", "caption": "Historic windmill base from 1890s homestead" },
-        { "url": "/images/lot-002-4.jpg", "alt": "Golden prairie grass at sunset", "caption": "Flint Hills tallgrass turns copper in autumn" }
+        { "url": "/images/lot-002-1.jpg", "alt": "Towering Douglas fir forest in the Cascades", "caption": "Old-growth Douglas fir and western red cedar" },
+        { "url": "/images/lot-002-2.jpg", "alt": "Creek flowing through mossy forest", "caption": "Year-round creek along the northern boundary" },
+        { "url": "/images/lot-002-3.jpg", "alt": "Mt. Rainier visible through timber", "caption": "Filtered views of Mt. Rainier from the property" },
+        { "url": "/images/lot-002-4.jpg", "alt": "Misty morning in Pacific Northwest forest", "caption": "Classic Pacific Northwest atmosphere" }
       ]
     },
     "contact": {
-      "phone": "(620) 555-0198",
+      "phone": "(360) 555-0276",
       "email": "info@lotoftheday.com",
       "listingUrl": ""
     }
@@ -102,49 +102,49 @@
   {
     "id": "lot-003",
     "date": "2026-03-06",
-    "name": "Blue Ridge Hollow",
-    "tagline": "2.5 Acres of Wooded Mountain Land in Western North Carolina",
+    "name": "Redwood Coast Parcel",
+    "tagline": "2 Acres of Coastal Forest in Humboldt County, California",
     "location": {
-      "city": "Burnsville",
-      "county": "Yancey",
-      "state": "North Carolina",
-      "zip": "28714",
-      "coordinates": { "lat": 35.9174, "lng": -82.2285 }
+      "city": "Trinidad",
+      "county": "Humboldt",
+      "state": "California",
+      "zip": "95570",
+      "coordinates": { "lat": 41.0593, "lng": -124.1432 }
     },
-    "price": 34375,
-    "acreage": 2.5,
-    "dimensions": "330' x 330'",
-    "apn": "0712-47-8831",
+    "price": 56250,
+    "acreage": 2,
+    "dimensions": "295' x 295'",
+    "apn": "510-231-014",
     "features": [
-      "Mountain views",
-      "Mature hardwoods",
-      "Year-round stream",
-      "Underground utilities",
-      "4-season climate",
-      "Near Blue Ridge Parkway"
+      "Coastal redwoods",
+      "Ocean 1 mile away",
+      "Power and water at lot",
+      "Paved road",
+      "Building-ready",
+      "Near Trinidad Head"
     ],
-    "description": "Two and a half acres of mature hardwood forest in a protected hollow just outside Burnsville, North Carolina. A year-round branch stream crosses the lower portion of the property, and the upper slope opens to filtered views of the Black Mountains — home to Mount Mitchell, the highest peak east of the Mississippi.\n\nUnderground electric and fiber internet are already stubbed to the lot. The town of Burnsville is a thriving arts community with galleries, craft breweries, and a Saturday farmers market. The Blue Ridge Parkway is a 10-minute drive. This is southern Appalachian living at its finest — four seasons, cool summers, and land that feels like it's been waiting for a cabin.",
+    "description": "Two acres of coastal redwood forest just one mile from the Pacific Ocean near Trinidad, California. The property is studded with mature redwoods and Sitka spruce, with a natural clearing perfect for a home site. You can hear the ocean on quiet mornings.\n\nTrinidad is a tiny, stunning coastal village perched above a natural harbor. The lot has power and community water at the road, and the county has approved septic. Trinidad Head, Patrick's Point State Park, and the endless beaches of Humboldt County are all within minutes. This is one of the most beautiful and affordable stretches of the California coast.",
     "details": {
-      "roadConditions": "Paved private road, HOA-maintained",
-      "utilities": "Underground electric + fiber at lot",
-      "water": "Community well system included",
-      "sewer": "Septic approved — perc tested",
+      "roadConditions": "Paved county road",
+      "utilities": "Electric and community water at lot line",
+      "water": "Community water district",
+      "sewer": "Septic approved",
       "zoning": "Residential",
-      "annualTaxes": 185,
-      "terrain": "Wooded mountain hollow with stream",
-      "subdivision": "Black Mountain Estates — light covenants"
+      "annualTaxes": 320,
+      "terrain": "Coastal redwood forest with natural clearing",
+      "restrictions": "Humboldt County building standards"
     },
     "media": {
       "poster": "/images/lot-003-hero.jpg",
       "photos": [
-        { "url": "/images/lot-003-1.jpg", "alt": "Hardwood forest with filtered mountain views", "caption": "Filtered views of the Black Mountains" },
-        { "url": "/images/lot-003-2.jpg", "alt": "Stream flowing through wooded hollow", "caption": "Year-round branch stream on the property" },
-        { "url": "/images/lot-003-3.jpg", "alt": "Fall foliage in Blue Ridge Mountains", "caption": "Spectacular autumn color in the Blue Ridge" },
-        { "url": "/images/lot-003-4.jpg", "alt": "Mountain vista at sunrise", "caption": "Near Mount Mitchell — highest peak east of the Mississippi" }
+        { "url": "/images/lot-003-1.jpg", "alt": "Coastal redwood trees with filtered sunlight", "caption": "Mature coastal redwoods on the property" },
+        { "url": "/images/lot-003-2.jpg", "alt": "Natural clearing in redwood forest", "caption": "Natural building site with ocean breeze" },
+        { "url": "/images/lot-003-3.jpg", "alt": "Pacific Ocean coastline near Trinidad", "caption": "The Pacific Ocean is just one mile away" },
+        { "url": "/images/lot-003-4.jpg", "alt": "Trinidad Head at sunset", "caption": "Trinidad Head — minutes from the property" }
       ]
     },
     "contact": {
-      "phone": "(828) 555-0267",
+      "phone": "(707) 555-0318",
       "email": "info@lotoftheday.com",
       "listingUrl": ""
     }

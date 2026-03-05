@@ -28,8 +28,17 @@ export function Countdown() {
     return () => clearInterval(interval);
   }, []);
 
+  // Show visible placeholder before hydration instead of empty div
   if (!mounted) {
-    return <div className="h-32" />;
+    return (
+      <div className="flex items-center justify-center gap-3 sm:gap-5 md:gap-8">
+        <StaticTimeUnit digits="00" label="Hours" />
+        <span className="text-3xl md:text-5xl text-gold/30 font-extralight -mt-6 select-none">:</span>
+        <StaticTimeUnit digits="00" label="Min" />
+        <span className="text-3xl md:text-5xl text-gold/30 font-extralight -mt-6 select-none">:</span>
+        <StaticTimeUnit digits="00" label="Sec" />
+      </div>
+    );
   }
 
   return (
@@ -39,6 +48,25 @@ export function Countdown() {
       <TimeUnit value={time.minutes} label="Min" />
       <span className="text-3xl md:text-5xl text-gold/30 font-extralight -mt-6 select-none">:</span>
       <TimeUnit value={time.seconds} label="Sec" />
+    </div>
+  );
+}
+
+function StaticTimeUnit({ digits, label }: { digits: string; label: string }) {
+  return (
+    <div className="flex flex-col items-center">
+      <div className="flex">
+        {digits.split("").map((digit, i) => (
+          <div key={`${label}-${i}`} className="relative overflow-hidden w-[0.6em]">
+            <span className="font-serif text-6xl sm:text-7xl md:text-8xl lg:text-[10rem] font-black text-foreground tabular-nums leading-none block animate-glow">
+              {digit}
+            </span>
+          </div>
+        ))}
+      </div>
+      <span className="text-[10px] md:text-xs tracking-[0.3em] uppercase text-gold mt-2 md:mt-4">
+        {label}
+      </span>
     </div>
   );
 }
@@ -54,7 +82,7 @@ function TimeUnit({ value, label }: { value: number; label: string }) {
             <AnimatePresence mode="popLayout" initial={false}>
               <motion.span
                 key={digit}
-                className="font-serif text-6xl sm:text-7xl md:text-8xl lg:text-[10rem] font-black text-foreground tabular-nums leading-none block"
+                className="font-serif text-6xl sm:text-7xl md:text-8xl lg:text-[10rem] font-black text-foreground tabular-nums leading-none block animate-glow"
                 initial={{ y: "-100%", opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 exit={{ y: "100%", opacity: 0 }}

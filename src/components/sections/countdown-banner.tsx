@@ -1,6 +1,5 @@
 "use client";
 
-import { motion } from "motion/react";
 import { Countdown } from "@/components/ui/countdown";
 
 export function CountdownBanner() {
@@ -12,20 +11,13 @@ export function CountdownBanner() {
       </div>
 
       <div className="relative max-w-5xl mx-auto text-center px-6">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-        >
-          <div className="flex items-center justify-center gap-4 mb-8 md:mb-12">
-            <div className="h-px w-12 md:w-20 bg-gradient-to-r from-transparent to-gold/50" />
-            <p className="text-sm md:text-base tracking-[0.4em] uppercase text-gold font-medium">
-              Time left to buy
-            </p>
-            <div className="h-px w-12 md:w-20 bg-gradient-to-l from-transparent to-gold/50" />
-          </div>
-        </motion.div>
+        <div className="flex items-center justify-center gap-4 mb-8 md:mb-12">
+          <div className="h-px w-12 md:w-20 bg-gradient-to-r from-transparent to-gold/50" />
+          <p className="text-sm md:text-base tracking-[0.4em] uppercase text-gold font-medium">
+            Time left to buy
+          </p>
+          <div className="h-px w-12 md:w-20 bg-gradient-to-l from-transparent to-gold/50" />
+        </div>
         <Countdown />
       </div>
     </section>
