@@ -28,19 +28,19 @@ export default function AboutPage() {
             <div className="space-y-6 text-foreground/70 leading-relaxed text-lg mb-20">
               <p>
                 Every day, we feature one exceptional lot of raw land from
-                across the American West. Our mission is simple: make land
+                across the American Southwest. Our mission is simple: make land
                 ownership accessible by surfacing affordable, high-quality
                 parcels that most people never hear about.
               </p>
               <p>
                 We scour the market for hidden gems — affordable parcels with
-                real potential that most buyers never see. Each property is
-                reviewed for value, accessibility, and potential before being
-                featured on our site.
+                real potential in Arizona, New Mexico, Utah, Nevada, Colorado,
+                and Texas. Each property is reviewed for value, accessibility,
+                and potential before being featured on our site.
               </p>
               <p>
                 Whether you&apos;re looking for an off-grid homestead, a
-                weekend camping retreat, a long-term investment, or simply a
+                weekend desert retreat, a long-term investment, or simply a
                 piece of the American landscape to call your own — we help you
                 find it.
               </p>
@@ -58,7 +58,7 @@ export default function AboutPage() {
               </p>
               <a
                 href={`mailto:${CONTACT_EMAIL}`}
-                className="inline-flex items-center gap-2 bg-gold text-white px-8 py-3.5 text-sm tracking-wider uppercase font-medium hover:bg-gold-dark transition-colors duration-300 rounded-full"
+                className="inline-flex items-center gap-2 bg-gold text-background px-8 py-3.5 text-sm tracking-wider uppercase font-bold hover:bg-gold-dark transition-colors duration-300"
               >
                 Contact Us
               </a>

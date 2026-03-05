@@ -1,15 +1,16 @@
-# Lot of the Day — lotoftheday.us
+# Lot of the Day — lotoftheday.com
 
-## CRITICAL: This is NOT lotoftheday.com
+## CRITICAL: This is NOT lotoftheday.us
 
-This is a completely separate project from lotoftheday.com. Do NOT sync, copy, or match the .com site's design.
+This is a completely separate project from lotoftheday.us. Do NOT sync, copy, or match the .us site's design.
 
 ## Identity
-- Domain: lotoftheday.us
-- Email: info@lotoftheday.us
-- Theme: DARK luxury (#050505 background, #F2A900 gold accent)
-- Fonts: Playfair Display (serif) + Inter (sans)
-- NO rounded-full buttons
-- NO light/cream/sage theme
-- NO Cormorant Garamond or Lato fonts
-- Lots focus on the American Southwest (AZ, NM, NV, UT, CO, TX)
+- Domain: lotoftheday.com
+- Email: info@lotoftheday.com
+- Theme: LIGHT earthy (#FDFBF7 cream background, #8B9A7D sage accent)
+- Fonts: Cormorant Garamond (serif) + Lato (sans)
+- Rounded-full buttons with white text
+- NO dark theme (#050505)
+- NO gold (#F2A900) accent colors
+- NO Playfair Display or Inter fonts
+- Lots focus on the West Coast (CA, WA, OR, UT)

@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --background: #050505;
-  --foreground: #f0f0f0;
-  --gold: #F2A900;
-  --gold-light: #FFD166;
-  --gold-dark: #C48800;
-  --surface: #0e0e0e;
-  --surface-light: #161616;
-  --muted: #777777;
+  --background: #FDFBF7;
+  --foreground: #524B43;
+  --gold: #8B9A7D;
+  --gold-light: #A3B095;
+  --gold-dark: #6B7A5D;
+  --surface: #FFFFFF;
+  --surface-light: #F7F3EC;
+  --muted: #8F8578;
   --ease-premium: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -21,8 +21,8 @@
   --color-surface: var(--surface);
   --color-surface-light: var(--surface-light);
   --color-muted: var(--muted);
-  --font-sans: var(--font-inter);
-  --font-serif: var(--font-playfair);
+  --font-sans: var(--font-lato);
+  --font-serif: var(--font-cormorant);
 }
 
 * {
@@ -48,16 +48,16 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #0a0a0a;
+  background: var(--surface-light);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #333;
+  background: #D4CEC5;
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #B5ADA0;
 }
 
 /* Ken Burns animation for hero images */
@@ -74,13 +74,13 @@ body {
   animation: ken-burns 20s ease-in-out infinite alternate;
 }
 
-/* Gradient overlays — dark for text readability on images */
+/* Gradient overlays — earthy dark for text readability on images */
 .gradient-overlay-bottom {
   background: linear-gradient(
     to top,
-    rgba(5, 5, 5, 0.95) 0%,
-    rgba(5, 5, 5, 0.6) 40%,
-    rgba(5, 5, 5, 0.15) 70%,
+    rgba(58, 53, 47, 0.92) 0%,
+    rgba(58, 53, 47, 0.5) 40%,
+    rgba(58, 53, 47, 0.1) 70%,
     transparent 100%
   );
 }
@@ -88,38 +88,32 @@ body {
 .gradient-overlay-full {
   background: linear-gradient(
     to top,
-    rgba(5, 5, 5, 0.85) 0%,
-    rgba(5, 5, 5, 0.45) 50%,
-    rgba(5, 5, 5, 0.2) 100%
+    rgba(58, 53, 47, 0.75) 0%,
+    rgba(58, 53, 47, 0.35) 50%,
+    rgba(58, 53, 47, 0.15) 100%
   );
 }
 
-/* Gold shimmer text */
+/* Sage shimmer text */
 .text-gold-shimmer {
   background: linear-gradient(
     135deg,
-    #C48800 0%,
-    #F2A900 25%,
-    #FFD166 50%,
-    #F2A900 75%,
-    #C48800 100%
+    var(--gold-dark) 0%,
+    var(--gold) 25%,
+    var(--gold-light) 50%,
+    var(--gold) 75%,
+    var(--gold-dark) 100%
   );
   background-size: 200% 100%;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: shimmer 4s ease-in-out infinite;
-}
-
-@keyframes shimmer {
-  0%, 100% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
 }
 
 /* Glow pulse for countdown */
 @keyframes glow-pulse {
-  0%, 100% { text-shadow: 0 0 20px rgba(242, 169, 0, 0.2); }
-  50% { text-shadow: 0 0 40px rgba(242, 169, 0, 0.4), 0 0 80px rgba(242, 169, 0, 0.15); }
+  0%, 100% { text-shadow: 0 0 20px rgba(139, 154, 125, 0.15); }
+  50% { text-shadow: 0 0 40px rgba(139, 154, 125, 0.3), 0 0 80px rgba(139, 154, 125, 0.1); }
 }
 .animate-glow {
   animation: glow-pulse 3s ease-in-out infinite;
