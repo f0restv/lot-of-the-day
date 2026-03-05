@@ -8,6 +8,7 @@ import { PropertyDetails } from "@/components/sections/property-details";
 import { PhotoGallery } from "@/components/sections/photo-gallery";
 import { LotMap } from "@/components/sections/lot-map";
 import { CtaSection } from "@/components/sections/cta-section";
+import { CountdownBanner } from "@/components/sections/countdown-banner";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 
@@ -59,6 +60,7 @@ export default async function LotPage({ params }: LotPageProps) {
       <Header />
       <main>
         <VideoHero lot={lot} />
+        <CountdownBanner />
         <div className="relative z-10 bg-background">
           <div className="py-6 px-6 md:px-12 lg:px-20 max-w-7xl mx-auto">
             <p className="text-xs tracking-[0.2em] uppercase text-muted">
