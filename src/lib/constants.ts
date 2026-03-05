@@ -5,18 +5,3 @@ export const SITE_DESCRIPTION =
   "Discover one exceptional lot of land every day. Affordable government and foreclosed land across the western US.";
 export const TIMEZONE = "America/New_York";
 export const CONTACT_EMAIL = "info@lotoftheday.com";
-
-export const PARTNER_SITES = [
-  {
-    name: "Government Land Sales",
-    url: "https://governmentlandsales.us",
-    description:
-      "Premium raw land parcels from government auctions and tax sales across the United States.",
-  },
-  {
-    name: "1881 Land",
-    url: "https://1881.com",
-    description:
-      "Curated land listings with a focus on rural and recreational properties.",
-  },
-];

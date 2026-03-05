@@ -5,7 +5,7 @@ export function Footer() {
   return (
     <footer className="border-t border-foreground/5 bg-background">
       <div className="max-w-7xl mx-auto px-6 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div>
             <span className="font-serif text-xl font-bold text-foreground">
               {SITE_NAME}
@@ -40,30 +40,6 @@ export function Footer() {
                 About
               </Link>
             </nav>
-          </div>
-
-          <div>
-            <h4 className="text-xs tracking-[0.2em] uppercase text-foreground/60 mb-4">
-              Our Partners
-            </h4>
-            <div className="flex flex-col gap-3">
-              <a
-                href="https://governmentlandsales.us"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm text-muted hover:text-gold transition-colors"
-              >
-                Government Land Sales
-              </a>
-              <a
-                href="https://1881.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm text-muted hover:text-gold transition-colors"
-              >
-                1881.com
-              </a>
-            </div>
           </div>
         </div>
 

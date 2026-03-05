@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0a0a0a;
-  --foreground: #ededed;
-  --gold: #f2a900;
-  --gold-light: #f5c34a;
-  --gold-dark: #c48800;
-  --surface: #141414;
-  --surface-light: #1a1a1a;
-  --muted: #888888;
+  --background: #FDFBF7;
+  --foreground: #524B43;
+  --gold: #8B9A7D;
+  --gold-light: #A3B095;
+  --gold-dark: #6B7A5D;
+  --surface: #FFFFFF;
+  --surface-light: #F7F3EC;
+  --muted: #8F8578;
   --ease-premium: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -21,8 +21,8 @@
   --color-surface: var(--surface);
   --color-surface-light: var(--surface-light);
   --color-muted: var(--muted);
-  --font-sans: var(--font-inter);
-  --font-serif: var(--font-playfair);
+  --font-sans: var(--font-lato);
+  --font-serif: var(--font-cormorant);
 }
 
 * {
@@ -48,16 +48,16 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--background);
+  background: var(--surface-light);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #333;
+  background: #D4CEC5;
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #B5ADA0;
 }
 
 /* Ken Burns animation for hero images */
@@ -74,13 +74,13 @@ body {
   animation: ken-burns 20s ease-in-out infinite alternate;
 }
 
-/* Gradient overlays */
+/* Gradient overlays — earthy dark for text readability on images */
 .gradient-overlay-bottom {
   background: linear-gradient(
     to top,
-    rgba(10, 10, 10, 0.95) 0%,
-    rgba(10, 10, 10, 0.6) 40%,
-    rgba(10, 10, 10, 0.1) 70%,
+    rgba(58, 53, 47, 0.92) 0%,
+    rgba(58, 53, 47, 0.5) 40%,
+    rgba(58, 53, 47, 0.1) 70%,
     transparent 100%
   );
 }
@@ -88,13 +88,13 @@ body {
 .gradient-overlay-full {
   background: linear-gradient(
     to top,
-    rgba(10, 10, 10, 0.8) 0%,
-    rgba(10, 10, 10, 0.4) 50%,
-    rgba(10, 10, 10, 0.2) 100%
+    rgba(58, 53, 47, 0.75) 0%,
+    rgba(58, 53, 47, 0.35) 50%,
+    rgba(58, 53, 47, 0.15) 100%
   );
 }
 
-/* Gold shimmer text */
+/* Sage shimmer text */
 .text-gold-shimmer {
   background: linear-gradient(
     135deg,
@@ -108,4 +108,21 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/* Focus visible for keyboard navigation */
+*:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--background), 0 0 0 4px var(--gold);
+}
+
+/* Reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

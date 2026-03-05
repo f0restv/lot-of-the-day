@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { SITE_NAME, CONTACT_EMAIL, PARTNER_SITES } from "@/lib/constants";
+import { SITE_NAME, CONTACT_EMAIL } from "@/lib/constants";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { FadeIn } from "@/components/animations/fade-in";
@@ -48,32 +48,6 @@ export default function AboutPage() {
           </FadeIn>
 
           <FadeIn delay={0.2}>
-            <div className="mb-20">
-              <h2 className="text-xs tracking-[0.3em] uppercase text-gold mb-8">
-                Our Partners
-              </h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {PARTNER_SITES.map((site) => (
-                  <a
-                    key={site.url}
-                    href={site.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block bg-surface border border-foreground/10 p-6 hover:border-gold/30 transition-colors duration-300 group"
-                  >
-                    <h3 className="font-serif text-xl font-bold text-foreground group-hover:text-gold transition-colors mb-2">
-                      {site.name}
-                    </h3>
-                    <p className="text-sm text-muted leading-relaxed">
-                      {site.description}
-                    </p>
-                  </a>
-                ))}
-              </div>
-            </div>
-          </FadeIn>
-
-          <FadeIn delay={0.3}>
             <div className="bg-surface border border-foreground/10 p-8 md:p-12 text-center">
               <h2 className="font-serif text-2xl md:text-3xl font-bold text-foreground mb-4">
                 Get in Touch
