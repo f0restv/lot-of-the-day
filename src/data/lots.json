@@ -2,49 +2,49 @@
   {
     "id": "lot-001",
     "date": "2026-03-04",
-    "name": "Copper Basin Retreat",
-    "tagline": "5 Acres of High Desert with Mountain Views in Southern Utah",
+    "name": "Juniper Mesa Homesite",
+    "tagline": "10 Acres of Pinyon-Juniper Woodland Outside Bend, Oregon",
     "location": {
-      "city": "Cedar City",
-      "county": "Iron",
-      "state": "Utah",
-      "zip": "84720",
-      "coordinates": { "lat": 37.6775, "lng": -113.0619 }
+      "city": "Bend",
+      "county": "Deschutes",
+      "state": "Oregon",
+      "zip": "97701",
+      "coordinates": { "lat": 43.8041, "lng": -121.1622 }
     },
-    "price": 23125,
-    "acreage": 5,
-    "dimensions": "467' x 467'",
-    "apn": "A-1027-0084-0000",
+    "price": 37500,
+    "acreage": 10,
+    "dimensions": "660' x 660'",
+    "apn": "17-12-25-00-01200",
     "features": [
-      "Mountain panorama",
+      "Cascade Mountain views",
+      "Juniper woodland",
       "Paved road access",
-      "Power at property line",
-      "No HOA or covenants",
-      "Year-round access",
-      "Near Cedar Breaks"
+      "Power at lot line",
+      "No HOA",
+      "Dark sky area"
     ],
-    "description": "Five acres of red-rock high desert outside Cedar City, Utah — gateway to three national parks. The property sits at 5,600 feet with unobstructed views of the Markagunt Plateau and distant Pine Valley Mountains. The soil is firm and sandy, dotted with juniper and pinyon pine.\n\nCedar City is a growing college town with full amenities just 15 minutes away. Zion National Park is an hour south, Bryce Canyon 90 minutes east, and Cedar Breaks National Monument is practically in your backyard. Power runs along the road frontage — this is a build-ready lot in one of the most scenic corridors in the American West.",
+    "description": "Ten acres of high-desert juniper woodland on a mesa east of Bend, Oregon — one of the fastest-growing outdoor recreation towns in the West. The property commands sweeping views of the Cascade Range, from Mt. Bachelor to Broken Top to the Three Sisters.\n\nThe terrain is classic Central Oregon — volcanic soil, fragrant juniper, and wide-open sky. A natural flat building pad sits near the center of the property with 360-degree views. Power is at the road and the county has pre-approved well and septic permits. Bend's world-class mountain biking, skiing, and craft beer scene is 20 minutes west.",
     "details": {
       "roadConditions": "Paved county road",
-      "utilities": "Electric at property line",
-      "water": "Well permitted — 300' typical depth",
-      "sewer": "Septic approved",
-      "zoning": "Rural Residential",
-      "annualTaxes": 96,
-      "terrain": "High desert with juniper and pinyon",
-      "restrictions": "Residential use, no junkyard or salvage"
+      "utilities": "Electric at lot line",
+      "water": "Well permitted — 200' typical depth",
+      "sewer": "Septic pre-approved",
+      "zoning": "Exclusive Farm Use (EFU) — residential allowed",
+      "annualTaxes": 175,
+      "terrain": "High-desert juniper mesa with volcanic soil",
+      "restrictions": "One dwelling per parcel"
     },
     "media": {
       "poster": "/images/lot-001-hero.jpg",
       "photos": [
-        { "url": "/images/lot-001-1.jpg", "alt": "Red desert landscape with distant mountains", "caption": "Views of the Markagunt Plateau from the property" },
-        { "url": "/images/lot-001-2.jpg", "alt": "Juniper trees on sandy desert terrain", "caption": "Native juniper and pinyon pine dot the landscape" },
-        { "url": "/images/lot-001-3.jpg", "alt": "Sunset over southern Utah desert", "caption": "Spectacular sunsets over the western horizon" },
-        { "url": "/images/lot-001-4.jpg", "alt": "Paved road leading to property", "caption": "Year-round paved road access" }
+        { "url": "/images/lot-001-1.jpg", "alt": "Cascade mountain views from juniper mesa", "caption": "Sweeping views of the Three Sisters from the property" },
+        { "url": "/images/lot-001-2.jpg", "alt": "Juniper woodland on volcanic soil", "caption": "Native juniper woodland across the mesa" },
+        { "url": "/images/lot-001-3.jpg", "alt": "Sunset over Central Oregon high desert", "caption": "Spectacular high-desert sunsets" },
+        { "url": "/images/lot-001-4.jpg", "alt": "Paved road through Oregon ranch country", "caption": "Paved access just 20 minutes from Bend" }
       ]
     },
     "contact": {
-      "phone": "(435) 555-0142",
+      "phone": "(541) 555-0183",
       "email": "info@lotoftheday.com",
       "listingUrl": ""
     }
@@ -52,49 +52,49 @@
   {
     "id": "lot-002",
     "date": "2026-03-05",
-    "name": "Cascade Timberland",
-    "tagline": "10 Acres of Pacific Northwest Forest Near Mt. Rainier",
+    "name": "Skagit Valley Farmstead",
+    "tagline": "5 Acres of Fertile Valley Floor in Northwest Washington",
     "location": {
-      "city": "Packwood",
-      "county": "Lewis",
+      "city": "Sedro-Woolley",
+      "county": "Skagit",
       "state": "Washington",
-      "zip": "98361",
-      "coordinates": { "lat": 46.6043, "lng": -121.6773 }
+      "zip": "98284",
+      "coordinates": { "lat": 48.5101, "lng": -122.2348 }
     },
-    "price": 48750,
-    "acreage": 10,
-    "dimensions": "660' x 660'",
-    "apn": "032417-000-000",
+    "price": 62500,
+    "acreage": 5,
+    "dimensions": "467' x 467'",
+    "apn": "P48229",
     "features": [
-      "Old-growth timber",
-      "Year-round creek",
-      "Mountain views",
-      "Paved road access",
-      "Well already drilled",
-      "Near national forest"
+      "Rich agricultural soil",
+      "Irrigation rights",
+      "Barn foundation on-site",
+      "Mountain and valley views",
+      "All utilities at road",
+      "Near North Cascades"
     ],
-    "description": "Ten acres of towering Douglas fir and western red cedar in the shadow of Mt. Rainier. A year-round creek runs along the northern boundary, and the property backs up to Gifford Pinchot National Forest — giving you millions of acres of wilderness as your backyard.\n\nThe town of Packwood is a classic mountain community with a general store, cafes, and access to White Pass Ski Area. A well has already been drilled and capped on the property. The building site sits on a gentle rise above the creek, with filtered views of the Cascade Range through the timber.",
+    "description": "Five acres of deep, loamy farmland in Washington's legendary Skagit Valley — famous for its tulip fields, seed farms, and some of the richest agricultural soil on the West Coast. The property includes irrigation water rights from the Skagit River system and a solid concrete barn foundation from a 1940s dairy operation.\n\nThe valley floor is flat and fully usable, with views of the North Cascades to the east and the San Juan Islands ferry terminal just 30 minutes west. All utilities — electric, water, phone, and natural gas — run along the road. This is turnkey farmland in a region where acreage rarely comes up for sale.",
     "details": {
-      "roadConditions": "Paved county road",
-      "utilities": "Electric at road, phone available",
-      "water": "Well drilled and capped on-site",
+      "roadConditions": "Paved state highway",
+      "utilities": "Electric, water, gas, phone at road",
+      "water": "Municipal water + irrigation rights",
       "sewer": "Septic approved — perc tested",
-      "zoning": "Rural Residential / Forestry",
-      "annualTaxes": 210,
-      "terrain": "Forested mountain land with creek",
-      "restrictions": "Timber management plan recommended"
+      "zoning": "Agricultural",
+      "annualTaxes": 285,
+      "terrain": "Flat valley floor, deep loam soil",
+      "restrictions": "Agricultural use primary, residence permitted"
     },
     "media": {
       "poster": "/images/lot-002-hero.jpg",
       "photos": [
-        { "url": "/images/lot-002-1.jpg", "alt": "Towering Douglas fir forest in the Cascades", "caption": "Old-growth Douglas fir and western red cedar" },
-        { "url": "/images/lot-002-2.jpg", "alt": "Creek flowing through mossy forest", "caption": "Year-round creek along the northern boundary" },
-        { "url": "/images/lot-002-3.jpg", "alt": "Mt. Rainier visible through timber", "caption": "Filtered views of Mt. Rainier from the property" },
-        { "url": "/images/lot-002-4.jpg", "alt": "Misty morning in Pacific Northwest forest", "caption": "Classic Pacific Northwest atmosphere" }
+        { "url": "/images/lot-002-1.jpg", "alt": "Fertile farmland with North Cascades backdrop", "caption": "Rich Skagit Valley soil with mountain views" },
+        { "url": "/images/lot-002-2.jpg", "alt": "Barn foundation on green farmland", "caption": "Existing barn foundation from 1940s dairy" },
+        { "url": "/images/lot-002-3.jpg", "alt": "Tulip fields in Skagit Valley", "caption": "The Skagit Valley is famous for its tulip fields" },
+        { "url": "/images/lot-002-4.jpg", "alt": "Morning mist over valley farmland", "caption": "Morning mist rising off the valley floor" }
       ]
     },
     "contact": {
-      "phone": "(360) 555-0276",
+      "phone": "(360) 555-0247",
       "email": "info@lotoftheday.com",
       "listingUrl": ""
     }
@@ -102,49 +102,49 @@
   {
     "id": "lot-003",
     "date": "2026-03-06",
-    "name": "Redwood Coast Parcel",
-    "tagline": "2 Acres of Coastal Forest in Humboldt County, California",
+    "name": "Mendocino Bluff Parcel",
+    "tagline": "1.5 Acres of Coastal Bluff with Ocean Views in Northern California",
     "location": {
-      "city": "Trinidad",
-      "county": "Humboldt",
+      "city": "Mendocino",
+      "county": "Mendocino",
       "state": "California",
-      "zip": "95570",
-      "coordinates": { "lat": 41.0593, "lng": -124.1432 }
+      "zip": "95460",
+      "coordinates": { "lat": 39.3077, "lng": -123.7995 }
     },
-    "price": 56250,
-    "acreage": 2,
-    "dimensions": "295' x 295'",
-    "apn": "510-231-014",
+    "price": 72500,
+    "acreage": 1.5,
+    "dimensions": "255' x 255'",
+    "apn": "119-290-08",
     "features": [
-      "Coastal redwoods",
-      "Ocean 1 mile away",
-      "Power and water at lot",
+      "Pacific Ocean views",
+      "Coastal bluff setting",
+      "Underground utilities",
       "Paved road",
-      "Building-ready",
-      "Near Trinidad Head"
+      "Walk to village",
+      "Whale watching"
     ],
-    "description": "Two acres of coastal redwood forest just one mile from the Pacific Ocean near Trinidad, California. The property is studded with mature redwoods and Sitka spruce, with a natural clearing perfect for a home site. You can hear the ocean on quiet mornings.\n\nTrinidad is a tiny, stunning coastal village perched above a natural harbor. The lot has power and community water at the road, and the county has approved septic. Trinidad Head, Patrick's Point State Park, and the endless beaches of Humboldt County are all within minutes. This is one of the most beautiful and affordable stretches of the California coast.",
+    "description": "One and a half acres on a windswept coastal bluff just south of the village of Mendocino, California. The property offers unobstructed views of the Pacific Ocean from a dramatic headland setting — gray whales pass within sight during winter migration. Sea stacks and rocky coves line the shore below.\n\nThe lot is one of the last undeveloped parcels within walking distance of Mendocino village, a National Historic Preservation district known for its Victorian architecture, art galleries, and the landmark Mendocino Headlands State Park. Underground electric and community water are stubbed to the lot. Build your dream on one of the most iconic coastlines in America.",
     "details": {
       "roadConditions": "Paved county road",
-      "utilities": "Electric and community water at lot line",
-      "water": "Community water district",
-      "sewer": "Septic approved",
-      "zoning": "Residential",
-      "annualTaxes": 320,
-      "terrain": "Coastal redwood forest with natural clearing",
-      "restrictions": "Humboldt County building standards"
+      "utilities": "Underground electric + community water at lot",
+      "water": "Mendocino Community Water District",
+      "sewer": "Septic approved — engineered system required",
+      "zoning": "Residential — Coastal Zone",
+      "annualTaxes": 425,
+      "terrain": "Coastal bluff with native grassland",
+      "restrictions": "Coastal Commission review for building permits"
     },
     "media": {
       "poster": "/images/lot-003-hero.jpg",
       "photos": [
-        { "url": "/images/lot-003-1.jpg", "alt": "Coastal redwood trees with filtered sunlight", "caption": "Mature coastal redwoods on the property" },
-        { "url": "/images/lot-003-2.jpg", "alt": "Natural clearing in redwood forest", "caption": "Natural building site with ocean breeze" },
-        { "url": "/images/lot-003-3.jpg", "alt": "Pacific Ocean coastline near Trinidad", "caption": "The Pacific Ocean is just one mile away" },
-        { "url": "/images/lot-003-4.jpg", "alt": "Trinidad Head at sunset", "caption": "Trinidad Head — minutes from the property" }
+        { "url": "/images/lot-003-1.jpg", "alt": "Pacific Ocean view from coastal bluff", "caption": "Unobstructed Pacific Ocean views from the bluff" },
+        { "url": "/images/lot-003-2.jpg", "alt": "Sea stacks and rocky coves below bluff", "caption": "Dramatic sea stacks and coves along the shore" },
+        { "url": "/images/lot-003-3.jpg", "alt": "Mendocino village Victorian buildings", "caption": "Walking distance to historic Mendocino village" },
+        { "url": "/images/lot-003-4.jpg", "alt": "Sunset over Pacific from Mendocino coast", "caption": "Sunset from the Mendocino coast" }
       ]
     },
     "contact": {
-      "phone": "(707) 555-0318",
+      "phone": "(707) 555-0391",
       "email": "info@lotoftheday.com",
       "listingUrl": ""
     }
