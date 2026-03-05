@@ -47,13 +47,13 @@ export function VideoHero({ lot }: VideoHeroProps) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
         >
-          <p className="text-xs md:text-sm tracking-[0.3em] uppercase text-gold mb-4">
+          <p className="text-xs md:text-sm tracking-[0.3em] uppercase text-gold-light mb-4">
             {lot.location.county} County, {lot.location.state}
           </p>
         </motion.div>
 
         <motion.h1
-          className="font-serif text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold leading-[0.95] tracking-tight text-foreground mb-4"
+          className="font-serif text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold leading-[0.95] tracking-tight text-white mb-4"
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
@@ -62,7 +62,7 @@ export function VideoHero({ lot }: VideoHeroProps) {
         </motion.h1>
 
         <motion.p
-          className="text-lg md:text-xl text-foreground/70 font-light mb-8 max-w-xl"
+          className="text-lg md:text-xl text-white/70 font-light mb-8 max-w-xl"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.7, ease: [0.16, 1, 0.3, 1] }}
@@ -77,30 +77,30 @@ export function VideoHero({ lot }: VideoHeroProps) {
           transition={{ duration: 0.8, delay: 0.9, ease: [0.16, 1, 0.3, 1] }}
         >
           <div>
-            <p className="text-2xl md:text-3xl font-serif font-bold text-gold">
+            <p className="text-2xl md:text-3xl font-serif font-bold text-gold-light">
               {formatCurrency(lot.price)}
             </p>
-            <p className="text-xs tracking-widest uppercase text-foreground/40 mt-1">
+            <p className="text-xs tracking-widest uppercase text-white/40 mt-1">
               Price
             </p>
           </div>
-          <div className="w-px h-10 bg-foreground/10" />
+          <div className="w-px h-10 bg-white/10" />
           <div>
-            <p className="text-2xl md:text-3xl font-serif font-bold text-foreground">
+            <p className="text-2xl md:text-3xl font-serif font-bold text-white">
               {formatAcreage(lot.acreage)}
             </p>
-            <p className="text-xs tracking-widest uppercase text-foreground/40 mt-1">
+            <p className="text-xs tracking-widest uppercase text-white/40 mt-1">
               Acres
             </p>
           </div>
           {lot.dimensions && (
             <>
-              <div className="w-px h-10 bg-foreground/10" />
+              <div className="w-px h-10 bg-white/10" />
               <div>
-                <p className="text-2xl md:text-3xl font-serif font-bold text-foreground">
+                <p className="text-2xl md:text-3xl font-serif font-bold text-white">
                   {lot.dimensions}
                 </p>
-                <p className="text-xs tracking-widest uppercase text-foreground/40 mt-1">
+                <p className="text-xs tracking-widest uppercase text-white/40 mt-1">
                   Dimensions
                 </p>
               </div>

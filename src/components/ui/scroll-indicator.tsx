@@ -13,7 +13,7 @@ export function ScrollIndicator() {
         window.scrollTo({ top: window.innerHeight, behavior: "smooth" });
       }}
     >
-      <span className="text-xs tracking-[0.3em] uppercase text-foreground/50">
+      <span className="text-xs tracking-[0.3em] uppercase text-white/50">
         Scroll
       </span>
       <motion.svg

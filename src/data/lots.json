@@ -2,151 +2,150 @@
   {
     "id": "lot-001",
     "date": "2026-03-04",
-    "name": "Desert Vista Homestead",
-    "tagline": "10 Acres of Nevada Open Range",
+    "name": "Meadow Creek Homesite",
+    "tagline": "8 Acres of Montana Grassland with Creek Frontage",
     "location": {
-      "city": "Lovelock",
-      "county": "Pershing",
-      "state": "Nevada",
-      "zip": "89419",
-      "coordinates": { "lat": 40.1793, "lng": -118.4734 }
+      "city": "Roundup",
+      "county": "Musselshell",
+      "state": "Montana",
+      "zip": "59072",
+      "coordinates": { "lat": 46.4452, "lng": -108.5468 }
     },
-    "price": 6244,
-    "acreage": 10,
-    "dimensions": "660' x 660'",
-    "apn": "008-210-42",
+    "price": 22500,
+    "acreage": 8,
+    "dimensions": "590' x 590'",
+    "apn": "24-0340-112",
     "features": [
-      "Paved road access",
-      "Power available nearby",
+      "Creek frontage",
+      "Fenced perimeter",
+      "Electric at road",
       "Mountain views",
       "No HOA",
-      "RV & mobile homes allowed",
-      "Year-round access"
+      "Horses allowed"
     ],
-    "description": "Escape to the wide-open spaces of northern Nevada with this stunning 10-acre parcel. Surrounded by panoramic mountain views and endless desert sky, this property offers the ultimate blank canvas for your off-grid retreat, homestead, or investment. Located just minutes from Lovelock with paved road access and power available nearby.",
+    "description": "A stunning 8-acre parcel along a year-round creek in central Montana. The land is fenced on three sides with mature cottonwoods lining the creek bank. Rolling grassland rises gently from the water, offering a perfect homesite with panoramic views of the Bull Mountains.\n\nThis is genuine Montana ranch country — open skies, abundant wildlife, and neighbors who wave from the road. The property includes a deeded easement for creek water rights, making it ideal for a small hobby farm, equestrian property, or private retreat.",
     "details": {
-      "roadConditions": "Paved county road",
-      "utilities": "Power available at road",
-      "water": "Well or haul",
-      "sewer": "Septic needed",
-      "zoning": "Agricultural / Residential",
-      "annualTaxes": 65,
-      "terrain": "Flat desert with mountain views",
-      "subdivision": "Grass Valley Ranchos"
+      "roadConditions": "Gravel county road",
+      "utilities": "Electric at road, phone available",
+      "water": "Creek water rights + well permitted",
+      "sewer": "Septic approved",
+      "zoning": "Agricultural",
+      "annualTaxes": 145,
+      "terrain": "Rolling grassland with creek bottom",
+      "restrictions": "No commercial operations"
     },
     "media": {
       "poster": "/images/lot-001-hero.jpg",
       "photos": [
-        { "url": "/images/lot-001-1.jpg", "alt": "Desert landscape with mountain backdrop", "caption": "Panoramic mountain views in every direction" },
-        { "url": "/images/lot-001-2.jpg", "alt": "Sunset over Nevada desert", "caption": "Spectacular Nevada sunsets" },
-        { "url": "/images/lot-001-3.jpg", "alt": "Paved road access to property", "caption": "Easy paved road access" },
-        { "url": "/images/lot-001-4.jpg", "alt": "Wide open desert terrain", "caption": "10 acres of wide-open space" }
+        { "url": "/images/lot-001-1.jpg", "alt": "Creek winding through Montana grassland", "caption": "Year-round creek along the eastern boundary" },
+        { "url": "/images/lot-001-2.jpg", "alt": "Rolling hills with Bull Mountain backdrop", "caption": "Views of the Bull Mountains from the homesite" },
+        { "url": "/images/lot-001-3.jpg", "alt": "Cottonwood trees along the creek", "caption": "Mature cottonwoods provide natural shade" },
+        { "url": "/images/lot-001-4.jpg", "alt": "Fenced grassland pasture", "caption": "Fenced and ready for livestock" }
       ]
     },
     "contact": {
-      "phone": "(555) 123-4567",
+      "phone": "(406) 555-0187",
       "email": "info@lotoftheday.com",
-      "listingUrl": ""
+      "listingUrl": "https://governmentlandsales.us"
     }
   },
   {
     "id": "lot-002",
     "date": "2026-03-05",
-    "name": "Painted Canyon Retreat",
-    "tagline": "5 Acres in Arizona High Desert",
+    "name": "Piney Ridge Cabin Lot",
+    "tagline": "3 Acres of Wooded Hillside in the Ozarks",
     "location": {
-      "city": "Kingman",
-      "county": "Mohave",
-      "state": "Arizona",
-      "zip": "86401",
-      "coordinates": { "lat": 35.1894, "lng": -114.053 }
+      "city": "Mountain View",
+      "county": "Stone",
+      "state": "Arkansas",
+      "zip": "72560",
+      "coordinates": { "lat": 35.8682, "lng": -92.1174 }
     },
-    "price": 4369,
-    "acreage": 5,
-    "dimensions": "467' x 467'",
-    "apn": "302-18-091",
+    "price": 15900,
+    "acreage": 3,
+    "dimensions": "361' x 361'",
+    "apn": "800-01447-000",
     "features": [
-      "Graded road access",
-      "Solar-friendly location",
-      "Red rock views",
-      "No HOA",
-      "Camping permitted",
-      "Close to Route 66"
+      "Hardwood forest",
+      "Spring on property",
+      "Paved road frontage",
+      "Electric and water at lot",
+      "Building-ready",
+      "Near national forest"
     ],
-    "description": "Discover your own piece of the American West in this breathtaking 5-acre parcel near Kingman, Arizona. Nestled in the high desert with striking red rock formations and clear blue skies, this property is perfect for an off-grid cabin, weekend camping retreat, or long-term investment. Just a short drive from historic Route 66.",
+    "description": "Three beautiful acres of mature hardwood forest tucked into the Ozark hills near Mountain View, Arkansas — the folk music capital of the world. A natural spring emerges near the center of the property, feeding a small seasonal branch that runs toward the road.\n\nThe lot sits on a gentle hillside with a natural building pad already cleared by previous owners. Towering oaks and hickories create a dense canopy in summer and spectacular color in fall. Electric and rural water are already at the lot line — just bring your cabin plans.",
     "details": {
-      "roadConditions": "Graded dirt road",
-      "utilities": "Solar recommended",
-      "water": "Well or haul",
+      "roadConditions": "Paved state highway",
+      "utilities": "Electric and rural water at lot line",
+      "water": "Rural water district + natural spring",
       "sewer": "Septic needed",
-      "zoning": "Rural / Residential",
-      "annualTaxes": 48,
-      "terrain": "Rolling high desert",
-      "subdivision": "Valle Vista Ranch"
+      "zoning": "Residential / Agricultural",
+      "annualTaxes": 72,
+      "terrain": "Wooded hillside, gentle slope",
+      "subdivision": "None — unrestricted"
     },
     "media": {
       "poster": "/images/lot-002-hero.jpg",
       "photos": [
-        { "url": "/images/lot-002-1.jpg", "alt": "Arizona red rock desert landscape", "caption": "Stunning high desert terrain" },
-        { "url": "/images/lot-002-2.jpg", "alt": "Clear desert sky at golden hour", "caption": "Golden hour in the Arizona desert" },
-        { "url": "/images/lot-002-3.jpg", "alt": "Desert road leading to property", "caption": "Access road to the property" },
-        { "url": "/images/lot-002-4.jpg", "alt": "Expansive desert views", "caption": "5 acres of open desert beauty" }
+        { "url": "/images/lot-002-1.jpg", "alt": "Hardwood forest canopy in the Ozarks", "caption": "Towering oak and hickory canopy" },
+        { "url": "/images/lot-002-2.jpg", "alt": "Natural spring bubbling from mossy rocks", "caption": "Natural spring near the center of the property" },
+        { "url": "/images/lot-002-3.jpg", "alt": "Cleared building pad on hillside", "caption": "Natural building pad with filtered sunlight" },
+        { "url": "/images/lot-002-4.jpg", "alt": "Fall foliage on Ozark hillside", "caption": "Spectacular autumn color in the Ozarks" }
       ]
     },
     "contact": {
-      "phone": "(555) 123-4567",
+      "phone": "(870) 555-0234",
       "email": "info@lotoftheday.com",
-      "listingUrl": ""
+      "listingUrl": "https://1881.com"
     }
   },
   {
     "id": "lot-003",
     "date": "2026-03-06",
-    "name": "Timber Ridge Estate",
-    "tagline": "20 Acres of Oregon Woodland",
+    "name": "Sage Flat Ranch Parcel",
+    "tagline": "40 Acres of Wyoming Open Range",
     "location": {
-      "city": "Klamath Falls",
-      "county": "Klamath",
-      "state": "Oregon",
-      "zip": "97601",
-      "coordinates": { "lat": 42.2249, "lng": -121.7817 }
+      "city": "Rawlins",
+      "county": "Carbon",
+      "state": "Wyoming",
+      "zip": "82301",
+      "coordinates": { "lat": 41.7911, "lng": -107.2387 }
     },
-    "price": 18625,
-    "acreage": 20,
-    "dimensions": "933' x 933'",
-    "apn": "R-3912-00400",
+    "price": 9800,
+    "acreage": 40,
+    "dimensions": "1320' x 1320'",
+    "apn": "19-84-102-004",
     "features": [
-      "Timber on property",
-      "Seasonal creek",
-      "Wildlife habitat",
-      "Power at road",
-      "Paved road frontage",
-      "Well water potential"
+      "40 full acres",
+      "Antelope habitat",
+      "BLM land borders",
+      "Dark sky location",
+      "No restrictions",
+      "Year-round access"
     ],
-    "description": "A rare opportunity to own 20 acres of lush Oregon woodland. This magnificent property features mature timber, a seasonal creek, and abundant wildlife. With power at the road and paved frontage, this is an ideal location for a private cabin retreat, homestead, or timber investment. The land offers incredible privacy while remaining accessible year-round.",
+    "description": "Forty acres of wide-open Wyoming range land south of Rawlins in Carbon County. The terrain is classic high-desert sagebrush steppe at 6,800 feet elevation — vast, quiet, and utterly untouched. Pronghorn antelope are regular visitors, and the property borders BLM land to the south, giving you functionally limitless open space.\n\nThis is one of the darkest sky locations in the continental US. On a clear night, the Milky Way stretches horizon to horizon. At under $250 per acre, this is land banking at its most compelling — Carbon County is seeing steady growth from wind energy development and recreational use.",
     "details": {
-      "roadConditions": "Paved county road",
-      "utilities": "Power at lot line",
-      "water": "Well potential confirmed",
-      "sewer": "Septic needed",
-      "zoning": "Forest / Residential",
-      "annualTaxes": 185,
-      "terrain": "Wooded hillside",
-      "subdivision": "Klamath Forest Estates"
+      "roadConditions": "Maintained gravel road",
+      "utilities": "Off-grid — solar recommended",
+      "water": "Haul or cistern",
+      "sewer": "None needed at this density",
+      "zoning": "Open range — no zoning",
+      "annualTaxes": 38,
+      "terrain": "Sagebrush steppe, flat to gently rolling"
     },
     "media": {
       "poster": "/images/lot-003-hero.jpg",
       "photos": [
-        { "url": "/images/lot-003-1.jpg", "alt": "Dense Oregon forest with tall pines", "caption": "Mature timber throughout the property" },
-        { "url": "/images/lot-003-2.jpg", "alt": "Seasonal creek running through property", "caption": "Seasonal creek on the land" },
-        { "url": "/images/lot-003-3.jpg", "alt": "Misty morning in Oregon woods", "caption": "Peaceful Oregon mornings" },
-        { "url": "/images/lot-003-4.jpg", "alt": "Forest clearing with mountain view", "caption": "Natural clearing perfect for a homesite" }
+        { "url": "/images/lot-003-1.jpg", "alt": "Vast Wyoming sagebrush landscape", "caption": "40 acres of open Wyoming range" },
+        { "url": "/images/lot-003-2.jpg", "alt": "Pronghorn antelope on the property", "caption": "Pronghorn antelope are regular visitors" },
+        { "url": "/images/lot-003-3.jpg", "alt": "Milky Way over Wyoming rangeland", "caption": "Some of the darkest skies in the lower 48" },
+        { "url": "/images/lot-003-4.jpg", "alt": "Gravel road through sagebrush country", "caption": "Year-round maintained access road" }
       ]
     },
     "contact": {
-      "phone": "(555) 123-4567",
+      "phone": "(307) 555-0119",
       "email": "info@lotoftheday.com",
-      "listingUrl": ""
+      "listingUrl": "https://governmentlandsales.us"
     }
   }
 ]
