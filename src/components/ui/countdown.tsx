@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { motion, AnimatePresence } from "motion/react";
 
 function getTimeUntilMidnight() {
   const now = new Date();
@@ -28,27 +29,44 @@ export function Countdown() {
   }, []);
 
   if (!mounted) {
-    return <div className="h-20" />;
+    return <div className="h-32" />;
   }
 
   return (
-    <div className="flex items-center justify-center gap-4 md:gap-8">
+    <div className="flex items-center justify-center gap-3 sm:gap-5 md:gap-8">
       <TimeUnit value={time.hours} label="Hours" />
-      <span className="text-3xl md:text-5xl text-gold/40 font-light -mt-6">:</span>
-      <TimeUnit value={time.minutes} label="Minutes" />
-      <span className="text-3xl md:text-5xl text-gold/40 font-light -mt-6">:</span>
-      <TimeUnit value={time.seconds} label="Seconds" />
+      <span className="text-3xl md:text-5xl text-gold/30 font-extralight -mt-6 select-none">:</span>
+      <TimeUnit value={time.minutes} label="Min" />
+      <span className="text-3xl md:text-5xl text-gold/30 font-extralight -mt-6 select-none">:</span>
+      <TimeUnit value={time.seconds} label="Sec" />
     </div>
   );
 }
 
 function TimeUnit({ value, label }: { value: number; label: string }) {
+  const digits = String(value).padStart(2, "0");
+
   return (
     <div className="flex flex-col items-center">
-      <span className="font-serif text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold text-foreground tabular-nums leading-none">
-        {String(value).padStart(2, "0")}
-      </span>
-      <span className="text-[10px] md:text-xs tracking-[0.3em] uppercase text-gold/60 mt-2 md:mt-3">
+      <div className="flex">
+        {digits.split("").map((digit, i) => (
+          <div key={`${label}-${i}`} className="relative overflow-hidden w-[0.6em]">
+            <AnimatePresence mode="popLayout" initial={false}>
+              <motion.span
+                key={digit}
+                className="font-serif text-6xl sm:text-7xl md:text-8xl lg:text-[10rem] font-black text-white tabular-nums leading-none block animate-glow"
+                initial={{ y: "-100%", opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                exit={{ y: "100%", opacity: 0 }}
+                transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
+              >
+                {digit}
+              </motion.span>
+            </AnimatePresence>
+          </div>
+        ))}
+      </div>
+      <span className="text-[10px] md:text-xs tracking-[0.3em] uppercase text-gold mt-2 md:mt-4">
         {label}
       </span>
     </div>

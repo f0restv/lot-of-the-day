@@ -25,8 +25,8 @@ export default async function OGImage({
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            backgroundColor: "#FDFBF7",
-            color: "#524B43",
+            backgroundColor: "#050505",
+            color: "#f0f0f0",
             fontSize: 48,
             fontFamily: "serif",
           }}
@@ -48,8 +48,8 @@ export default async function OGImage({
           flexDirection: "column",
           justifyContent: "flex-end",
           padding: "60px",
-          backgroundColor: "#3A352F",
-          backgroundImage: `linear-gradient(to top, rgba(58,53,47,0.95) 0%, rgba(58,53,47,0.7) 40%, rgba(58,53,47,0.4) 100%)`,
+          backgroundColor: "#050505",
+          backgroundImage: `linear-gradient(to top, rgba(5,5,5,0.97) 0%, rgba(5,5,5,0.7) 40%, rgba(5,5,5,0.4) 100%)`,
         }}
       >
         {/* Top bar */}
@@ -66,7 +66,7 @@ export default async function OGImage({
         >
           <span
             style={{
-              color: "#A3B095",
+              color: "#F2A900",
               fontSize: 18,
               letterSpacing: "0.2em",
               textTransform: "uppercase",
@@ -76,7 +76,7 @@ export default async function OGImage({
           </span>
           <span
             style={{
-              color: "#8F8578",
+              color: "#777",
               fontSize: 16,
               letterSpacing: "0.1em",
             }}
@@ -88,7 +88,7 @@ export default async function OGImage({
         {/* Location */}
         <span
           style={{
-            color: "#A3B095",
+            color: "#F2A900",
             fontSize: 20,
             letterSpacing: "0.25em",
             textTransform: "uppercase",
@@ -101,7 +101,7 @@ export default async function OGImage({
         {/* Name */}
         <span
           style={{
-            color: "#FDFBF7",
+            color: "#f0f0f0",
             fontSize: 64,
             fontFamily: "serif",
             fontWeight: 700,
@@ -123,7 +123,7 @@ export default async function OGImage({
           <div style={{ display: "flex", flexDirection: "column" }}>
             <span
               style={{
-                color: "#8B9A7D",
+                color: "#F2A900",
                 fontSize: 36,
                 fontFamily: "serif",
                 fontWeight: 700,
@@ -133,7 +133,7 @@ export default async function OGImage({
             </span>
             <span
               style={{
-                color: "#8F8578",
+                color: "#666",
                 fontSize: 14,
                 letterSpacing: "0.2em",
                 textTransform: "uppercase",
@@ -148,14 +148,14 @@ export default async function OGImage({
             style={{
               width: "1px",
               height: "48px",
-              backgroundColor: "#6B6359",
+              backgroundColor: "#333",
             }}
           />
 
           <div style={{ display: "flex", flexDirection: "column" }}>
             <span
               style={{
-                color: "#FDFBF7",
+                color: "#f0f0f0",
                 fontSize: 36,
                 fontFamily: "serif",
                 fontWeight: 700,
@@ -165,7 +165,7 @@ export default async function OGImage({
             </span>
             <span
               style={{
-                color: "#8F8578",
+                color: "#666",
                 fontSize: 14,
                 letterSpacing: "0.2em",
                 textTransform: "uppercase",

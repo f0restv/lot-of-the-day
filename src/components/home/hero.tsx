@@ -69,7 +69,7 @@ export function Hero({ lot }: HeroProps) {
           transition={{ duration: 0.8, delay: 0.9 }}
         >
           <div className="text-center">
-            <span className="text-2xl md:text-3xl font-serif font-bold text-gold-light">
+            <span className="text-2xl md:text-3xl font-serif font-bold text-gold-shimmer">
               {formatCurrency(lot.price)}
             </span>
           </div>
@@ -89,7 +89,7 @@ export function Hero({ lot }: HeroProps) {
         >
           <Link
             href={`/lot/${lot.date}`}
-            className="inline-flex items-center gap-2 bg-gold text-white px-10 py-4 text-sm tracking-wider uppercase font-medium hover:bg-gold-dark transition-colors duration-300 rounded-full"
+            className="inline-flex items-center gap-2 bg-gold text-background px-10 py-4 text-sm tracking-wider uppercase font-bold hover:bg-gold-light transition-colors duration-300"
           >
             View This Lot
             <svg

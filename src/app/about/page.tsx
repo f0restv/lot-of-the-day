@@ -58,7 +58,7 @@ export default function AboutPage() {
               </p>
               <a
                 href={`mailto:${CONTACT_EMAIL}`}
-                className="inline-flex items-center gap-2 bg-gold text-white px-8 py-3.5 text-sm tracking-wider uppercase font-medium hover:bg-gold-dark transition-colors duration-300 rounded-full"
+                className="inline-flex items-center gap-2 bg-gold text-background px-8 py-3.5 text-sm tracking-wider uppercase font-bold hover:bg-gold-light transition-colors duration-300"
               >
                 Contact Us
               </a>

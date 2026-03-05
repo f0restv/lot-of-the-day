@@ -77,7 +77,7 @@ export function VideoHero({ lot }: VideoHeroProps) {
           transition={{ duration: 0.8, delay: 0.9, ease: [0.16, 1, 0.3, 1] }}
         >
           <div>
-            <p className="text-2xl md:text-3xl font-serif font-bold text-gold-light">
+            <p className="text-2xl md:text-3xl font-serif font-bold text-gold-shimmer">
               {formatCurrency(lot.price)}
             </p>
             <p className="text-xs tracking-widest uppercase text-white/40 mt-1">
