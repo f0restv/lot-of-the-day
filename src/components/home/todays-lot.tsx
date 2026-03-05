@@ -104,15 +104,19 @@ export function TodaysLot({ lot }: TodaysLotProps) {
           </FadeIn>
         </div>
 
-        <FadeIn delay={0.4}>
-          <div className="mt-20 text-center">
-            <p className="text-xs tracking-[0.2em] uppercase text-muted mb-6">
+      </div>
+
+      {/* Countdown — full bleed */}
+      <FadeIn delay={0.4}>
+        <div className="mt-20 md:mt-28 border-t border-b border-gold/10 bg-surface py-16 md:py-24">
+          <div className="max-w-4xl mx-auto text-center px-6">
+            <p className="text-xs md:text-sm tracking-[0.3em] uppercase text-gold mb-8 md:mb-12">
               Next lot drops in
             </p>
             <Countdown />
           </div>
-        </FadeIn>
-      </div>
+        </div>
+      </FadeIn>
     </section>
   );
 }

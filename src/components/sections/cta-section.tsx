@@ -57,17 +57,20 @@ export function CtaSection({ lot }: CtaSectionProps) {
             </div>
           </FadeIn>
 
-          {/* Countdown */}
-          <FadeIn delay={0.4}>
-            <div className="border-t border-foreground/5 pt-12">
-              <p className="text-xs tracking-[0.3em] uppercase text-muted mb-6">
-                Next lot drops in
-              </p>
-              <Countdown />
-            </div>
-          </FadeIn>
         </div>
       </div>
+
+      {/* Countdown — full width, its own visual block */}
+      <FadeIn delay={0.4}>
+        <div className="mt-20 md:mt-28 border-t border-b border-gold/10 bg-surface py-16 md:py-24">
+          <div className="max-w-4xl mx-auto text-center px-6">
+            <p className="text-xs md:text-sm tracking-[0.3em] uppercase text-gold mb-8 md:mb-12">
+              Next lot drops in
+            </p>
+            <Countdown />
+          </div>
+        </div>
+      </FadeIn>
     </section>
   );
 }
