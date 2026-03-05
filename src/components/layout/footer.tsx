@@ -11,8 +11,8 @@ export function Footer() {
               {SITE_NAME}
             </span>
             <p className="text-sm text-muted mt-3 leading-relaxed">
-              A new lot of land, every single day. Affordable government and
-              foreclosed land across the western US.
+              A new lot of land, every single day. Curated raw land across
+              the US — handpicked for value and potential.
             </p>
           </div>
 

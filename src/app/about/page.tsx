@@ -33,10 +33,10 @@ export default function AboutPage() {
                 parcels that most people never hear about.
               </p>
               <p>
-                We source our lots from government auctions, tax sales,
-                foreclosures, and direct sellers. Each property is reviewed for
-                value, accessibility, and potential before being featured on our
-                site.
+                We scour the market for hidden gems — affordable parcels with
+                real potential that most buyers never see. Each property is
+                reviewed for value, accessibility, and potential before being
+                featured on our site.
               </p>
               <p>
                 Whether you&apos;re looking for an off-grid homestead, a

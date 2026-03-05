@@ -10,7 +10,7 @@ import { FadeIn } from "@/components/animations/fade-in";
 export const metadata: Metadata = {
   title: "Archive",
   description:
-    "Browse all past featured lots. Affordable government and foreclosed land across the western US.",
+    "Browse all past featured lots. Curated raw land across the US — handpicked for value and potential.",
 };
 
 export default function ArchivePage() {
