@@ -2,49 +2,49 @@
   {
     "id": "lot-001",
     "date": "2026-03-04",
-    "name": "Meadow Creek Homesite",
-    "tagline": "8 Acres of Montana Grassland with Creek Frontage",
+    "name": "Copper Basin Retreat",
+    "tagline": "5 Acres of High Desert with Mountain Views in Southern Utah",
     "location": {
-      "city": "Roundup",
-      "county": "Musselshell",
-      "state": "Montana",
-      "zip": "59072",
-      "coordinates": { "lat": 46.4452, "lng": -108.5468 }
+      "city": "Cedar City",
+      "county": "Iron",
+      "state": "Utah",
+      "zip": "84720",
+      "coordinates": { "lat": 37.6775, "lng": -113.0619 }
     },
-    "price": 22500,
-    "acreage": 8,
-    "dimensions": "590' x 590'",
-    "apn": "24-0340-112",
+    "price": 18500,
+    "acreage": 5,
+    "dimensions": "467' x 467'",
+    "apn": "A-1027-0084-0000",
     "features": [
-      "Creek frontage",
-      "Fenced perimeter",
-      "Electric at road",
-      "Mountain views",
-      "No HOA",
-      "Horses allowed"
+      "Mountain panorama",
+      "Paved road access",
+      "Power at property line",
+      "No HOA or covenants",
+      "Year-round access",
+      "Near Cedar Breaks"
     ],
-    "description": "A stunning 8-acre parcel along a year-round creek in central Montana. The land is fenced on three sides with mature cottonwoods lining the creek bank. Rolling grassland rises gently from the water, offering a perfect homesite with panoramic views of the Bull Mountains.\n\nThis is genuine Montana ranch country — open skies, abundant wildlife, and neighbors who wave from the road. The property includes a deeded easement for creek water rights, making it ideal for a small hobby farm, equestrian property, or private retreat.",
+    "description": "Five acres of red-rock high desert outside Cedar City, Utah — gateway to three national parks. The property sits at 5,600 feet with unobstructed views of the Markagunt Plateau and distant Pine Valley Mountains. The soil is firm and sandy, dotted with juniper and pinyon pine.\n\nCedar City is a growing college town with full amenities just 15 minutes away. Zion National Park is an hour south, Bryce Canyon 90 minutes east, and Cedar Breaks National Monument is practically in your backyard. Power runs along the road frontage — this is a build-ready lot in one of the most scenic corridors in the American West.",
     "details": {
-      "roadConditions": "Gravel county road",
-      "utilities": "Electric at road, phone available",
-      "water": "Creek water rights + well permitted",
+      "roadConditions": "Paved county road",
+      "utilities": "Electric at property line",
+      "water": "Well permitted — 300' typical depth",
       "sewer": "Septic approved",
-      "zoning": "Agricultural",
-      "annualTaxes": 145,
-      "terrain": "Rolling grassland with creek bottom",
-      "restrictions": "No commercial operations"
+      "zoning": "Rural Residential",
+      "annualTaxes": 96,
+      "terrain": "High desert with juniper and pinyon",
+      "restrictions": "Residential use, no junkyard or salvage"
     },
     "media": {
       "poster": "/images/lot-001-hero.jpg",
       "photos": [
-        { "url": "/images/lot-001-1.jpg", "alt": "Creek winding through Montana grassland", "caption": "Year-round creek along the eastern boundary" },
-        { "url": "/images/lot-001-2.jpg", "alt": "Rolling hills with Bull Mountain backdrop", "caption": "Views of the Bull Mountains from the homesite" },
-        { "url": "/images/lot-001-3.jpg", "alt": "Cottonwood trees along the creek", "caption": "Mature cottonwoods provide natural shade" },
-        { "url": "/images/lot-001-4.jpg", "alt": "Fenced grassland pasture", "caption": "Fenced and ready for livestock" }
+        { "url": "/images/lot-001-1.jpg", "alt": "Red desert landscape with distant mountains", "caption": "Views of the Markagunt Plateau from the property" },
+        { "url": "/images/lot-001-2.jpg", "alt": "Juniper trees on sandy desert terrain", "caption": "Native juniper and pinyon pine dot the landscape" },
+        { "url": "/images/lot-001-3.jpg", "alt": "Sunset over southern Utah desert", "caption": "Spectacular sunsets over the western horizon" },
+        { "url": "/images/lot-001-4.jpg", "alt": "Paved road leading to property", "caption": "Year-round paved road access" }
       ]
     },
     "contact": {
-      "phone": "(406) 555-0187",
+      "phone": "(435) 555-0142",
       "email": "info@lotoftheday.com",
       "listingUrl": ""
     }
@@ -52,49 +52,49 @@
   {
     "id": "lot-002",
     "date": "2026-03-05",
-    "name": "Piney Ridge Cabin Lot",
-    "tagline": "3 Acres of Wooded Hillside in the Ozarks",
+    "name": "Tallgrass Prairie Homestead",
+    "tagline": "20 Acres of Rolling Kansas Prairie with Pond",
     "location": {
-      "city": "Mountain View",
-      "county": "Stone",
-      "state": "Arkansas",
-      "zip": "72560",
-      "coordinates": { "lat": 35.8682, "lng": -92.1174 }
+      "city": "Cottonwood Falls",
+      "county": "Chase",
+      "state": "Kansas",
+      "zip": "66845",
+      "coordinates": { "lat": 38.3722, "lng": -96.5428 }
     },
-    "price": 15900,
-    "acreage": 3,
-    "dimensions": "361' x 361'",
-    "apn": "800-01447-000",
+    "price": 32000,
+    "acreage": 20,
+    "dimensions": "933' x 933'",
+    "apn": "065-120-04-0-00-00-003",
     "features": [
-      "Hardwood forest",
-      "Spring on property",
-      "Paved road frontage",
-      "Electric and water at lot",
-      "Building-ready",
-      "Near national forest"
+      "Stocked pond",
+      "Native tallgrass prairie",
+      "Windmill and cistern",
+      "Gravel road frontage",
+      "Adjacent to Flint Hills",
+      "Hunting permitted"
     ],
-    "description": "Three beautiful acres of mature hardwood forest tucked into the Ozark hills near Mountain View, Arkansas — the folk music capital of the world. A natural spring emerges near the center of the property, feeding a small seasonal branch that runs toward the road.\n\nThe lot sits on a gentle hillside with a natural building pad already cleared by previous owners. Towering oaks and hickories create a dense canopy in summer and spectacular color in fall. Electric and rural water are already at the lot line — just bring your cabin plans.",
+    "description": "Twenty acres of native tallgrass prairie in the heart of the Kansas Flint Hills — one of the last intact tallgrass ecosystems on Earth. A spring-fed pond sits in the southeast corner, stocked with bluegill and channel catfish. An old stone windmill base and working cistern remain from an 1890s homestead.\n\nThe Flint Hills are hauntingly beautiful — miles of undulating grass that shifts from emerald green in spring to copper and gold in autumn. Chase County has the lowest population density in Kansas. This is real solitude, real sky, and real land at a price that's hard to believe.",
     "details": {
-      "roadConditions": "Paved state highway",
-      "utilities": "Electric and rural water at lot line",
-      "water": "Rural water district + natural spring",
-      "sewer": "Septic needed",
-      "zoning": "Residential / Agricultural",
-      "annualTaxes": 72,
-      "terrain": "Wooded hillside, gentle slope",
-      "subdivision": "None — unrestricted"
+      "roadConditions": "Gravel county road, maintained",
+      "utilities": "Electric 0.25 miles — line extension available",
+      "water": "Cistern on-site + pond (non-potable), well permitted",
+      "sewer": "Septic approved",
+      "zoning": "Agricultural — unrestricted",
+      "annualTaxes": 58,
+      "terrain": "Rolling tallgrass prairie with spring-fed pond",
+      "restrictions": "None"
     },
     "media": {
       "poster": "/images/lot-002-hero.jpg",
       "photos": [
-        { "url": "/images/lot-002-1.jpg", "alt": "Hardwood forest canopy in the Ozarks", "caption": "Towering oak and hickory canopy" },
-        { "url": "/images/lot-002-2.jpg", "alt": "Natural spring bubbling from mossy rocks", "caption": "Natural spring near the center of the property" },
-        { "url": "/images/lot-002-3.jpg", "alt": "Cleared building pad on hillside", "caption": "Natural building pad with filtered sunlight" },
-        { "url": "/images/lot-002-4.jpg", "alt": "Fall foliage on Ozark hillside", "caption": "Spectacular autumn color in the Ozarks" }
+        { "url": "/images/lot-002-1.jpg", "alt": "Rolling tallgrass prairie in the Flint Hills", "caption": "Twenty acres of native tallgrass prairie" },
+        { "url": "/images/lot-002-2.jpg", "alt": "Spring-fed pond reflecting blue sky", "caption": "Stocked pond in the southeast corner" },
+        { "url": "/images/lot-002-3.jpg", "alt": "Old stone windmill base on prairie", "caption": "Historic windmill base from 1890s homestead" },
+        { "url": "/images/lot-002-4.jpg", "alt": "Golden prairie grass at sunset", "caption": "Flint Hills tallgrass turns copper in autumn" }
       ]
     },
     "contact": {
-      "phone": "(870) 555-0234",
+      "phone": "(620) 555-0198",
       "email": "info@lotoftheday.com",
       "listingUrl": ""
     }
@@ -102,48 +102,49 @@
   {
     "id": "lot-003",
     "date": "2026-03-06",
-    "name": "Sage Flat Ranch Parcel",
-    "tagline": "40 Acres of Wyoming Open Range",
+    "name": "Blue Ridge Hollow",
+    "tagline": "2.5 Acres of Wooded Mountain Land in Western North Carolina",
     "location": {
-      "city": "Rawlins",
-      "county": "Carbon",
-      "state": "Wyoming",
-      "zip": "82301",
-      "coordinates": { "lat": 41.7911, "lng": -107.2387 }
+      "city": "Burnsville",
+      "county": "Yancey",
+      "state": "North Carolina",
+      "zip": "28714",
+      "coordinates": { "lat": 35.9174, "lng": -82.2285 }
     },
-    "price": 9800,
-    "acreage": 40,
-    "dimensions": "1320' x 1320'",
-    "apn": "19-84-102-004",
+    "price": 27500,
+    "acreage": 2.5,
+    "dimensions": "330' x 330'",
+    "apn": "0712-47-8831",
     "features": [
-      "40 full acres",
-      "Antelope habitat",
-      "BLM land borders",
-      "Dark sky location",
-      "No restrictions",
-      "Year-round access"
+      "Mountain views",
+      "Mature hardwoods",
+      "Year-round stream",
+      "Underground utilities",
+      "4-season climate",
+      "Near Blue Ridge Parkway"
     ],
-    "description": "Forty acres of wide-open Wyoming range land south of Rawlins in Carbon County. The terrain is classic high-desert sagebrush steppe at 6,800 feet elevation — vast, quiet, and utterly untouched. Pronghorn antelope are regular visitors, and the property borders BLM land to the south, giving you functionally limitless open space.\n\nThis is one of the darkest sky locations in the continental US. On a clear night, the Milky Way stretches horizon to horizon. At under $250 per acre, this is land banking at its most compelling — Carbon County is seeing steady growth from wind energy development and recreational use.",
+    "description": "Two and a half acres of mature hardwood forest in a protected hollow just outside Burnsville, North Carolina. A year-round branch stream crosses the lower portion of the property, and the upper slope opens to filtered views of the Black Mountains — home to Mount Mitchell, the highest peak east of the Mississippi.\n\nUnderground electric and fiber internet are already stubbed to the lot. The town of Burnsville is a thriving arts community with galleries, craft breweries, and a Saturday farmers market. The Blue Ridge Parkway is a 10-minute drive. This is southern Appalachian living at its finest — four seasons, cool summers, and land that feels like it's been waiting for a cabin.",
     "details": {
-      "roadConditions": "Maintained gravel road",
-      "utilities": "Off-grid — solar recommended",
-      "water": "Haul or cistern",
-      "sewer": "None needed at this density",
-      "zoning": "Open range — no zoning",
-      "annualTaxes": 38,
-      "terrain": "Sagebrush steppe, flat to gently rolling"
+      "roadConditions": "Paved private road, HOA-maintained",
+      "utilities": "Underground electric + fiber at lot",
+      "water": "Community well system included",
+      "sewer": "Septic approved — perc tested",
+      "zoning": "Residential",
+      "annualTaxes": 185,
+      "terrain": "Wooded mountain hollow with stream",
+      "subdivision": "Black Mountain Estates — light covenants"
     },
     "media": {
       "poster": "/images/lot-003-hero.jpg",
       "photos": [
-        { "url": "/images/lot-003-1.jpg", "alt": "Vast Wyoming sagebrush landscape", "caption": "40 acres of open Wyoming range" },
-        { "url": "/images/lot-003-2.jpg", "alt": "Pronghorn antelope on the property", "caption": "Pronghorn antelope are regular visitors" },
-        { "url": "/images/lot-003-3.jpg", "alt": "Milky Way over Wyoming rangeland", "caption": "Some of the darkest skies in the lower 48" },
-        { "url": "/images/lot-003-4.jpg", "alt": "Gravel road through sagebrush country", "caption": "Year-round maintained access road" }
+        { "url": "/images/lot-003-1.jpg", "alt": "Hardwood forest with filtered mountain views", "caption": "Filtered views of the Black Mountains" },
+        { "url": "/images/lot-003-2.jpg", "alt": "Stream flowing through wooded hollow", "caption": "Year-round branch stream on the property" },
+        { "url": "/images/lot-003-3.jpg", "alt": "Fall foliage in Blue Ridge Mountains", "caption": "Spectacular autumn color in the Blue Ridge" },
+        { "url": "/images/lot-003-4.jpg", "alt": "Mountain vista at sunrise", "caption": "Near Mount Mitchell — highest peak east of the Mississippi" }
       ]
     },
     "contact": {
-      "phone": "(307) 555-0119",
+      "phone": "(828) 555-0267",
       "email": "info@lotoftheday.com",
       "listingUrl": ""
     }
