@@ -1,0 +1,152 @@
+[
+  {
+    "id": "lot-001",
+    "date": "2026-03-04",
+    "name": "Desert Vista Homestead",
+    "tagline": "10 Acres of Nevada Open Range",
+    "location": {
+      "city": "Lovelock",
+      "county": "Pershing",
+      "state": "Nevada",
+      "zip": "89419",
+      "coordinates": { "lat": 40.1793, "lng": -118.4734 }
+    },
+    "price": 4995,
+    "acreage": 10,
+    "dimensions": "660' x 660'",
+    "apn": "008-210-42",
+    "features": [
+      "Paved road access",
+      "Power available nearby",
+      "Mountain views",
+      "No HOA",
+      "RV & mobile homes allowed",
+      "Year-round access"
+    ],
+    "description": "Escape to the wide-open spaces of northern Nevada with this stunning 10-acre parcel. Surrounded by panoramic mountain views and endless desert sky, this property offers the ultimate blank canvas for your off-grid retreat, homestead, or investment. Located just minutes from Lovelock with paved road access and power available nearby.",
+    "details": {
+      "roadConditions": "Paved county road",
+      "utilities": "Power available at road",
+      "water": "Well or haul",
+      "sewer": "Septic needed",
+      "zoning": "Agricultural / Residential",
+      "annualTaxes": 65,
+      "terrain": "Flat desert with mountain views",
+      "subdivision": "Grass Valley Ranchos"
+    },
+    "media": {
+      "poster": "/images/lot-001-hero.jpg",
+      "photos": [
+        { "url": "/images/lot-001-1.jpg", "alt": "Desert landscape with mountain backdrop", "caption": "Panoramic mountain views in every direction" },
+        { "url": "/images/lot-001-2.jpg", "alt": "Sunset over Nevada desert", "caption": "Spectacular Nevada sunsets" },
+        { "url": "/images/lot-001-3.jpg", "alt": "Paved road access to property", "caption": "Easy paved road access" },
+        { "url": "/images/lot-001-4.jpg", "alt": "Wide open desert terrain", "caption": "10 acres of wide-open space" }
+      ]
+    },
+    "contact": {
+      "phone": "(555) 123-4567",
+      "email": "info@lotoftheday.us",
+      "listingUrl": "https://governmentlandsales.us"
+    }
+  },
+  {
+    "id": "lot-002",
+    "date": "2026-03-05",
+    "name": "Painted Canyon Retreat",
+    "tagline": "5 Acres in Arizona High Desert",
+    "location": {
+      "city": "Kingman",
+      "county": "Mohave",
+      "state": "Arizona",
+      "zip": "86401",
+      "coordinates": { "lat": 35.1894, "lng": -114.053 }
+    },
+    "price": 3495,
+    "acreage": 5,
+    "dimensions": "467' x 467'",
+    "apn": "302-18-091",
+    "features": [
+      "Graded road access",
+      "Solar-friendly location",
+      "Red rock views",
+      "No HOA",
+      "Camping permitted",
+      "Close to Route 66"
+    ],
+    "description": "Discover your own piece of the American West in this breathtaking 5-acre parcel near Kingman, Arizona. Nestled in the high desert with striking red rock formations and clear blue skies, this property is perfect for an off-grid cabin, weekend camping retreat, or long-term investment. Just a short drive from historic Route 66.",
+    "details": {
+      "roadConditions": "Graded dirt road",
+      "utilities": "Solar recommended",
+      "water": "Well or haul",
+      "sewer": "Septic needed",
+      "zoning": "Rural / Residential",
+      "annualTaxes": 48,
+      "terrain": "Rolling high desert",
+      "subdivision": "Valle Vista Ranch"
+    },
+    "media": {
+      "poster": "/images/lot-002-hero.jpg",
+      "photos": [
+        { "url": "/images/lot-002-1.jpg", "alt": "Arizona red rock desert landscape", "caption": "Stunning high desert terrain" },
+        { "url": "/images/lot-002-2.jpg", "alt": "Clear desert sky at golden hour", "caption": "Golden hour in the Arizona desert" },
+        { "url": "/images/lot-002-3.jpg", "alt": "Desert road leading to property", "caption": "Access road to the property" },
+        { "url": "/images/lot-002-4.jpg", "alt": "Expansive desert views", "caption": "5 acres of open desert beauty" }
+      ]
+    },
+    "contact": {
+      "phone": "(555) 123-4567",
+      "email": "info@lotoftheday.us",
+      "listingUrl": "https://governmentlandsales.us"
+    }
+  },
+  {
+    "id": "lot-003",
+    "date": "2026-03-06",
+    "name": "Timber Ridge Estate",
+    "tagline": "20 Acres of Oregon Woodland",
+    "location": {
+      "city": "Klamath Falls",
+      "county": "Klamath",
+      "state": "Oregon",
+      "zip": "97601",
+      "coordinates": { "lat": 42.2249, "lng": -121.7817 }
+    },
+    "price": 14900,
+    "acreage": 20,
+    "dimensions": "933' x 933'",
+    "apn": "R-3912-00400",
+    "features": [
+      "Timber on property",
+      "Seasonal creek",
+      "Wildlife habitat",
+      "Power at road",
+      "Paved road frontage",
+      "Well water potential"
+    ],
+    "description": "A rare opportunity to own 20 acres of lush Oregon woodland. This magnificent property features mature timber, a seasonal creek, and abundant wildlife. With power at the road and paved frontage, this is an ideal location for a private cabin retreat, homestead, or timber investment. The land offers incredible privacy while remaining accessible year-round.",
+    "details": {
+      "roadConditions": "Paved county road",
+      "utilities": "Power at lot line",
+      "water": "Well potential confirmed",
+      "sewer": "Septic needed",
+      "zoning": "Forest / Residential",
+      "annualTaxes": 185,
+      "terrain": "Wooded hillside",
+      "subdivision": "Klamath Forest Estates"
+    },
+    "media": {
+      "poster": "/images/lot-003-hero.jpg",
+      "photos": [
+        { "url": "/images/lot-003-1.jpg", "alt": "Dense Oregon forest with tall pines", "caption": "Mature timber throughout the property" },
+        { "url": "/images/lot-003-2.jpg", "alt": "Seasonal creek running through property", "caption": "Seasonal creek on the land" },
+        { "url": "/images/lot-003-3.jpg", "alt": "Misty morning in Oregon woods", "caption": "Peaceful Oregon mornings" },
+        { "url": "/images/lot-003-4.jpg", "alt": "Forest clearing with mountain view", "caption": "Natural clearing perfect for a homesite" }
+      ]
+    },
+    "contact": {
+      "phone": "(555) 123-4567",
+      "email": "info@lotoftheday.us",
+      "listingUrl": "https://governmentlandsales.us"
+    }
+  }
+]
