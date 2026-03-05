@@ -17,7 +17,12 @@ export function getTodaysLot(): Lot | undefined {
 }
 
 export function getLatestLot(): Lot {
-  const sorted = [...lots].sort(
+  const today = getTodayDateString();
+  const available = lots.filter((lot) => lot.date <= today);
+  if (available.length === 0) {
+    return lots[0];
+  }
+  const sorted = [...available].sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
   );
   return sorted[0];

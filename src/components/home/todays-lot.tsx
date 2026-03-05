@@ -86,7 +86,7 @@ export function TodaysLot({ lot }: TodaysLotProps) {
 
               <Link
                 href={`/lot/${lot.date}`}
-                className="inline-flex items-center gap-2 bg-gold text-white px-8 py-3.5 text-sm tracking-wider uppercase font-medium hover:bg-gold-dark transition-colors duration-300 rounded-full"
+                className="inline-flex items-center gap-2 bg-gold text-background px-8 py-3.5 text-sm tracking-wider uppercase font-bold hover:bg-gold-dark transition-colors duration-300"
               >
                 View Full Details
                 <svg
