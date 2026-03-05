@@ -10,7 +10,7 @@ export function Header() {
   const headerBg = useTransform(
     scrollY,
     [0, 200],
-    ["rgba(5,5,5,0)", "rgba(5,5,5,0.95)"]
+    ["rgba(253,251,247,0)", "rgba(253,251,247,0.95)"]
   );
   const headerBlur = useTransform(
     scrollY,

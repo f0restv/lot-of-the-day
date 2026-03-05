@@ -54,7 +54,7 @@ function TimeUnit({ value, label }: { value: number; label: string }) {
             <AnimatePresence mode="popLayout" initial={false}>
               <motion.span
                 key={digit}
-                className="font-serif text-6xl sm:text-7xl md:text-8xl lg:text-[10rem] font-black text-white tabular-nums leading-none block animate-glow"
+                className="font-serif text-6xl sm:text-7xl md:text-8xl lg:text-[10rem] font-black text-foreground tabular-nums leading-none block"
                 initial={{ y: "-100%", opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 exit={{ y: "100%", opacity: 0 }}
