@@ -3,6 +3,7 @@
 import { FadeIn } from "@/components/animations/fade-in";
 import { ShareButton } from "@/components/ui/share-button";
 import { PhoneCTA } from "@/components/ui/phone-cta";
+import { FinancingBadge } from "@/components/ui/financing-badge";
 import { Countdown } from "@/components/ui/countdown";
 import { LeadForm } from "@/components/forms/lead-form";
 import { SITE_URL, OPERATOR_PHONE } from "@/lib/constants";
@@ -33,6 +34,12 @@ export function CtaSection({ lot }: CtaSectionProps) {
             <p className="text-foreground/50 mb-8">
               Contact us to learn more or schedule a visit. Available at {formatCurrency(lot.price)}.
             </p>
+          </FadeIn>
+
+          <FadeIn delay={0.1}>
+            <div className="max-w-md mx-auto mb-6">
+              <FinancingBadge variant="card" />
+            </div>
           </FadeIn>
 
           {OPERATOR_PHONE && (

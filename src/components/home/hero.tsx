@@ -6,6 +6,7 @@ import Image from "next/image";
 import type { Lot } from "@/types/lot";
 import { formatCurrency, formatAcreage } from "@/lib/utils";
 import { Countdown } from "@/components/ui/countdown";
+import { FinancingBadge } from "@/components/ui/financing-badge";
 import { OPERATOR_PHONE } from "@/lib/constants";
 
 interface HeroProps {
@@ -131,7 +132,7 @@ export function Hero({ lot }: HeroProps) {
 
           {/* Features — quick scan */}
           <motion.div
-            className="flex flex-wrap gap-2 mb-8"
+            className="flex flex-wrap gap-2 mb-4"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.6 }}
@@ -144,6 +145,15 @@ export function Hero({ lot }: HeroProps) {
                 {feature}
               </span>
             ))}
+          </motion.div>
+
+          <motion.div
+            className="mb-6"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.65, duration: 0.6 }}
+          >
+            <FinancingBadge variant="inline" />
           </motion.div>
 
           {/* CTA */}

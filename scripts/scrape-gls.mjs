@@ -143,7 +143,7 @@ async function fetchProperty(path) {
     const descParagraphs = [...html.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)];
     for (const p of descParagraphs) {
       const clean = decodeEntities(p[1].replace(/<[^>]+>/g, '').trim());
-      if (clean.length > 80 && !/financing|document preparation|credit check/i.test(clean)) {
+      if (clean.length > 80 && !/document preparation|credit check/i.test(clean)) {
         description = clean;
         break;
       }
