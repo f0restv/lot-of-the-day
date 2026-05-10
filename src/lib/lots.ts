@@ -62,3 +62,52 @@ export function getLotStats(currentLot: Lot, budgetThreshold = 50000): LotStats 
     underBudget: lots.filter((l) => l.price <= budgetThreshold).length,
   };
 }
+
+function median(values: number[]): number {
+  if (values.length === 0) return 0;
+  const sorted = [...values].sort((a, b) => a - b);
+  const mid = Math.floor(sorted.length / 2);
+  return sorted.length % 2 === 0
+    ? (sorted[mid - 1] + sorted[mid]) / 2
+    : sorted[mid];
+}
+
+export interface PerAcreComparison {
+  perAcre: number;
+  stateMedianPerAcre: number;
+  percentBelowMedian: number | null;
+  sampleSize: number;
+}
+
+/**
+ * Compares this lot's price-per-acre to the median for the same state,
+ * looking only at lots within 2x size in either direction (so a 0.5-acre
+ * lot doesn't get compared against 80-acre ranches). Returns null
+ * `percentBelowMedian` when the sample is too small to be meaningful or
+ * when this lot is at or above the median.
+ */
+export function getPerAcreComparison(currentLot: Lot): PerAcreComparison | null {
+  if (currentLot.acreage <= 0) return null;
+  const perAcre = currentLot.price / currentLot.acreage;
+
+  const minAcres = currentLot.acreage / 2;
+  const maxAcres = currentLot.acreage * 2;
+  const peers = lots
+    .filter(
+      (l) =>
+        l.id !== currentLot.id &&
+        l.location.state === currentLot.location.state &&
+        l.acreage >= minAcres &&
+        l.acreage <= maxAcres &&
+        l.price > 0
+    )
+    .map((l) => l.price / l.acreage);
+
+  if (peers.length < 3) return null;
+
+  const stateMedianPerAcre = median(peers);
+  const diffPct = ((perAcre - stateMedianPerAcre) / stateMedianPerAcre) * 100;
+  const percentBelowMedian = diffPct < -5 ? Math.round(-diffPct) : null;
+
+  return { perAcre, stateMedianPerAcre, percentBelowMedian, sampleSize: peers.length };
+}

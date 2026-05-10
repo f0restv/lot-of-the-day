@@ -4,6 +4,7 @@ import { FadeIn } from "@/components/animations/fade-in";
 import { TextReveal } from "@/components/animations/text-reveal";
 import { AnimatedCounter } from "./animated-counter";
 import { formatCurrency } from "@/lib/utils";
+import { getPerAcreComparison } from "@/lib/lots";
 import type { Lot } from "@/types/lot";
 
 interface PropertyDetailsProps {
@@ -11,6 +12,8 @@ interface PropertyDetailsProps {
 }
 
 export function PropertyDetails({ lot }: PropertyDetailsProps) {
+  const comparison = getPerAcreComparison(lot);
+
   return (
     <section className="relative bg-background py-24 md:py-32">
       <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
@@ -63,6 +66,11 @@ export function PropertyDetails({ lot }: PropertyDetailsProps) {
               <p className="text-xs tracking-[0.2em] uppercase text-muted mt-2">
                 Per Acre
               </p>
+              {comparison?.percentBelowMedian != null && (
+                <p className="text-[11px] tracking-wider uppercase text-gold mt-2 font-bold">
+                  {comparison.percentBelowMedian}% below {lot.location.state} median
+                </p>
+              )}
             </div>
           </FadeIn>
         </div>
