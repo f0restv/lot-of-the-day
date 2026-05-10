@@ -49,9 +49,40 @@ export default async function OGImage({
           justifyContent: "flex-end",
           padding: "60px",
           backgroundColor: "#3A352F",
-          backgroundImage: `linear-gradient(to top, rgba(58,53,47,0.95) 0%, rgba(58,53,47,0.7) 40%, rgba(58,53,47,0.4) 100%)`,
+          position: "relative",
         }}
       >
+        {/* Property photo as backdrop */}
+        {lot.media.poster && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={lot.media.poster}
+            alt=""
+            width={1200}
+            height={630}
+            style={{
+              position: "absolute",
+              top: 0,
+              left: 0,
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+            }}
+          />
+        )}
+        {/* Dark gradient overlay for text readability */}
+        <div
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            backgroundImage:
+              "linear-gradient(to top, rgba(20,18,15,0.92) 0%, rgba(20,18,15,0.55) 45%, rgba(20,18,15,0.15) 100%)",
+            display: "flex",
+          }}
+        />
         {/* Top bar */}
         <div
           style={{
