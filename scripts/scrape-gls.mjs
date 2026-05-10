@@ -99,8 +99,10 @@ async function fetchProperty(path) {
     const apn = apnMatch ? apnMatch[1] : '';
 
     // ---- DIMENSIONS ----
-    const dimMatch = text.match(/([\d,.']+)\s*[''′]?\s*[xX×]\s*([\d,.']+)/);
-    const dimensions = dimMatch ? `${dimMatch[1]}' x ${dimMatch[2]}'` : '';
+    const dimMatch = text.match(/([\d,.]+)\s*[''′]?\s*[xX×]\s*([\d,.]+)/);
+    const dimensions = dimMatch
+      ? `${dimMatch[1].replace(/,$/, '')} × ${dimMatch[2].replace(/,$/, '')} ft`
+      : '';
 
     // ---- TAXES ----
     const taxMatch = text.match(/(?:Annual\s*)?Taxes?[:\s]*\$?\s*([\d,]+)/i);
