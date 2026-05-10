@@ -48,3 +48,17 @@ export function getLatestLot(): Lot {
 export function getAllLotDates(): string[] {
   return lots.map((lot) => lot.date);
 }
+
+export interface LotStats {
+  total: number;
+  inState: number;
+  underBudget: number;
+}
+
+export function getLotStats(currentLot: Lot, budgetThreshold = 50000): LotStats {
+  return {
+    total: lots.length,
+    inState: lots.filter((l) => l.location.state === currentLot.location.state).length,
+    underBudget: lots.filter((l) => l.price <= budgetThreshold).length,
+  };
+}

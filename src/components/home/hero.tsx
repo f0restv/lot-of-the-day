@@ -4,6 +4,7 @@ import { motion } from "motion/react";
 import Link from "next/link";
 import Image from "next/image";
 import type { Lot } from "@/types/lot";
+import type { LotStats } from "@/lib/lots";
 import { formatCurrency, formatAcreage } from "@/lib/utils";
 import { Countdown } from "@/components/ui/countdown";
 import { FinancingBadge } from "@/components/ui/financing-badge";
@@ -11,9 +12,10 @@ import { OPERATOR_PHONE } from "@/lib/constants";
 
 interface HeroProps {
   lot: Lot;
+  stats?: LotStats;
 }
 
-export function Hero({ lot }: HeroProps) {
+export function Hero({ lot, stats }: HeroProps) {
   return (
     <section className="relative min-h-[100svh] w-full bg-background">
       {/* Mobile: image first, stacked layout */}
@@ -38,7 +40,7 @@ export function Hero({ lot }: HeroProps) {
           >
             <div className="bg-urgent text-white px-4 py-2 rounded-full flex items-center gap-2 shadow-lg">
               <span className="w-2 h-2 rounded-full bg-white animate-pulse-dot" />
-              <span className="text-xs font-bold tracking-wider uppercase">Today Only</span>
+              <span className="text-xs font-bold tracking-wider uppercase">Today&apos;s Pick</span>
             </div>
           </motion.div>
 
@@ -82,7 +84,7 @@ export function Hero({ lot }: HeroProps) {
             <div className="flex items-center gap-2 mb-3">
               <span className="w-1.5 h-1.5 rounded-full bg-urgent animate-pulse-dot" />
               <span className="text-[11px] font-bold tracking-[0.2em] uppercase text-urgent">
-                Expires at midnight
+                New pick at midnight
               </span>
             </div>
             <div className="bg-surface-light border border-foreground/5 rounded-2xl p-5 lg:p-6">
@@ -103,9 +105,15 @@ export function Hero({ lot }: HeroProps) {
             <h1 className="font-serif text-5xl xl:text-6xl font-bold text-foreground leading-[1.1] mb-4">
               {lot.name}
             </h1>
-            <p className="text-foreground/50 text-lg leading-relaxed max-w-lg">
+            <p className="text-foreground/50 text-lg leading-relaxed max-w-lg mb-3">
               {lot.tagline}
             </p>
+            {stats && (
+              <p className="text-xs text-muted/80">
+                Hand-picked from {stats.total} active listings
+                {stats.inState > 1 ? ` · ${stats.inState} in ${lot.location.state}` : ""}
+              </p>
+            )}
           </motion.div>
 
           {/* Price + acreage — desktop */}
