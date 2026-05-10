@@ -1,10 +1,10 @@
 "use client";
 
 import { FadeIn } from "@/components/animations/fade-in";
-import { Button } from "@/components/ui/button";
 import { ShareButton } from "@/components/ui/share-button";
 import { PhoneCTA } from "@/components/ui/phone-cta";
 import { Countdown } from "@/components/ui/countdown";
+import { LeadForm } from "@/components/forms/lead-form";
 import { SITE_URL, OPERATOR_PHONE } from "@/lib/constants";
 import { formatCurrency } from "@/lib/utils";
 import type { Lot } from "@/types/lot";
@@ -44,17 +44,21 @@ export function CtaSection({ lot }: CtaSectionProps) {
           )}
 
           <FadeIn delay={0.2}>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-12">
-              {lot.contact.listingUrl && (
-                <a href={lot.contact.listingUrl} target="_blank" rel="noopener noreferrer">
-                  <Button size="lg">View Full Listing</Button>
-                </a>
-              )}
-              {lot.contact.email && (
-                <a href={`mailto:${lot.contact.email}?subject=${encodeURIComponent(`Inquiry: ${lot.name}`)}`}>
-                  <Button variant="outline" size="lg">Email Us</Button>
-                </a>
-              )}
+            <div className="max-w-md mx-auto mb-8">
+              <LeadForm
+                lotId={lot.id}
+                lotName={lot.name}
+                lotDate={lot.date}
+                source="cta-section"
+                heading="Get the full listing"
+                subheading="We'll email you the listing details and financing options for this lot."
+                buttonLabel="Send Me the Listing"
+              />
+            </div>
+          </FadeIn>
+
+          <FadeIn delay={0.3}>
+            <div className="flex items-center justify-center gap-3 mb-12">
               <ShareButton
                 title={`${lot.name} — Lot of the Day`}
                 text={`Check out this ${lot.acreage}-acre property: ${lot.name} for ${formatCurrency(lot.price)}`}
