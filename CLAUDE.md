@@ -13,4 +13,8 @@ This is a completely separate project from lotoftheday.us. Do NOT sync, copy, or
 - NO dark theme (#050505)
 - NO gold (#F2A900) accent colors
 - NO Playfair Display or Inter fonts
-- Lots focus on the West Coast (CA, WA, OR, UT)
+- Lots from all over the US (NM, NV, AZ, OR, ID, CO, AK, TX, AR, UT)
+- Premium with urgency — "Today Only" badges, countdown in hero, pulsing dots
+- Mobile-first, social media optimized
+- 10% markup on all source prices
+- Images served from governmentlandsales.us via Next.js remote images
