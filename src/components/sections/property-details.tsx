@@ -41,7 +41,7 @@ export function PropertyDetails({ lot }: PropertyDetailsProps) {
               </p>
             </div>
           </FadeIn>
-          {lot.details.annualTaxes !== undefined && (
+          {lot.details.annualTaxes !== undefined && lot.details.annualTaxes > 0 && (
             <FadeIn delay={0.2}>
               <div className="text-center md:text-left">
                 <AnimatedCounter

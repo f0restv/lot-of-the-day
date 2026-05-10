@@ -11,11 +11,12 @@ interface TodaysLotProps {
 }
 
 export function TodaysLot({ lot }: TodaysLotProps) {
+  const taxes = lot.details.annualTaxes;
   const details = [
-    { label: "Access", value: lot.details.roadConditions },
-    { label: "Water", value: lot.details.water },
-    { label: "Zoning", value: lot.details.zoning },
-    { label: "Taxes", value: `$${lot.details.annualTaxes}/yr` },
+    { label: "Access", value: lot.details.roadConditions || "—" },
+    { label: "Water", value: lot.details.water || "—" },
+    { label: "Zoning", value: lot.details.zoning || "—" },
+    { label: "Taxes", value: taxes && taxes > 0 ? `$${taxes}/yr` : "—" },
   ];
 
   return (
