@@ -28,21 +28,22 @@ export default function AboutPage() {
             <div className="space-y-6 text-foreground/70 leading-relaxed text-lg mb-20">
               <p>
                 Every day, we feature one exceptional lot of raw land from
-                across the American Southwest. Our mission is simple: make land
-                ownership accessible by surfacing affordable, high-quality
+                somewhere in the United States. Our mission is simple: make
+                land ownership accessible by surfacing affordable, high-quality
                 parcels that most people never hear about.
               </p>
               <p>
                 We scour the market for hidden gems — affordable parcels with
-                real potential in Arizona, New Mexico, Utah, Nevada, Colorado,
-                and Texas. Each property is reviewed for value, accessibility,
-                and potential before being featured on our site.
+                real potential across the country, with a focus on the West
+                and Southwest: Oregon, Washington, Idaho, California, Nevada,
+                Utah, Arizona, New Mexico, Colorado, Texas, Arkansas, Alaska,
+                and beyond. Each property is reviewed for value, accessibility,
+                and potential before being featured.
               </p>
               <p>
                 Whether you&apos;re looking for an off-grid homestead, a
-                weekend desert retreat, a long-term investment, or simply a
-                piece of the American landscape to call your own — we help you
-                find it.
+                weekend retreat, a long-term investment, or simply a piece of
+                the American landscape to call your own — we help you find it.
               </p>
             </div>
           </FadeIn>
