@@ -16,16 +16,33 @@ export function getTodaysLot(): Lot | undefined {
   return getLotByDate(getTodayDateString());
 }
 
+/**
+ * Get today's featured lot. If today matches a lot's date, show that lot.
+ * Otherwise, cycle through all lots on a daily rotation based on the
+ * number of days since the first lot's date.
+ */
 export function getLatestLot(): Lot {
   const today = getTodayDateString();
-  const available = lots.filter((lot) => lot.date <= today);
-  if (available.length === 0) {
-    return lots[0];
-  }
-  const sorted = [...available].sort(
-    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+
+  // First check for an exact date match
+  const exactMatch = lots.find((lot) => lot.date === today);
+  if (exactMatch) return exactMatch;
+
+  // No exact match — cycle through lots based on day offset
+  const sorted = [...lots].sort(
+    (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()
   );
-  return sorted[0];
+  const firstDate = new Date(sorted[0].date + "T00:00:00");
+  const todayDate = new Date(today + "T00:00:00");
+  const daysSinceFirst = Math.floor(
+    (todayDate.getTime() - firstDate.getTime()) / (1000 * 60 * 60 * 24)
+  );
+
+  // If today is before all lots, show the first one
+  if (daysSinceFirst < 0) return sorted[0];
+
+  const index = daysSinceFirst % sorted.length;
+  return sorted[index];
 }
 
 export function getAllLotDates(): string[] {
