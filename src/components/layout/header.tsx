@@ -1,100 +1,94 @@
 "use client";
 
-import { motion, useScroll, useTransform } from "motion/react";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { SITE_NAME } from "@/lib/constants";
 
 export function Header() {
-  const { scrollY } = useScroll();
-  const headerBg = useTransform(
-    scrollY,
-    [0, 200],
-    ["rgba(253,251,247,0)", "rgba(253,251,247,0.95)"]
-  );
-  const headerBlur = useTransform(
-    scrollY,
-    [0, 200],
-    ["blur(0px)", "blur(12px)"]
-  );
+  const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 
-  const navLinks = [
-    { href: "/", label: "Today's Lot" },
-    { href: "/archive", label: "Archive" },
-    { href: "/about", label: "About" },
-  ];
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 60);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   return (
-    <motion.header
-      style={{
-        backgroundColor: headerBg,
-        backdropFilter: headerBlur,
-        WebkitBackdropFilter: headerBlur,
-      }}
-      className="fixed top-0 left-0 right-0 z-50"
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+        scrolled
+          ? "bg-background/95 backdrop-blur-md shadow-sm"
+          : "bg-transparent"
+      }`}
     >
-      <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-3 group">
-          <span className="font-serif text-lg md:text-xl font-bold tracking-tight text-foreground group-hover:text-gold transition-colors duration-300">
-            {SITE_NAME}
-          </span>
-        </Link>
+      <div className="max-w-7xl mx-auto px-6 lg:px-12">
+        <div className="flex items-center justify-between h-16 md:h-20">
+          <Link href="/" className="group">
+            <span className="font-serif text-2xl md:text-3xl font-bold text-foreground tracking-tight">
+              {SITE_NAME}
+            </span>
+          </Link>
 
-        <nav className="hidden md:flex items-center gap-8">
-          {navLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="text-xs tracking-[0.2em] uppercase text-foreground/60 hover:text-gold transition-colors duration-300"
-            >
-              {link.label}
-            </Link>
-          ))}
-        </nav>
+          <div className="hidden md:flex items-center gap-10">
+            <nav className="flex items-center gap-8">
+              <Link
+                href="/"
+                className="text-[13px] tracking-wide text-foreground/50 hover:text-foreground transition-colors duration-300"
+              >
+                Today
+              </Link>
+              <Link
+                href="/archive"
+                className="text-[13px] tracking-wide text-foreground/50 hover:text-foreground transition-colors duration-300"
+              >
+                Archive
+              </Link>
+              <Link
+                href="/about"
+                className="text-[13px] tracking-wide text-foreground/50 hover:text-foreground transition-colors duration-300"
+              >
+                About
+              </Link>
+            </nav>
+            <div className="flex items-center gap-2 bg-urgent/10 text-urgent px-3 py-1.5 rounded-full">
+              <span className="w-1.5 h-1.5 rounded-full bg-urgent animate-pulse-dot" />
+              <span className="text-[11px] font-bold tracking-wider uppercase">Live Now</span>
+            </div>
+          </div>
 
-        <button
-          className="md:hidden text-foreground/60 hover:text-foreground transition-colors"
-          onClick={() => setMobileOpen(!mobileOpen)}
-          aria-label="Toggle menu"
-        >
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="1.5"
+          <button
+            className="md:hidden text-foreground/60 hover:text-foreground transition-colors"
+            onClick={() => setMobileOpen(!mobileOpen)}
+            aria-label="Toggle menu"
           >
-            {mobileOpen ? (
-              <path d="M18 6L6 18M6 6l12 12" />
-            ) : (
-              <path d="M4 8h16M4 16h16" />
-            )}
-          </svg>
-        </button>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+              {mobileOpen ? <path d="M18 6L6 18M6 6l12 12" /> : <path d="M4 8h16M4 16h16" />}
+            </svg>
+          </button>
+        </div>
       </div>
 
       {mobileOpen && (
-        <motion.nav
-          initial={{ opacity: 0, y: -10 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="md:hidden bg-surface/95 backdrop-blur-lg border-t border-foreground/5 px-6 py-6"
-        >
+        <nav className="md:hidden bg-background border-t border-foreground/5 px-6 py-6">
           <div className="flex flex-col gap-4">
-            {navLinks.map((link) => (
+            {[
+              { href: "/", label: "Today" },
+              { href: "/archive", label: "Archive" },
+              { href: "/about", label: "About" },
+            ].map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
                 onClick={() => setMobileOpen(false)}
-                className="text-sm tracking-[0.15em] uppercase text-foreground/70 hover:text-gold transition-colors"
+                className="text-sm text-foreground/70 hover:text-foreground transition-colors"
               >
                 {link.label}
               </Link>
             ))}
           </div>
-        </motion.nav>
+        </nav>
       )}
-    </motion.header>
+    </header>
   );
 }

@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Lot } from "@/types/lot";
-import { formatCurrency, formatAcreage, formatDate } from "@/lib/utils";
+import { formatCurrency, formatAcreage } from "@/lib/utils";
 import { FadeIn } from "@/components/animations/fade-in";
 
 interface RecentLotsProps {
@@ -14,71 +14,63 @@ export function RecentLots({ lots }: RecentLotsProps) {
   if (lots.length === 0) return null;
 
   return (
-    <section className="py-24 md:py-32 bg-surface">
-      <div className="max-w-7xl mx-auto px-6">
+    <section className="py-16 md:py-24 bg-surface-light">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <FadeIn>
-          <div className="flex items-end justify-between mb-12">
+          <div className="flex items-center justify-between mb-8 md:mb-12">
             <div>
-              <span className="text-xs tracking-[0.3em] uppercase text-gold mb-3 block">
-                Recent
-              </span>
-              <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground">
-                Past Featured Lots
+              <h2 className="font-serif text-2xl md:text-3xl font-bold text-foreground">
+                More Lots
               </h2>
+              <p className="text-sm text-muted mt-1">Previous featured properties</p>
             </div>
             <Link
               href="/archive"
-              className="text-sm tracking-wider uppercase text-muted hover:text-gold transition-colors hidden md:block"
+              className="text-xs tracking-wider uppercase text-gold font-bold hover:text-gold-dark transition-colors"
             >
-              View All
+              See all
             </Link>
           </div>
         </FadeIn>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {/* Horizontal scroll on mobile, stacked cards on desktop */}
+        <div className="flex gap-4 lg:gap-6 overflow-x-auto snap-x snap-mandatory -mx-6 px-6 lg:mx-0 lg:px-0 lg:grid lg:grid-cols-2 pb-4 lg:pb-0 scrollbar-hide">
           {lots.map((lot, i) => (
-            <FadeIn key={lot.id} delay={i * 0.15}>
-              <Link href={`/lot/${lot.date}`} className="group block">
-                <div className="relative aspect-[4/3] overflow-hidden bg-surface-light mb-4">
+            <FadeIn key={lot.id} delay={i * 0.1}>
+              <Link
+                href={`/lot/${lot.date}`}
+                className="group flex flex-col sm:flex-row gap-4 bg-surface rounded-2xl border border-foreground/5 overflow-hidden shrink-0 w-[85vw] sm:w-[80vw] lg:w-auto snap-start hover:shadow-lg transition-shadow duration-500"
+              >
+                <div className="relative w-full sm:w-48 lg:w-56 shrink-0 aspect-[4/3] sm:aspect-auto sm:h-auto">
                   <Image
                     src={lot.media.poster}
                     alt={lot.name}
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    sizes="(max-width: 640px) 85vw, 224px"
                   />
-                  <div className="absolute inset-0 bg-background/20 group-hover:bg-transparent transition-colors duration-500" />
                 </div>
-                <p className="text-xs tracking-wider text-muted mb-1">
-                  {formatDate(lot.date)}
-                </p>
-                <h3 className="font-serif text-lg font-bold text-foreground group-hover:text-gold transition-colors">
-                  {lot.name}
-                </h3>
-                <div className="flex items-center gap-3 mt-2 text-sm">
-                  <span className="text-gold font-medium">
-                    {formatCurrency(lot.price)}
-                  </span>
-                  <span className="text-foreground/30">|</span>
-                  <span className="text-muted">
-                    {formatAcreage(lot.acreage)} acres
-                  </span>
+                <div className="flex flex-col justify-center p-5 sm:py-6 sm:pr-6 sm:pl-0">
+                  <p className="text-[11px] tracking-wider uppercase text-muted mb-1.5">
+                    {lot.location.county} County, {lot.location.state}
+                  </p>
+                  <h3 className="font-serif text-lg font-bold text-foreground group-hover:text-gold transition-colors leading-snug">
+                    {lot.name}
+                  </h3>
+                  <div className="flex items-center gap-3 mt-3">
+                    <span className="text-gold font-bold text-sm">
+                      {formatCurrency(lot.price)}
+                    </span>
+                    <span className="w-1 h-1 rounded-full bg-foreground/20" />
+                    <span className="text-muted text-sm">
+                      {formatAcreage(lot.acreage)} acres
+                    </span>
+                  </div>
                 </div>
               </Link>
             </FadeIn>
           ))}
         </div>
-
-        <FadeIn>
-          <div className="mt-12 text-center md:hidden">
-            <Link
-              href="/archive"
-              className="text-sm tracking-wider uppercase text-muted hover:text-gold transition-colors"
-            >
-              View All Past Lots
-            </Link>
-          </div>
-        </FadeIn>
       </div>
     </section>
   );

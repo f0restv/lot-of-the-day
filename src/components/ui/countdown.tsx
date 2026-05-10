@@ -28,15 +28,15 @@ export function Countdown() {
   }, []);
 
   if (!mounted) {
-    return <div className="h-24 md:h-32" />;
+    return <div className="h-16 lg:h-20" />;
   }
 
   return (
-    <div className="flex items-center justify-center gap-4 md:gap-8">
-      <TimeUnit value={time.hours} label="Hours" />
-      <span className="text-3xl md:text-5xl text-white/30 font-light -mt-6 select-none">:</span>
+    <div className="flex items-center justify-center gap-3 md:gap-4">
+      <TimeUnit value={time.hours} label="Hrs" />
+      <span className="text-2xl lg:text-3xl text-foreground/20 font-light -mt-5 select-none">:</span>
       <TimeUnit value={time.minutes} label="Min" />
-      <span className="text-3xl md:text-5xl text-white/30 font-light -mt-6 select-none">:</span>
+      <span className="text-2xl lg:text-3xl text-foreground/20 font-light -mt-5 select-none">:</span>
       <TimeUnit value={time.seconds} label="Sec" />
     </div>
   );
@@ -45,10 +45,10 @@ export function Countdown() {
 function TimeUnit({ value, label }: { value: number; label: string }) {
   return (
     <div className="flex flex-col items-center">
-      <span className="font-serif text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold text-white tabular-nums leading-none">
+      <span className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground tabular-nums leading-none">
         {String(value).padStart(2, "0")}
       </span>
-      <span className="text-[10px] md:text-xs tracking-[0.3em] uppercase text-gold-light mt-2 md:mt-3">
+      <span className="text-[9px] lg:text-[10px] tracking-[0.25em] uppercase text-muted mt-1.5">
         {label}
       </span>
     </div>
