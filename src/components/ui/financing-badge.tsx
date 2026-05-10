@@ -1,9 +1,19 @@
+import { getBestFinancing } from "@/lib/financing";
+import { formatCurrency } from "@/lib/utils";
+
 interface FinancingBadgeProps {
   variant?: "inline" | "card";
+  price?: number;
   className?: string;
 }
 
-export function FinancingBadge({ variant = "inline", className = "" }: FinancingBadgeProps) {
+function formatMoney(amount: number): string {
+  return formatCurrency(Math.round(amount));
+}
+
+export function FinancingBadge({ variant = "inline", price, className = "" }: FinancingBadgeProps) {
+  const terms = price ? getBestFinancing(price) : null;
+
   if (variant === "card") {
     return (
       <div className={`flex items-start gap-3 bg-surface-light border border-gold/30 rounded-2xl p-5 ${className}`}>
@@ -17,11 +27,37 @@ export function FinancingBadge({ variant = "inline", className = "" }: Financing
           <h4 className="font-serif text-lg font-bold text-foreground mb-1">
             Owner financing available
           </h4>
-          <p className="text-sm text-foreground/60 leading-relaxed">
-            No bank, no credit check. Low down payment, fixed monthly payments. Contact us for terms on this lot.
-          </p>
+          {terms ? (
+            <>
+              <p className="text-sm text-foreground/70 leading-relaxed">
+                As low as{" "}
+                <span className="font-bold text-foreground">{formatMoney(terms.monthlyPayment)}/mo</span>{" "}
+                with{" "}
+                <span className="font-bold text-foreground">{formatMoney(terms.downPayment)} down</span>
+                {" "}over {terms.termYears} year{terms.termYears === 1 ? "" : "s"}.
+              </p>
+              <p className="text-xs text-muted/80 mt-1.5 leading-relaxed">
+                No credit check · 5% APR with 20% down · ${terms.docFee} doc fee · rates vary by terms
+              </p>
+            </>
+          ) : (
+            <p className="text-sm text-foreground/60 leading-relaxed">
+              No bank, no credit check. 10% down minimum. Contact us for terms on this lot.
+            </p>
+          )}
         </div>
       </div>
+    );
+  }
+
+  if (terms) {
+    return (
+      <span className={`inline-flex items-center gap-1.5 text-[11px] tracking-[0.15em] uppercase text-gold font-bold ${className}`}>
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+          <polyline points="20 6 9 17 4 12" />
+        </svg>
+        Financing from {formatMoney(terms.monthlyPayment)}/mo
+      </span>
     );
   }
 

@@ -36,7 +36,7 @@ export function CtaSection({ lot }: CtaSectionProps) {
 
           <FadeIn delay={0.1}>
             <div className="max-w-md mx-auto mb-6">
-              <FinancingBadge variant="card" />
+              <FinancingBadge variant="card" price={lot.price} />
             </div>
           </FadeIn>
 

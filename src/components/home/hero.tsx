@@ -161,7 +161,7 @@ export function Hero({ lot, stats }: HeroProps) {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.65, duration: 0.6 }}
           >
-            <FinancingBadge variant="inline" />
+            <FinancingBadge variant="inline" price={lot.price} />
           </motion.div>
 
           {/* CTA */}
