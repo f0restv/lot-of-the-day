@@ -8,7 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const lotEntries = lots.map((lot) => ({
     url: `${SITE_URL}/lot/${lot.date}`,
     lastModified: new Date(lot.date),
-    changeFrequency: "monthly" as const,
+    changeFrequency: "weekly" as const,
     priority: 0.8,
   }));
 
