@@ -30,15 +30,17 @@ export async function generateMetadata({
 
   const title = `${lot.name} — ${formatAcreage(lot.acreage)} Acres in ${lot.location.state}`;
   const description = `${lot.tagline}. ${formatCurrency(lot.price)} for ${formatAcreage(lot.acreage)} acres in ${lot.location.county} County, ${lot.location.state}. ${lot.features.slice(0, 3).join(", ")}.`;
+  const url = `${SITE_URL}/lot/${lot.date}`;
 
   return {
     title,
     description,
+    alternates: { canonical: url },
     openGraph: {
       title: `${lot.name} | ${SITE_NAME}`,
       description,
       type: "website",
-      url: `${SITE_URL}/lot/${lot.date}`,
+      url,
     },
     twitter: {
       card: "summary_large_image",
@@ -82,23 +84,51 @@ export default async function LotPage({ params }: LotPageProps) {
             dangerouslySetInnerHTML={{
               __html: JSON.stringify({
                 "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                itemListElement: [
+                  { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+                  { "@type": "ListItem", position: 2, name: "Archive", item: `${SITE_URL}/archive` },
+                  { "@type": "ListItem", position: 3, name: lot.name, item: `${SITE_URL}/lot/${lot.date}` },
+                ],
+              }),
+            }}
+          />
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
                 "@type": "RealEstateListing",
                 name: lot.name,
-                description: lot.tagline,
+                description: lot.description || lot.tagline,
                 url: `${SITE_URL}/lot/${lot.date}`,
                 datePosted: lot.date,
-                price: lot.price,
-                priceCurrency: "USD",
+                image: [lot.media.poster, ...lot.media.photos.map((p) => p.url)],
+                offers: {
+                  "@type": "Offer",
+                  price: lot.price,
+                  priceCurrency: "USD",
+                  availability: "https://schema.org/InStock",
+                },
                 address: {
                   "@type": "PostalAddress",
                   addressLocality: lot.location.city,
                   addressRegion: lot.location.state,
+                  postalCode: lot.location.zip,
+                  addressCountry: "US",
                 },
                 geo: {
                   "@type": "GeoCoordinates",
                   latitude: lot.location.coordinates.lat,
                   longitude: lot.location.coordinates.lng,
                 },
+                ...(lot.acreage > 0 && {
+                  floorSize: {
+                    "@type": "QuantitativeValue",
+                    value: lot.acreage,
+                    unitCode: "ACR",
+                  },
+                }),
               }),
             }}
           />
