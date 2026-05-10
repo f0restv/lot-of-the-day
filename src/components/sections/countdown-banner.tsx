@@ -1,5 +1,3 @@
-"use client";
-
 import { Countdown } from "@/components/ui/countdown";
 
 export function CountdownBanner() {
@@ -9,7 +7,7 @@ export function CountdownBanner() {
         <div className="flex items-center justify-center gap-2 mb-4">
           <span className="w-1.5 h-1.5 rounded-full bg-urgent animate-pulse-dot" />
           <p className="text-[11px] tracking-[0.25em] uppercase text-urgent font-bold">
-            This lot expires in
+            New pick at midnight
           </p>
         </div>
         <Countdown />

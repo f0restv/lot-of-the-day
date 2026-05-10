@@ -1,5 +1,3 @@
-"use client";
-
 import { FadeIn } from "@/components/animations/fade-in";
 import { TextReveal } from "@/components/animations/text-reveal";
 import { AnimatedCounter } from "./animated-counter";

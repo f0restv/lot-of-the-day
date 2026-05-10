@@ -1,5 +1,3 @@
-"use client";
-
 import { FadeIn } from "@/components/animations/fade-in";
 import { ShareButton } from "@/components/ui/share-button";
 import { PhoneCTA } from "@/components/ui/phone-cta";
