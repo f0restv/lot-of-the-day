@@ -3,6 +3,7 @@ import { Footer } from "@/components/layout/footer";
 import { Hero } from "@/components/home/hero";
 import { TodaysLot } from "@/components/home/todays-lot";
 import { RecentLots } from "@/components/home/recent-lots";
+import { Testimonials } from "@/components/sections/testimonials";
 import { getLatestLot, getAllLots, getLotStats } from "@/lib/lots";
 
 export const revalidate = 60;
@@ -19,6 +20,7 @@ export default function Home() {
       <main>
         <Hero lot={todaysLot} stats={stats} />
         <TodaysLot lot={todaysLot} />
+        <Testimonials />
         {recentLots.length > 0 && <RecentLots lots={recentLots} />}
       </main>
       <Footer />
