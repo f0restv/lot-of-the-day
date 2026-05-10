@@ -29,10 +29,29 @@ const STATES = {
   'NM':'New Mexico','OR':'Oregon','TX':'Texas','UT':'Utah','WA':'Washington','WY':'Wyoming'
 };
 
+async function fetchWithRetry(url, { retries = 3, baseDelay = 400 } = {}) {
+  let lastErr;
+  for (let attempt = 0; attempt < retries; attempt++) {
+    try {
+      const res = await fetch(url);
+      if (res.status >= 500 || res.status === 429) {
+        throw new Error(`HTTP ${res.status}`);
+      }
+      return res;
+    } catch (err) {
+      lastErr = err;
+      if (attempt < retries - 1) {
+        await new Promise((r) => setTimeout(r, baseDelay * Math.pow(2, attempt)));
+      }
+    }
+  }
+  throw lastErr;
+}
+
 async function fetchPage(page) {
   const url = `${BASE}/properties?page=${page}`;
   console.log(`Fetching page ${page}...`);
-  const res = await fetch(url);
+  const res = await fetchWithRetry(url);
   return await res.text();
 }
 
@@ -44,7 +63,7 @@ function extractPropertyUrls(html) {
 async function fetchProperty(path) {
   const url = `${BASE}${path}`;
   try {
-    const res = await fetch(url);
+    const res = await fetchWithRetry(url);
     const html = await res.text();
 
     const text = html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ');
