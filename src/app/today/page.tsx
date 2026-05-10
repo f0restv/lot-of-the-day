@@ -1,7 +1,7 @@
 import { redirect } from "next/navigation";
-import { getTodaysLot, getLatestLot } from "@/lib/lots";
+import { getLatestLot } from "@/lib/lots";
 
 export default function TodayPage() {
-  const lot = getTodaysLot() ?? getLatestLot();
+  const lot = getLatestLot();
   redirect(`/lot/${lot.date}`);
 }

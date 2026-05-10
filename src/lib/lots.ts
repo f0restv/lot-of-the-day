@@ -12,10 +12,6 @@ export function getLotByDate(date: string): Lot | undefined {
   return lots.find((lot) => lot.date === date);
 }
 
-export function getTodaysLot(): Lot | undefined {
-  return getLotByDate(getTodayDateString());
-}
-
 /**
  * Get today's featured lot. If today matches a lot's date, show that lot.
  * Otherwise, cycle through all lots on a daily rotation based on the
