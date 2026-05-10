@@ -196,7 +196,8 @@ async function fetchProperty(path) {
       city, county, state: stateFull, zip,
       poster: finalPoster, photos, annualTaxes,
       features: features.slice(0, 6), description,
-      roadConditions, utilities
+      roadConditions, utilities,
+      sourceUrl: url,
     };
   } catch (e) {
     console.error(`\n  Error: ${path}: ${e.message}`);
@@ -276,7 +277,9 @@ async function main() {
       contact: {
         email: CONTACT_EMAIL,
         listingUrl: ''
-      }
+      },
+      sourceUrl: p.sourceUrl,
+      active: true,
     };
   });
 

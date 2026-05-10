@@ -4,45 +4,51 @@ import { getTodayDateString } from "./utils";
 
 const lots = lotsData as Lot[];
 
+function isActive(lot: Lot): boolean {
+  return lot.active !== false;
+}
+
 export function getAllLots(): Lot[] {
-  return lots;
+  return lots.filter(isActive);
 }
 
 export function getLotByDate(date: string): Lot | undefined {
-  return lots.find((lot) => lot.date === date);
+  return lots.find((lot) => lot.date === date && isActive(lot));
 }
 
 /**
- * Get today's featured lot. If today matches a lot's date, show that lot.
- * Otherwise, cycle through all lots on a daily rotation based on the
- * number of days since the first lot's date.
+ * Get today's featured lot. If today matches a lot's date AND that lot is
+ * still active, show it. Otherwise, cycle through active lots in date
+ * order, picking the one at index = daysSinceFirst % activeCount.
  */
 export function getLatestLot(): Lot {
   const today = getTodayDateString();
 
-  // First check for an exact date match
-  const exactMatch = lots.find((lot) => lot.date === today);
+  const exactMatch = lots.find((lot) => lot.date === today && isActive(lot));
   if (exactMatch) return exactMatch;
 
-  // No exact match — cycle through lots based on day offset
-  const sorted = [...lots].sort(
-    (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()
-  );
-  const firstDate = new Date(sorted[0].date + "T00:00:00");
+  const activeSorted = lots
+    .filter(isActive)
+    .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
+
+  // Fallback: if every lot is somehow inactive, return the first lot in the
+  // raw dataset so the page still renders something.
+  if (activeSorted.length === 0) return lots[0];
+
+  const firstDate = new Date(activeSorted[0].date + "T00:00:00");
   const todayDate = new Date(today + "T00:00:00");
   const daysSinceFirst = Math.floor(
     (todayDate.getTime() - firstDate.getTime()) / (1000 * 60 * 60 * 24)
   );
 
-  // If today is before all lots, show the first one
-  if (daysSinceFirst < 0) return sorted[0];
+  if (daysSinceFirst < 0) return activeSorted[0];
 
-  const index = daysSinceFirst % sorted.length;
-  return sorted[index];
+  const index = daysSinceFirst % activeSorted.length;
+  return activeSorted[index];
 }
 
 export function getAllLotDates(): string[] {
-  return lots.map((lot) => lot.date);
+  return lots.filter(isActive).map((lot) => lot.date);
 }
 
 export interface LotStats {

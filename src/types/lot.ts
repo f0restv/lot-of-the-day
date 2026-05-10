@@ -38,4 +38,6 @@ export interface Lot {
     email: string;
     listingUrl?: string;
   };
+  sourceUrl?: string;
+  active?: boolean;
 }

@@ -63,7 +63,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/sumpter-wooded-lot-two-rv-pads-all-utilities-walk-to-town-or-trails",
+    "active": true
   },
   {
     "id": "lot-002",
@@ -131,7 +133,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/alamogordo-new-mexico-10-acres-paved-roads-power-huge-views",
+    "active": true
   },
   {
     "id": "lot-003",
@@ -199,7 +203,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/20-acres-just-south-of-crescent-valley-great-road-access-no-building-re",
+    "active": true
   },
   {
     "id": "lot-004",
@@ -265,7 +271,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/10-acres-hwy-95-frontage-homesite-and-potential-billboard-lot-winnemu",
+    "active": true
   },
   {
     "id": "lot-005",
@@ -332,7 +340,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/paradise-valley-5-acres-on-a-paved-road-with-power-corner-lot",
+    "active": true
   },
   {
     "id": "lot-006",
@@ -398,7 +408,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/10-acres-great-road-power-at-the-lot-adjacent-5-acres-also-available",
+    "active": true
   },
   {
     "id": "lot-007",
@@ -466,7 +478,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/three-adjacent-lots-on-paved-harquahala-rd-over-12-acre-rvs-ok-powe",
+    "active": true
   },
   {
     "id": "lot-008",
@@ -532,7 +546,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/surveyed-11-acre-parcel-near-rodeo-just-off-hwy-80-at-arizona-border-p",
+    "active": true
   },
   {
     "id": "lot-009",
@@ -600,7 +616,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/5-acre-corner-lot-great-road-power-adjacent-10-acres-also-available",
+    "active": true
   },
   {
     "id": "lot-010",
@@ -664,7 +682,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/rome-oregon-20-acres-located-on-old-ion-hwy-borders-blm",
+    "active": true
   },
   {
     "id": "lot-011",
@@ -730,7 +750,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/williams-lake-salmon-idaho-great-lot-with-unobstructed-view-of-the-lake",
+    "active": true
   },
   {
     "id": "lot-012",
@@ -797,7 +819,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/over-13-acres-on-state-highway-603-in-pie-town-power-great-roads",
+    "active": true
   },
   {
     "id": "lot-013",
@@ -864,7 +888,8 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "active": false
   },
   {
     "id": "lot-014",
@@ -930,7 +955,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/nearly-34-acre-lot-on-caswell-lakes-road-power-developed-area-by-lakes",
+    "active": true
   },
   {
     "id": "lot-015",
@@ -997,7 +1024,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/20-acres-in-grass-valley-south-of-winnemucca-road-accessible",
+    "active": true
   },
   {
     "id": "lot-016",
@@ -1063,7 +1092,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/keno-oregon-heavily-wooded-building-lot-over-one-acre-power",
+    "active": true
   },
   {
     "id": "lot-017",
@@ -1130,7 +1161,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/corner-of-hwy-290-paved-godchaux-road-9-acres-hwy-frontage-paradise",
+    "active": true
   },
   {
     "id": "lot-018",
@@ -1197,7 +1230,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/one-acre-corner-lot-25-mile-north-of-hwy-60-power-at-lot-great-road",
+    "active": true
   },
   {
     "id": "lot-019",
@@ -1263,7 +1298,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/nearly-10-acres-on-hwy-400-pershing-county-highway-frontage",
+    "active": true
   },
   {
     "id": "lot-020",
@@ -1328,7 +1365,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/two-adjacent-riverfront-lots-camping-and-recreational-use-south-central",
+    "active": true
   },
   {
     "id": "lot-021",
@@ -1394,7 +1433,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/nearly-ten-acres-with-platted-road-access-southeastern-oregon",
+    "active": true
   },
   {
     "id": "lot-022",
@@ -1462,7 +1503,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/paved-franklin-road-with-power-over-an-acre-two-lots",
+    "active": true
   },
   {
     "id": "lot-023",
@@ -1529,7 +1572,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/five-lots-totaling-46-acres-in-sw-deming-paved-road-power-includes-c",
+    "active": true
   },
   {
     "id": "lot-024",
@@ -1596,7 +1641,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/christmas-valley-mini-ranch-acreage-utilities-at-the-lot",
+    "active": true
   },
   {
     "id": "lot-025",
@@ -1662,7 +1709,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/southern-arizona-1-acre-corner-building-lot-near-welton-yuma-county",
+    "active": true
   },
   {
     "id": "lot-026",
@@ -1729,7 +1778,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/two-adjacent-oversized-lots-over-14-acres-corner-included-nw-of-taos",
+    "active": true
   },
   {
     "id": "lot-027",
@@ -1795,7 +1846,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/yuma-county-paved-road-with-power-affordable-one-acre-lot-for-the-snowb",
+    "active": true
   },
   {
     "id": "lot-028",
@@ -1862,7 +1915,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/5-acres-on-paved-hermanas-road-power-available",
+    "active": true
   },
   {
     "id": "lot-029",
@@ -1929,7 +1984,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/ten-acres-with-power-at-the-lot-affordable-acreage",
+    "active": true
   },
   {
     "id": "lot-030",
@@ -1995,7 +2052,8 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "active": false
   },
   {
     "id": "lot-031",
@@ -2060,7 +2118,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/rome-oregon-20-acres-one-mile-from-owyhee-river",
+    "active": true
   },
   {
     "id": "lot-032",
@@ -2126,7 +2186,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/paradise-valley-5-acres-in-a-quiet-area-power-easy-access",
+    "active": true
   },
   {
     "id": "lot-033",
@@ -2192,7 +2254,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/golconda-corner-building-lot-paved-road-electricity-city-water",
+    "active": true
   },
   {
     "id": "lot-034",
@@ -2259,7 +2323,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/river-valley-ranches-2-acre-corner-lot-power-great-access",
+    "active": true
   },
   {
     "id": "lot-035",
@@ -2325,7 +2391,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/two-adjacent-lots-totaling-nearly-1-14-acres-buildable-tres-piedras-nm",
+    "active": true
   },
   {
     "id": "lot-036",
@@ -2391,7 +2459,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/769-acres-at-the-intersection-of-godchaux-and-poleline-roads-in-paradise-v",
+    "active": true
   },
   {
     "id": "lot-037",
@@ -2457,7 +2527,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/bring-your-horses-nearly-three-acres-just-east-of-albuquerque-large-a",
+    "active": true
   },
   {
     "id": "lot-038",
@@ -2525,7 +2597,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/two-lots-on-highway-60-includes-corner-lot-power-available-over-15-a",
+    "active": true
   },
   {
     "id": "lot-039",
@@ -2592,7 +2666,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/estancia-ranchettes-corner-lot-maintained-road-power-great-access",
+    "active": true
   },
   {
     "id": "lot-040",
@@ -2658,7 +2734,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/christmas-valley-townsite-lot-on-paved-road-with-utilities-available-buil",
+    "active": true
   },
   {
     "id": "lot-041",
@@ -2726,7 +2804,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/surveyed-5-acre-mini-ranch-great-access-with-power",
+    "active": true
   },
   {
     "id": "lot-042",
@@ -2794,7 +2874,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/magnolia-road-with-power-available-over-five-acres-rancho-lake-conchas",
+    "active": true
   },
   {
     "id": "lot-043",
@@ -2860,7 +2942,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/one-full-acre-taos-county-use-to-build-or-for-recreation",
+    "active": true
   },
   {
     "id": "lot-044",
@@ -2925,7 +3009,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/humboldt-county-nv-remote-40-acres-borders-640-acres-of-blm-land",
+    "active": true
   },
   {
     "id": "lot-045",
@@ -2991,7 +3077,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/tres-piedras-12-acre-lot-no-restrictions",
+    "active": true
   },
   {
     "id": "lot-046",
@@ -3058,7 +3146,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/two-adjacent-corner-lots-mountain-property-near-campbelldeadhorse-lakes",
+    "active": true
   },
   {
     "id": "lot-047",
@@ -3126,7 +3216,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/corner-lots-power-available-at-the-lots-over-one-acre-total",
+    "active": true
   },
   {
     "id": "lot-048",
@@ -3194,7 +3286,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/one-acre-south-of-moriarty-corner-lot-power-great-roads",
+    "active": true
   },
   {
     "id": "lot-049",
@@ -3260,7 +3354,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/over-5-acre-lot-in-blanca-just-east-of-alamosa-co",
+    "active": true
   },
   {
     "id": "lot-050",
@@ -3328,7 +3424,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/nearly-34-acre-corner-lot-in-alamosa-river-park-conejos-county-co",
+    "active": true
   },
   {
     "id": "lot-051",
@@ -3396,7 +3494,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/two-lots-one-acre-on-cana-road-in-se-deming-maintained-road-power",
+    "active": true
   },
   {
     "id": "lot-052",
@@ -3463,7 +3563,8 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "active": false
   },
   {
     "id": "lot-053",
@@ -3529,7 +3630,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/near-holbrook-az-25-acres-power-one-lot-off-paved-24th-street",
+    "active": true
   },
   {
     "id": "lot-054",
@@ -3596,7 +3699,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/over-two-acre-mini-ranch-power-maintained-road",
+    "active": true
   },
   {
     "id": "lot-055",
@@ -3662,7 +3767,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/one-full-acre-residentialrecreational-taos-county",
+    "active": true
   },
   {
     "id": "lot-056",
@@ -3729,7 +3836,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/over-12-acre-in-developing-area-of-rio-rancho-just-off-hwy-550",
+    "active": true
   },
   {
     "id": "lot-057",
@@ -3796,7 +3905,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/one-acre-with-power-well-maintained-road-unrestricted-land",
+    "active": true
   },
   {
     "id": "lot-058",
@@ -3863,7 +3974,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/two-acres-power-ocotillo-road-frontage",
+    "active": true
   },
   {
     "id": "lot-059",
@@ -3930,7 +4043,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/great-road-and-power-25-acres-deming-nm",
+    "active": true
   },
   {
     "id": "lot-060",
@@ -3997,7 +4112,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/25-acres-power-se-deming-nm-near-proposed-casino-graded-road",
+    "active": true
   },
   {
     "id": "lot-061",
@@ -4062,7 +4179,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/rio-grande-riverfront-lot",
+    "active": true
   },
   {
     "id": "lot-062",
@@ -4129,7 +4248,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/two-lots-over-one-acre-paved-franklin-road-power",
+    "active": true
   },
   {
     "id": "lot-063",
@@ -4197,7 +4318,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/one-full-acre-2wd-road-corner-lot-power",
+    "active": true
   },
   {
     "id": "lot-064",
@@ -4262,7 +4385,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/5-adjacent-lots-on-fifth-street-in-sprague-river-oregon",
+    "active": true
   },
   {
     "id": "lot-065",
@@ -4329,7 +4454,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/two-acres-with-power-2wd-road",
+    "active": true
   },
   {
     "id": "lot-066",
@@ -4397,7 +4524,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/50-acres-corner-lot-directly-on-hwy-104-san-miguel-county-nm",
+    "active": true
   },
   {
     "id": "lot-067",
@@ -4461,7 +4590,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/deming-building-lot-in-town-off-hatch-hwy",
+    "active": true
   },
   {
     "id": "lot-068",
@@ -4529,7 +4660,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/one-acre-lot-great-road-2wd-road-rio-grande-estates-socorro-county-nm",
+    "active": true
   },
   {
     "id": "lot-069",
@@ -4594,7 +4727,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/navajo-city-nearly-one-acre-lot-on-us-highway-64-electricity-available",
+    "active": true
   },
   {
     "id": "lot-070",
@@ -4660,7 +4795,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/over-two-acre-mini-ranch-in-ne-nevada-great-roads-and-views",
+    "active": true
   },
   {
     "id": "lot-071",
@@ -4727,7 +4864,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/one-acre-two-lots-from-149-road-dirt-road-access",
+    "active": true
   },
   {
     "id": "lot-072",
@@ -4792,7 +4931,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/pahrump-vacant-lot-utilities-available-near-las-vegas",
+    "active": true
   },
   {
     "id": "lot-073",
@@ -4859,7 +5000,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/meadview-arizona-11-acres-power-lake-mead-and-grand-canyon-access",
+    "active": true
   },
   {
     "id": "lot-074",
@@ -4924,7 +5067,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/oregon-pines-15-acre-lot-2wd-road-access",
+    "active": true
   },
   {
     "id": "lot-075",
@@ -4992,7 +5137,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/northern-nevada-lot-power-available-spectacular-views-adjoining-lot-a",
+    "active": true
   },
   {
     "id": "lot-076",
@@ -5059,7 +5206,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/hwy-400-pershing-county-15-acres-two-miles-south-of-i-80",
+    "active": true
   },
   {
     "id": "lot-077",
@@ -5127,7 +5276,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/humboldt-acres-corner-lot-power-available",
+    "active": true
   },
   {
     "id": "lot-078",
@@ -5193,7 +5344,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/nearly-one-acre-just-south-of-us-highway-64-in-navajo-city",
+    "active": true
   },
   {
     "id": "lot-079",
@@ -5259,7 +5412,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/el-rancho-grande-nearly-one-acre-good-roads-power-available",
+    "active": true
   },
   {
     "id": "lot-080",
@@ -5325,7 +5480,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/13-acre-two-adjoining-lots-power-good-roads",
+    "active": true
   },
   {
     "id": "lot-081",
@@ -5392,7 +5549,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/oversized-lot-two-lots-from-main-road-and-power-desireable-location",
+    "active": true
   },
   {
     "id": "lot-082",
@@ -5460,7 +5619,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/camping-permitted-great-southern-oregon-lot-with-multiple-uses-13-acre",
+    "active": true
   },
   {
     "id": "lot-083",
@@ -5524,7 +5685,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/one-acre-lot-in-southeast-arizona-near-wilcox",
+    "active": true
   },
   {
     "id": "lot-084",
@@ -5591,7 +5754,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/great-corner-lot-located-directly-on-coal-mine-road-huge-mountain-views",
+    "active": true
   },
   {
     "id": "lot-085",
@@ -5654,7 +5819,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/las-vegas-timeshare-one-block-off-the-strip",
+    "active": true
   },
   {
     "id": "lot-086",
@@ -5721,7 +5888,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/yucca-az-building-lot-235-acres",
+    "active": true
   },
   {
     "id": "lot-087",
@@ -5787,7 +5956,8 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "active": false
   },
   {
     "id": "lot-088",
@@ -5854,7 +6024,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/south-central-oregon-mountain-lakes-area-property-great-for-camping",
+    "active": true
   },
   {
     "id": "lot-089",
@@ -5922,7 +6094,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/one-acre-southern-new-mexico-maintained-road-power",
+    "active": true
   },
   {
     "id": "lot-090",
@@ -5990,7 +6164,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/34-acre-lot-located-directly-on-paved-highway-60-power-available",
+    "active": true
   },
   {
     "id": "lot-091",
@@ -6056,7 +6232,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/four-lots-totaling-nearly-two-acres-on-the-black-mesa-direct-road-access",
+    "active": true
   },
   {
     "id": "lot-092",
@@ -6122,7 +6300,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/107-acre-lot-in-the-southern-area-of-rio-rancho-on-20th-ave",
+    "active": true
   },
   {
     "id": "lot-093",
@@ -6189,7 +6369,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/cloudcroft-14-acre-corner-lot",
+    "active": true
   },
   {
     "id": "lot-094",
@@ -6257,7 +6439,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/one-acre-lot-near-hwy-60-huge-views-great-roads-power-close",
+    "active": true
   },
   {
     "id": "lot-095",
@@ -6321,7 +6505,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/humboldt-river-ranchos-over-2-14-acre-mini-ranch-secluded",
+    "active": true
   },
   {
     "id": "lot-096",
@@ -6386,7 +6572,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/25-acres-in-ne-arizona-near-petrified-forest-national-park",
+    "active": true
   },
   {
     "id": "lot-097",
@@ -6452,7 +6640,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/two-adjacent-lots-in-margaret-texas-corner-lot",
+    "active": true
   },
   {
     "id": "lot-098",
@@ -6520,7 +6710,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/deming-nm-1-acre-corner-lots-with-power",
+    "active": true
   },
   {
     "id": "lot-099",
@@ -6587,7 +6779,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/two-acres-two-adjoining-lots-includes-corner",
+    "active": true
   },
   {
     "id": "lot-100",
@@ -6653,7 +6847,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/two-adjacent-lots-in-tierra-amarilla-over-one-acre-wooded",
+    "active": true
   },
   {
     "id": "lot-101",
@@ -6718,7 +6914,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/nearly-four-acres-just-north-of-state-hwy-9-west-of-animas-secluded",
+    "active": true
   },
   {
     "id": "lot-102",
@@ -6786,7 +6984,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/desert-skies-corner-lot-21-acres-between-kingman-and-lake-havasu",
+    "active": true
   },
   {
     "id": "lot-103",
@@ -6854,7 +7054,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/122-acres-developed-area-corner-lot-power",
+    "active": true
   },
   {
     "id": "lot-104",
@@ -6920,7 +7122,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/central-arizona-multi-use-lot-surveyed-in-the-rear-bring-your-rv",
+    "active": true
   },
   {
     "id": "lot-105",
@@ -6984,7 +7188,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/bella-vista-estates-heavily-wooded-view-lot",
+    "active": true
   },
   {
     "id": "lot-106",
@@ -7050,7 +7256,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/trees-huge-views-over-25-acres",
+    "active": true
   },
   {
     "id": "lot-107",
@@ -7116,7 +7324,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/affordable-lot-in-humboldt-river-ranchos-great-access-power-nearby",
+    "active": true
   },
   {
     "id": "lot-108",
@@ -7182,7 +7392,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/full-time-rv-allowed-camp-or-build-southern-arizona-great-weather",
+    "active": true
   },
   {
     "id": "lot-109",
@@ -7249,7 +7461,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/off-grid-dream-property-two-adjacent-lots-two-acres-includes-corner",
+    "active": true
   },
   {
     "id": "lot-110",
@@ -7317,7 +7531,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/rancho-lake-conchas-525-acres-corner-lot-road-accessible",
+    "active": true
   },
   {
     "id": "lot-111",
@@ -7382,7 +7598,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/12-lot-huge-views-good-road-access",
+    "active": true
   },
   {
     "id": "lot-112",
@@ -7447,7 +7665,8 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "active": false
   },
   {
     "id": "lot-113",
@@ -7514,7 +7733,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/affordable-five-acre-lot-cheap-taxes-power-near",
+    "active": true
   },
   {
     "id": "lot-114",
@@ -7579,7 +7800,8 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "active": false
   },
   {
     "id": "lot-115",
@@ -7645,7 +7867,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/hwy-549-frontage-4-lots-two-acres-total-great-location",
+    "active": true
   },
   {
     "id": "lot-116",
@@ -7710,7 +7934,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/affordable-lot-in-milan-new-mexico-grants-suburb",
+    "active": true
   },
   {
     "id": "lot-117",
@@ -7777,7 +8003,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/three-adjacent-lots-on-maintained-ocotillo-road-power-available",
+    "active": true
   },
   {
     "id": "lot-118",
@@ -7843,7 +8071,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/unrestricted-lot-in-ozark-acres-camping-potential-power-available",
+    "active": true
   },
   {
     "id": "lot-119",
@@ -7910,7 +8140,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/two-adjacent-lots-includes-corner-two-full-acres-peace-and-quiet",
+    "active": true
   },
   {
     "id": "lot-120",
@@ -7975,7 +8207,8 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "active": false
   },
   {
     "id": "lot-121",
@@ -8042,7 +8275,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/tres-piedras-14-acre-lot-no-restrictions-great-views-near-taos",
+    "active": true
   },
   {
     "id": "lot-122",
@@ -8110,7 +8345,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/one-acre-lot-near-hwy-60-great-roads",
+    "active": true
   },
   {
     "id": "lot-123",
@@ -8175,7 +8412,8 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "active": false
   },
   {
     "id": "lot-124",
@@ -8242,7 +8480,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/3-lots-totaling-nearly-15-acres-rio-grande-estates-valencia-county-nm",
+    "active": true
   },
   {
     "id": "lot-125",
@@ -8308,7 +8548,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/off-grid-34-acre-corner-lot",
+    "active": true
   },
   {
     "id": "lot-126",
@@ -8375,7 +8617,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/southwestern-homesites-2-adjoining-lots-175-acres-total-power-close",
+    "active": true
   },
   {
     "id": "lot-127",
@@ -8442,7 +8686,8 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "active": false
   },
   {
     "id": "lot-128",
@@ -8506,7 +8751,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/beryl-ut-six-adjacent-lots-12-acre-quiet-with-great-views",
+    "active": true
   },
   {
     "id": "lot-129",
@@ -8574,7 +8821,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/rio-grande-estates-one-acre-lot-endless-possibilities",
+    "active": true
   },
   {
     "id": "lot-130",
@@ -8641,7 +8890,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/one-full-acre-estancia-ranchettes-albuquerque-east-valley",
+    "active": true
   },
   {
     "id": "lot-131",
@@ -8707,7 +8958,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/albuquerque-east-valley-one-ful1-acre",
+    "active": true
   },
   {
     "id": "lot-132",
@@ -8775,7 +9028,8 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "active": false
   },
   {
     "id": "lot-133",
@@ -8841,7 +9095,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/nw-taos-12-acre-lot",
+    "active": true
   },
   {
     "id": "lot-134",
@@ -8909,7 +9165,8 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "active": false
   },
   {
     "id": "lot-135",
@@ -8977,7 +9234,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/off-grid-new-mexico-property-no-restrictions-corner-lot-south-of-hwy-60",
+    "active": true
   },
   {
     "id": "lot-136",
@@ -9042,7 +9301,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/over-12-acre-near-tierra-amarilla-road-access",
+    "active": true
   },
   {
     "id": "lot-137",
@@ -9108,7 +9369,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/bring-your-rv-12-acre-lot-taos-area",
+    "active": true
   },
   {
     "id": "lot-138",
@@ -9173,7 +9436,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/hachita-corner-lot-with-power-great-roads",
+    "active": true
   },
   {
     "id": "lot-139",
@@ -9240,7 +9505,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/south-deming-one-acre-huge-views-power-in-the-area",
+    "active": true
   },
   {
     "id": "lot-140",
@@ -9306,7 +9573,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/bring-your-rv-over-12-acre-lot",
+    "active": true
   },
   {
     "id": "lot-141",
@@ -9372,7 +9641,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/12-acre-unrestricted-lot-rvs-allowed-1",
+    "active": true
   },
   {
     "id": "lot-142",
@@ -9438,7 +9709,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/12-acre-unrestricted-lot-taos-county",
+    "active": true
   },
   {
     "id": "lot-143",
@@ -9504,7 +9777,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/corner-lot-just-south-of-hwy-9-in-hachita-power-at-the-lot",
+    "active": true
   },
   {
     "id": "lot-144",
@@ -9570,7 +9845,8 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "active": false
   },
   {
     "id": "lot-145",
@@ -9637,7 +9913,8 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "active": false
   },
   {
     "id": "lot-146",
@@ -9704,7 +9981,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/one-full-acre-east-of-albuquerque",
+    "active": true
   },
   {
     "id": "lot-147",
@@ -9769,7 +10048,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/wooded-lot-in-tzama-near-tierra-amarilla",
+    "active": true
   },
   {
     "id": "lot-148",
@@ -9834,7 +10115,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/affordable-lot-in-hachita-secluded-power-available",
+    "active": true
   },
   {
     "id": "lot-149",
@@ -9900,7 +10183,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/tres-piedras-14-acre-lot-near-hwy-64-1",
+    "active": true
   },
   {
     "id": "lot-150",
@@ -9965,7 +10250,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/taos-area-some-development-around-recreational-use-allowed",
+    "active": true
   },
   {
     "id": "lot-151",
@@ -10033,7 +10320,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/2-adjoining-lots-over-2-acres-total-nw-of-dateland-az",
+    "active": true
   },
   {
     "id": "lot-152",
@@ -10099,7 +10388,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/nw-taos-no-restrictions-let-your-imagination-guide-you",
+    "active": true
   },
   {
     "id": "lot-153",
@@ -10165,7 +10456,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/tres-piedras-unit-6-14-acre-lot-rvs-permitted",
+    "active": true
   },
   {
     "id": "lot-154",
@@ -10233,7 +10526,8 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "active": false
   },
   {
     "id": "lot-155",
@@ -10301,7 +10595,8 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "active": false
   },
   {
     "id": "lot-156",
@@ -10367,7 +10662,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/tres-piedras-14-acre-lot-near-hwy-64",
+    "active": true
   },
   {
     "id": "lot-157",
@@ -10432,7 +10729,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/bring-your-rv-taos-county-recreational-lot",
+    "active": true
   },
   {
     "id": "lot-158",
@@ -10497,7 +10796,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/easy-access-right-off-hwy-64-west-of-taos-14-acre",
+    "active": true
   },
   {
     "id": "lot-159",
@@ -10563,7 +10864,8 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "active": false
   },
   {
     "id": "lot-160",
@@ -10630,7 +10932,8 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "active": false
   },
   {
     "id": "lot-161",
@@ -10697,7 +11000,8 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "active": false
   },
   {
     "id": "lot-162",
@@ -10765,7 +11069,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/corner-lot-in-estancia-ranchettes-east-of-albuquerque-wide-open-spaces",
+    "active": true
   },
   {
     "id": "lot-163",
@@ -10831,7 +11137,9 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "sourceUrl": "https://www.governmentlandsales.us/properties/14-acre-unrestricted-lot-taos-county",
+    "active": true
   },
   {
     "id": "lot-164",
@@ -10896,7 +11204,8 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "active": false
   },
   {
     "id": "lot-165",
@@ -10962,6 +11271,7 @@
     "contact": {
       "email": "info@lotoftheday.com",
       "listingUrl": ""
-    }
+    },
+    "active": false
   }
 ]

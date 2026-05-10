@@ -1,0 +1,64 @@
+name: Verify upcoming lots are still listed
+
+# Runs every hour, but the important runs are the ones just before the
+# midnight-ET rotation (~04:00 UTC / 05:00 UTC depending on DST). Hourly
+# also catches mid-day sales so the site doesn't feature a just-sold lot.
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Days ahead to check (default 3)"
+        required: false
+        default: "3"
+      mode:
+        description: "Run mode"
+        type: choice
+        required: false
+        default: "upcoming"
+        options:
+          - upcoming
+          - all
+          - upcoming-with-revive
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Need write permission to push the lots.json update back.
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run verifier
+        run: |
+          ARGS=""
+          case "${{ github.event.inputs.mode }}" in
+            all) ARGS="--all" ;;
+            upcoming-with-revive) ARGS="--revive --days ${{ github.event.inputs.days || '3' }}" ;;
+            *) ARGS="--days ${{ github.event.inputs.days || '3' }}" ;;
+          esac
+          node scripts/verify-active.mjs $ARGS
+
+      - name: Commit changes if any
+        run: |
+          if [[ -n "$(git status --porcelain src/data/lots.json)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add src/data/lots.json
+            git commit -m "chore(verify): update lot active flags from source check
+
+            Automated check against governmentlandsales.us — deactivates lots that
+            have sold or been removed, revives any that came back."
+            git push
+          else
+            echo "No lot status changes."
+          fi
