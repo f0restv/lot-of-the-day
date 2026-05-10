@@ -7,6 +7,21 @@ const BASE = "https://www.governmentlandsales.us";
 const MARKUP = 1.10;
 const PER_PAGE = 15;
 
+const NAMED_ENTITIES = {
+  amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ',
+  copy: '©', reg: '®', trade: '™',
+  ldquo: '“', rdquo: '”', lsquo: '‘', rsquo: '’',
+  ndash: '–', mdash: '—', hellip: '…',
+};
+
+function decodeEntities(str) {
+  if (!str) return str;
+  return str
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, hex) => String.fromCodePoint(parseInt(hex, 16)))
+    .replace(/&#(\d+);/g, (_, dec) => String.fromCodePoint(parseInt(dec, 10)))
+    .replace(/&([a-zA-Z]+);/g, (m, name) => NAMED_ENTITIES[name] ?? m);
+}
+
 const STATES = {
   'AL':'Alabama','AK':'Alaska','AZ':'Arizona','AR':'Arkansas','CA':'California',
   'CO':'Colorado','ID':'Idaho','MT':'Montana','NE':'Nebraska','NV':'Nevada',
@@ -40,9 +55,9 @@ async function fetchProperty(path) {
     const cityMatch = html.match(/<strong>City:<\/strong>\s*([^<]+)/i);
     const addrMatch = html.match(/<strong>Property Address:<\/strong>\s*([^<]+)/i);
 
-    let stateFull = stateMatch ? stateMatch[1].trim() : '';
-    let county = countyMatch ? countyMatch[1].replace(/\s*County\s*/i, '').trim() : '';
-    let city = cityMatch ? cityMatch[1].trim() : '';
+    let stateFull = stateMatch ? decodeEntities(stateMatch[1].trim()) : '';
+    let county = countyMatch ? decodeEntities(countyMatch[1].replace(/\s*County\s*/i, '').trim()) : '';
+    let city = cityMatch ? decodeEntities(cityMatch[1].trim()) : '';
     let zip = '';
 
     // Get zip from address: "300 Ibex St, Sumpter, OR, 97877"
@@ -92,7 +107,7 @@ async function fetchProperty(path) {
 
     // ---- TITLE ----
     const titleMatch = html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/);
-    const title = titleMatch ? titleMatch[1].replace(/<[^>]+>/g, '').trim() : '';
+    const title = titleMatch ? decodeEntities(titleMatch[1].replace(/<[^>]+>/g, '').trim()) : '';
     if (!title) return null;
 
     // ---- IMAGES ----
@@ -126,7 +141,7 @@ async function fetchProperty(path) {
     let description = title;
     const descParagraphs = [...html.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)];
     for (const p of descParagraphs) {
-      const clean = p[1].replace(/<[^>]+>/g, '').trim();
+      const clean = decodeEntities(p[1].replace(/<[^>]+>/g, '').trim());
       if (clean.length > 80 && !/financing|document preparation|credit check/i.test(clean)) {
         description = clean;
         break;
