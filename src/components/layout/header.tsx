@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { SITE_NAME } from "@/lib/constants";
+import { PhoneCTA } from "@/components/ui/phone-cta";
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -51,6 +52,7 @@ export function Header() {
                 About
               </Link>
             </nav>
+            <PhoneCTA variant="compact" />
             <div className="flex items-center gap-2 bg-urgent/10 text-urgent px-3 py-1.5 rounded-full">
               <span className="w-1.5 h-1.5 rounded-full bg-urgent animate-pulse-dot" />
               <span className="text-[11px] font-bold tracking-wider uppercase">Live Now</span>
@@ -86,6 +88,9 @@ export function Header() {
                 {link.label}
               </Link>
             ))}
+            <div className="pt-4 mt-2 border-t border-foreground/5">
+              <PhoneCTA variant="block" />
+            </div>
           </div>
         </nav>
       )}

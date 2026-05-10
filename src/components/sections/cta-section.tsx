@@ -3,8 +3,10 @@
 import { FadeIn } from "@/components/animations/fade-in";
 import { Button } from "@/components/ui/button";
 import { ShareButton } from "@/components/ui/share-button";
+import { PhoneCTA } from "@/components/ui/phone-cta";
 import { Countdown } from "@/components/ui/countdown";
-import { SITE_URL } from "@/lib/constants";
+import { SITE_URL, OPERATOR_PHONE } from "@/lib/constants";
+import { formatCurrency } from "@/lib/utils";
 import type { Lot } from "@/types/lot";
 
 interface CtaSectionProps {
@@ -29,10 +31,17 @@ export function CtaSection({ lot }: CtaSectionProps) {
               Make This Land Yours
             </h2>
             <p className="text-foreground/50 mb-8">
-              Contact us to learn more or schedule a visit.
-              Available at {lot.price < 10000 ? "under $10,000" : `$${lot.price.toLocaleString()}`}.
+              Contact us to learn more or schedule a visit. Available at {formatCurrency(lot.price)}.
             </p>
           </FadeIn>
+
+          {OPERATOR_PHONE && (
+            <FadeIn delay={0.15}>
+              <div className="max-w-md mx-auto mb-6">
+                <PhoneCTA variant="block" prefix="Call to inquire" />
+              </div>
+            </FadeIn>
+          )}
 
           <FadeIn delay={0.2}>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-12">
@@ -42,13 +51,13 @@ export function CtaSection({ lot }: CtaSectionProps) {
                 </a>
               )}
               {lot.contact.email && (
-                <a href={`mailto:${lot.contact.email}?subject=Inquiry: ${lot.name}`}>
+                <a href={`mailto:${lot.contact.email}?subject=${encodeURIComponent(`Inquiry: ${lot.name}`)}`}>
                   <Button variant="outline" size="lg">Email Us</Button>
                 </a>
               )}
               <ShareButton
                 title={`${lot.name} — Lot of the Day`}
-                text={`Check out this ${lot.acreage}-acre property: ${lot.name} for $${lot.price.toLocaleString()}`}
+                text={`Check out this ${lot.acreage}-acre property: ${lot.name} for ${formatCurrency(lot.price)}`}
                 url={lotUrl}
               />
             </div>

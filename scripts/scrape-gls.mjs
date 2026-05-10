@@ -6,6 +6,7 @@
 const BASE = "https://www.governmentlandsales.us";
 const MARKUP = 1.10;
 const PER_PAGE = 15;
+const CONTACT_EMAIL = "info@lotoftheday.com";
 
 const NAMED_ENTITIES = {
   amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ',
@@ -252,8 +253,7 @@ async function main() {
       },
       media: { poster: p.poster, photos: p.photos },
       contact: {
-        phone: '(208) 991-4644',
-        email: 'info@lotoftheday.com',
+        email: CONTACT_EMAIL,
         listingUrl: ''
       }
     };

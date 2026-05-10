@@ -5,4 +5,4 @@ export const SITE_DESCRIPTION =
   "One exceptional lot of raw land, every single day. Hand-picked parcels from across the United States — affordable land with real potential.";
 export const TIMEZONE = "America/New_York";
 export const CONTACT_EMAIL = "info@lotoftheday.com";
-export const OPERATOR_PHONE = "";
+export const OPERATOR_PHONE: string = "";
