@@ -18,7 +18,7 @@ export function CtaSection({ lot }: CtaSectionProps) {
   const lotUrl = `${SITE_URL}/lot/${lot.date}`;
 
   return (
-    <section className="relative bg-background py-16 md:py-24">
+    <section id="inquire" className="relative bg-background py-16 md:py-24 scroll-mt-20">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <div className="max-w-2xl mx-auto text-center">
           <FadeIn>

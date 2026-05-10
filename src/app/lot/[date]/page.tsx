@@ -9,6 +9,7 @@ import { PhotoGallery } from "@/components/sections/photo-gallery";
 import { LotMap } from "@/components/sections/lot-map";
 import { CtaSection } from "@/components/sections/cta-section";
 import { CountdownBanner } from "@/components/sections/countdown-banner";
+import { StickyCTA } from "@/components/sections/sticky-cta";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 
@@ -75,6 +76,7 @@ export default async function LotPage({ params }: LotPageProps) {
             name={lot.name}
           />
           <CtaSection lot={lot} />
+          <StickyCTA lot={lot} />
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{
