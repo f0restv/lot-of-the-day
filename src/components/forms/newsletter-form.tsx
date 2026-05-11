@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { track } from "@vercel/analytics";
 import { submitLead } from "@/app/actions/contact";
 
 interface NewsletterFormProps {
@@ -34,8 +35,10 @@ export function NewsletterForm({
     });
     if (res.ok) {
       setState("ok");
+      track("newsletter_subscribe", { source });
     } else {
       setState("error");
+      track("newsletter_error", { source });
       setError(res.error ?? "Something went wrong.");
     }
   }

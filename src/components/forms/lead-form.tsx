@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { track } from "@vercel/analytics";
 import { submitLead } from "@/app/actions/contact";
 
 interface LeadFormProps {
@@ -48,8 +49,10 @@ export function LeadForm({
     });
     if (res.ok) {
       setState("ok");
+      track("lead_submit", { source, lotId: lotId ?? "none", hasPhone: phone ? "yes" : "no" });
     } else {
       setState("error");
+      track("lead_error", { source });
       setError(res.error ?? "Something went wrong.");
     }
   }

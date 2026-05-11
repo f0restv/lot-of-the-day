@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "motion/react";
+import { track } from "@vercel/analytics";
 import Link from "next/link";
 import Image from "next/image";
 import type { Lot } from "@/types/lot";
@@ -173,6 +174,7 @@ export function Hero({ lot, stats }: HeroProps) {
           >
             <Link
               href={`/lot/${lot.date}`}
+              onClick={() => track("view_details_click", { lotId: lot.id, source: "hero" })}
               className="inline-flex items-center justify-center gap-2 bg-gold text-white px-8 py-4 text-sm tracking-wider uppercase font-bold rounded-full hover:bg-gold-dark transition-colors duration-300"
             >
               View Details
@@ -183,6 +185,7 @@ export function Hero({ lot, stats }: HeroProps) {
             {OPERATOR_PHONE ? (
               <a
                 href={`tel:+${OPERATOR_PHONE.replace(/\D/g, "")}`}
+                onClick={() => track("phone_click", { variant: "hero", lotId: lot.id })}
                 className="inline-flex items-center justify-center gap-2 bg-transparent text-foreground/70 px-8 py-4 text-sm tracking-wider uppercase font-bold rounded-full border border-foreground/15 hover:border-foreground/30 transition-colors duration-300"
               >
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

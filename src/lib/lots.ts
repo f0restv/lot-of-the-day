@@ -51,6 +51,37 @@ export function getAllLotDates(): string[] {
   return lots.filter(isActive).map((lot) => lot.date);
 }
 
+/**
+ * Picks lots similar to the current one for cross-sell. Scores candidates
+ * by (state match) + (price within 50%) + (acreage within 2x), then
+ * returns the top N. Excludes the current lot and any inactive lot.
+ */
+export function getSimilarLots(currentLot: Lot, count = 3): Lot[] {
+  const candidates = lots.filter(
+    (l) => isActive(l) && l.id !== currentLot.id
+  );
+
+  const minPrice = currentLot.price * 0.5;
+  const maxPrice = currentLot.price * 1.5;
+  const minAcres = currentLot.acreage * 0.5;
+  const maxAcres = currentLot.acreage * 2;
+
+  const scored = candidates.map((l) => {
+    let score = 0;
+    if (l.location.state === currentLot.location.state) score += 50;
+    if (l.location.county === currentLot.location.county) score += 30;
+    if (l.price >= minPrice && l.price <= maxPrice) score += 30;
+    if (l.acreage >= minAcres && l.acreage <= maxAcres) score += 20;
+    // Tighter the price match, more points (up to +20).
+    const priceDelta = Math.abs(l.price - currentLot.price) / currentLot.price;
+    score += Math.max(0, 20 - Math.round(priceDelta * 40));
+    return { lot: l, score };
+  });
+
+  scored.sort((a, b) => b.score - a.score);
+  return scored.slice(0, count).map((s) => s.lot);
+}
+
 export interface LotStats {
   total: number;
   inState: number;

@@ -1,0 +1,48 @@
+name: Weekly rescrape
+
+# Runs once a week to pull in new listings + drop sold ones. Always
+# followed by the retitle script so branded names stick. Manual trigger
+# available for ad-hoc runs.
+on:
+  schedule:
+    # Sundays at 09:00 UTC (~04:00 ET, before traffic picks up)
+    - cron: "0 9 * * 0"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  rescrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Scrape governmentlandsales.us
+        run: node scripts/scrape-gls.mjs
+
+      - name: Re-apply branded titles
+        run: node scripts/retitle-lots.mjs
+
+      - name: Commit if anything changed
+        run: |
+          if [[ -n "$(git status --porcelain src/data/lots.json)" ]]; then
+            BEFORE=$(git show HEAD:src/data/lots.json | grep -c '"id":' || true)
+            AFTER=$(grep -c '"id":' src/data/lots.json || true)
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add src/data/lots.json
+            git commit -m "chore(rescrape): refresh lots from source
+
+            Weekly automated rescrape + retitle. ${BEFORE} -> ${AFTER} lots."
+            git push
+          else
+            echo "No changes from rescrape."
+          fi

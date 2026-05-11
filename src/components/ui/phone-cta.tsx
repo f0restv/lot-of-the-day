@@ -1,3 +1,6 @@
+"use client";
+
+import { track } from "@vercel/analytics";
 import { OPERATOR_PHONE } from "@/lib/constants";
 
 function formatPhone(raw: string): string {
@@ -33,10 +36,15 @@ export function PhoneCTA({ variant = "compact", className = "", prefix }: PhoneC
   const display = formatPhone(OPERATOR_PHONE);
   const href = `tel:+${OPERATOR_PHONE.replace(/\D/g, "")}`;
 
+  const handleClick = () => {
+    track("phone_click", { variant });
+  };
+
   if (variant === "compact") {
     return (
       <a
         href={href}
+        onClick={handleClick}
         className={`inline-flex items-center gap-1.5 text-[13px] tracking-wide text-foreground/70 hover:text-gold transition-colors ${className}`}
       >
         <PhoneIcon size={14} />
@@ -49,6 +57,7 @@ export function PhoneCTA({ variant = "compact", className = "", prefix }: PhoneC
     return (
       <a
         href={href}
+        onClick={handleClick}
         className={`inline-flex items-center justify-center gap-2 bg-gold text-white px-8 py-4 text-sm tracking-wider uppercase font-bold rounded-full hover:bg-gold-dark transition-colors duration-300 ${className}`}
       >
         <PhoneIcon size={16} />
@@ -60,6 +69,7 @@ export function PhoneCTA({ variant = "compact", className = "", prefix }: PhoneC
   return (
     <a
       href={href}
+      onClick={handleClick}
       className={`flex items-center justify-center gap-3 w-full bg-surface-light border border-gold/30 hover:border-gold rounded-2xl py-5 px-6 transition-colors ${className}`}
     >
       <PhoneIcon size={20} />

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { track } from "@vercel/analytics";
 import { OPERATOR_PHONE } from "@/lib/constants";
 import { formatCurrency } from "@/lib/utils";
 import type { Lot } from "@/types/lot";
@@ -45,6 +46,7 @@ export function StickyCTA({ lot, inquireAnchor = "inquire" }: StickyCTAProps) {
             {phoneHref && (
               <a
                 href={phoneHref}
+                onClick={() => track("phone_click", { variant: "sticky", lotId: lot.id })}
                 className="flex-1 inline-flex items-center justify-center gap-1.5 bg-surface-light border border-gold/30 text-foreground px-3 py-3 text-xs tracking-wider uppercase font-bold rounded-xl"
               >
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
@@ -55,6 +57,7 @@ export function StickyCTA({ lot, inquireAnchor = "inquire" }: StickyCTAProps) {
             )}
             <a
               href={`#${inquireAnchor}`}
+              onClick={() => track("inquire_jump", { lotId: lot.id })}
               className="flex-1 inline-flex items-center justify-center bg-gold text-white px-4 py-3 text-xs tracking-wider uppercase font-bold rounded-xl"
             >
               Inquire

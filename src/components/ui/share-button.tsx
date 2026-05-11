@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { track } from "@vercel/analytics";
 import { Button } from "./button";
 
 interface ShareButtonProps {
@@ -16,12 +17,14 @@ export function ShareButton({ title, text, url }: ShareButtonProps) {
     if (navigator.share) {
       try {
         await navigator.share({ title, text, url });
+        track("share", { method: "native" });
       } catch {
         // User cancelled
       }
     } else {
       await navigator.clipboard.writeText(url);
       setCopied(true);
+      track("share", { method: "copy" });
       setTimeout(() => setCopied(false), 2000);
     }
   }

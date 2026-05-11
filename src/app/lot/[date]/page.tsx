@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getLotByDate, getAllLotDates } from "@/lib/lots";
+import { getLotByDate, getAllLotDates, getSimilarLots } from "@/lib/lots";
 import { formatCurrency, formatDate, formatAcreage } from "@/lib/utils";
 import { SITE_NAME, SITE_URL } from "@/lib/constants";
 import { VideoHero } from "@/components/sections/video-hero";
@@ -10,6 +10,7 @@ import { LotMap } from "@/components/sections/lot-map";
 import { CtaSection } from "@/components/sections/cta-section";
 import { CountdownBanner } from "@/components/sections/countdown-banner";
 import { StickyCTA } from "@/components/sections/sticky-cta";
+import { SimilarLots } from "@/components/sections/similar-lots";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 
@@ -58,6 +59,8 @@ export default async function LotPage({ params }: LotPageProps) {
     notFound();
   }
 
+  const similar = getSimilarLots(lot, 3);
+
   return (
     <>
       <Header />
@@ -78,6 +81,7 @@ export default async function LotPage({ params }: LotPageProps) {
             name={lot.name}
           />
           <CtaSection lot={lot} />
+          <SimilarLots lots={similar} currentState={lot.location.state} />
           <StickyCTA lot={lot} />
           <script
             type="application/ld+json"
