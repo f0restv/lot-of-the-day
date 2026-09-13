@@ -5770,76 +5770,7 @@
   {
     "id": "lot-084",
     "date": "2026-05-26",
-    "name": "Salome Perch",
-    "tagline": "0.24 Acres, La Paz County, Arizona",
-    "location": {
-      "city": "Salome",
-      "county": "La Paz",
-      "state": "Arizona",
-      "zip": "39760",
-      "coordinates": {
-        "lat": 33.7576089,
-        "lng": -113.6019701
-      }
-    },
-    "price": 7150,
-    "acreage": 0.24,
-    "dimensions": "75 × 142 ft",
-    "apn": "304-78-045",
-    "features": [
-      "Gravel road",
-      "RV allowed",
-      "Great views",
-      "$35/yr taxes"
-    ],
-    "description": "Full Time RV permitted. This is a nice secluded lot located on Palm Blvd in the northwestern part of the Castle Lakes Subdivision in Salome Arizona. Lying just south of HWY 60, this lot gives you the flexibility to park your RV or build. Manufactured homes and stick built are also allowed. You can even get creative and build whatever it is you can dream up. This lot also allows for a shed, pole barn or storage container to hold all of your recreational vehicles while camping on the lot. There is no active HOA or CC&R's. This is a great lot for both snowbirds and those looking to make a permanent residence.",
-    "details": {
-      "roadConditions": "Good gravel",
-      "utilities": "",
-      "water": "",
-      "sewer": "",
-      "zoning": "Residential / Recreational",
-      "annualTaxes": 35,
-      "terrain": "",
-      "restrictions": ""
-    },
-    "media": {
-      "poster": "https://www.governmentlandsales.us/storage/property-images/c9405b05581/800x440/b10c6302c53308c821fb2c79c90bc1c4.jpg",
-      "photos": [
-        {
-          "url": "https://www.governmentlandsales.us/storage/property-images/308e5ecaff6/400x220/7f487612fa9face4482d52307d8b82dd.jpg",
-          "alt": "Salome Perch",
-          "caption": ""
-        },
-        {
-          "url": "https://www.governmentlandsales.us/storage/property-images/65893d4b26f/400x220/7831a0bb6440e87c476299ee166f58cb.jpg",
-          "alt": "Salome Perch",
-          "caption": ""
-        },
-        {
-          "url": "https://www.governmentlandsales.us/storage/property-images/655a983fab1/400x220/c3af5897bd98cabc59648e1d07986616.jpg",
-          "alt": "Salome Perch",
-          "caption": ""
-        },
-        {
-          "url": "https://www.governmentlandsales.us/storage/property-images/0de0f2371a2/400x220/28bbb7344d6b4f0764a7898fb41ffc3a.jpg",
-          "alt": "Salome Perch",
-          "caption": ""
-        }
-      ]
-    },
-    "contact": {
-      "email": "info@lotoftheday.com",
-      "listingUrl": ""
-    },
-    "sourceUrl": "https://www.governmentlandsales.us/properties/full-time-rv-allowed-camp-or-build-southern-arizona-great-weather",
-    "active": true,
-    "sourceName": "Full Time RV Allowed - Camp or Build - Southern Arizona - Great Weather"
-  },
-  {
-    "id": "lot-085",
-    "date": "2026-05-27",
-    "name": "Trementina Stake",
+    "name": "Trementina Hollow",
     "tagline": "5.25 Acres, San Miguel County, New Mexico",
     "location": {
       "city": "Trementina",
@@ -5879,22 +5810,22 @@
       "photos": [
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/99888beb60a/400x220/4e703472a8ca6d3a5a3986996fa8dd1e.jpg",
-          "alt": "Trementina Stake",
+          "alt": "Trementina Hollow",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/dd775ab5380/400x220/eafc48176b5d4ede49a290b06fa977d9.jpg",
-          "alt": "Trementina Stake",
+          "alt": "Trementina Hollow",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/2bc3161c32b/400x220/654a06b76548958cb25325a068ca3b78.jpg",
-          "alt": "Trementina Stake",
+          "alt": "Trementina Hollow",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/899b35e2064/400x220/582881b117da7be0b4549b9b1724bd9b.jpg",
-          "alt": "Trementina Stake",
+          "alt": "Trementina Hollow",
           "caption": ""
         }
       ]
@@ -5908,9 +5839,9 @@
     "sourceName": "Rancho Lake Conchas 5.25 Acres - Corner Lot - Road Accessible"
   },
   {
-    "id": "lot-086",
-    "date": "2026-05-28",
-    "name": "Rio Rancho Vista",
+    "id": "lot-085",
+    "date": "2026-05-27",
+    "name": "Rio Rancho Overlook",
     "tagline": "2 Acres, Sandoval County, New Mexico",
     "location": {
       "city": "Rio Rancho",
@@ -5947,22 +5878,22 @@
       "photos": [
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/a674df50cca/400x220/928169cfb039eba49b4389348c959fff.jpg",
-          "alt": "Rio Rancho Vista",
+          "alt": "Rio Rancho Overlook",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/b3f0658134e/400x220/d8ed327d7d52debb5384400e332c2f7b.jpg",
-          "alt": "Rio Rancho Vista",
+          "alt": "Rio Rancho Overlook",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/8c14a1e30f8/400x220/5a83b28c5a5f7e5590358c4f7d909d58.jpg",
-          "alt": "Rio Rancho Vista",
+          "alt": "Rio Rancho Overlook",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/277b442abdb/400x220/e46c7654356571398eb85f7c13901a14.jpg",
-          "alt": "Rio Rancho Vista",
+          "alt": "Rio Rancho Overlook",
           "caption": ""
         }
       ]
@@ -5976,9 +5907,9 @@
     "sourceName": "1/2 Lot - Huge Views - Good Road Access"
   },
   {
-    "id": "lot-087",
-    "date": "2026-05-29",
-    "name": "West Deming Bluff",
+    "id": "lot-086",
+    "date": "2026-05-28",
+    "name": "East Deming Vista",
     "tagline": "2 Acres, Luna County, New Mexico",
     "location": {
       "city": "Deming",
@@ -6016,22 +5947,22 @@
       "photos": [
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/41ac108abc9/400x220/a550fa23faf3af0e359748270db4165b.jpg",
-          "alt": "West Deming Bluff",
+          "alt": "East Deming Vista",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/e873ad93491/400x220/2da94fba946158b05401cdb08144892b.jpg",
-          "alt": "West Deming Bluff",
+          "alt": "East Deming Vista",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/c92c1872e09/400x220/deef47b86854f05059e8be35b6efe0b0.jpg",
-          "alt": "West Deming Bluff",
+          "alt": "East Deming Vista",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/f136fc64769/400x220/ba1e2a6b35993b9a6e4c940224c4e97e.jpg",
-          "alt": "West Deming Bluff",
+          "alt": "East Deming Vista",
           "caption": ""
         }
       ]
@@ -6045,8 +5976,8 @@
     "sourceName": "HWY 549 Frontage - 4 Lots - Two Acres Total - Great Location"
   },
   {
-    "id": "lot-088",
-    "date": "2026-05-30",
+    "id": "lot-087",
+    "date": "2026-05-29",
     "name": "Deming Build",
     "tagline": "1 Acres, Luna County, New Mexico",
     "location": {
@@ -6115,9 +6046,9 @@
     "sourceName": "One Acre - Southern New Mexico - Maintained Road - Power"
   },
   {
-    "id": "lot-089",
-    "date": "2026-05-31",
-    "name": "Williford Vista",
+    "id": "lot-088",
+    "date": "2026-05-30",
+    "name": "Williford Overlook",
     "tagline": "0.144 Acres, Sharp County, Arkansas",
     "location": {
       "city": "Williford",
@@ -6155,22 +6086,22 @@
       "photos": [
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/50f885bbb96/400x220/5173b3a211215706ec057eeda7248389.jpg",
-          "alt": "Williford Vista",
+          "alt": "Williford Overlook",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/9e625876e0d/400x220/918c519cf3d533652f0df7a03a32ceba.jpg",
-          "alt": "Williford Vista",
+          "alt": "Williford Overlook",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/17b80be0b15/400x220/c7173a640693d6db899e4f3c45882b25.jpg",
-          "alt": "Williford Vista",
+          "alt": "Williford Overlook",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/3e9da5fbc53/400x220/7a8be108db403a4731c5c00ab9cd3304.jpg",
-          "alt": "Williford Vista",
+          "alt": "Williford Overlook",
           "caption": ""
         }
       ]
@@ -6184,9 +6115,9 @@
     "sourceName": "Unrestricted Lot in Ozark Acres - Camping Potential - Power Available"
   },
   {
-    "id": "lot-090",
-    "date": "2026-06-01",
-    "name": "Moriarty Homesite",
+    "id": "lot-089",
+    "date": "2026-05-31",
+    "name": "Moriarty Overlook",
     "tagline": "2 Acres, Torrance County, New Mexico",
     "location": {
       "city": "Moriarty",
@@ -6225,22 +6156,22 @@
       "photos": [
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/f39caee281e/400x220/8b99f2579f5154013b7bbcfd6c3234c5.jpg",
-          "alt": "Moriarty Homesite",
+          "alt": "Moriarty Overlook",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/5399413d9f2/400x220/60a8abb7347ec85045739850cbcc2741.jpg",
-          "alt": "Moriarty Homesite",
+          "alt": "Moriarty Overlook",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/c4f416e86c3/400x220/d63c1873ce96d6c47f3eda8978b592dd.jpg",
-          "alt": "Moriarty Homesite",
+          "alt": "Moriarty Overlook",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/49c28ef76c3/400x220/45a443d43ff76edf6ae4afc67e0bf0c2.jpg",
-          "alt": "Moriarty Homesite",
+          "alt": "Moriarty Overlook",
           "caption": ""
         }
       ]
@@ -6254,9 +6185,9 @@
     "sourceName": "Two Adjacent Lots Includes Corner - Two Full Acres - Peace and Quiet"
   },
   {
-    "id": "lot-091",
-    "date": "2026-06-02",
-    "name": "Veguita Hollow",
+    "id": "lot-090",
+    "date": "2026-06-01",
+    "name": "Veguita Homesite",
     "tagline": "1 Acres, Socorro County, New Mexico",
     "location": {
       "city": "Veguita",
@@ -6296,22 +6227,22 @@
       "photos": [
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/2f3d11b1f24/400x220/da2f25b1db46b3e81492871a13116b48.jpg",
-          "alt": "Veguita Hollow",
+          "alt": "Veguita Homesite",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/2ee1a90b0c5/400x220/ac273a2636617c6b1ddb536f2ce0ea6d.jpg",
-          "alt": "Veguita Hollow",
+          "alt": "Veguita Homesite",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/f6b4fd20ab1/400x220/3a6a5a8c61fbbb50567ff50560092118.jpg",
-          "alt": "Veguita Hollow",
+          "alt": "Veguita Homesite",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/53fea4c518c/400x220/2bf4f5dcb8e3be55241421945651c071.jpg",
-          "alt": "Veguita Hollow",
+          "alt": "Veguita Homesite",
           "caption": ""
         }
       ]
@@ -6325,9 +6256,9 @@
     "sourceName": "One Acre Lot Near HWY 60 - Great Roads"
   },
   {
-    "id": "lot-092",
-    "date": "2026-06-03",
-    "name": "Rio Communities Acre",
+    "id": "lot-091",
+    "date": "2026-06-02",
+    "name": "Rio Communities Retreat",
     "tagline": "1.5 Acres, Valencia County, New Mexico",
     "location": {
       "city": "Rio Communities",
@@ -6366,22 +6297,22 @@
       "photos": [
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/a797d85b2f4/400x220/3ef550d5e46a471db82c93a7a38eabdf.jpg",
-          "alt": "Rio Communities Acre",
+          "alt": "Rio Communities Retreat",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/0cdbb96d71e/400x220/318982f5b7d83a0355f0385781e73b73.jpg",
-          "alt": "Rio Communities Acre",
+          "alt": "Rio Communities Retreat",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/84ec5c3dc8a/400x220/81d8813c34c83494c7e9f58a1b5cdc3f.jpg",
-          "alt": "Rio Communities Acre",
+          "alt": "Rio Communities Retreat",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/a7bf5d2444a/400x220/2ecd8a49a3d402c51e81127ea277a88b.jpg",
-          "alt": "Rio Communities Acre",
+          "alt": "Rio Communities Retreat",
           "caption": ""
         }
       ]
@@ -6395,9 +6326,9 @@
     "sourceName": "3 Lots Totaling Nearly 1.5 Acres - Rio Grande Estates, Valencia County NM"
   },
   {
-    "id": "lot-093",
-    "date": "2026-06-04",
-    "name": "North Deming Overlook",
+    "id": "lot-092",
+    "date": "2026-06-03",
+    "name": "Lower Deming Ridge",
     "tagline": "1.5 Acres, Luna County, New Mexico",
     "location": {
       "city": "Deming",
@@ -6436,22 +6367,22 @@
       "photos": [
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/aa60015f81e/400x220/4ebe8fe638d8a128c75887c9e57708fd.jpg",
-          "alt": "North Deming Overlook",
+          "alt": "Lower Deming Ridge",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/cae6f22c8f8/400x220/4e30bf959e8e86365d38912c775daa30.jpg",
-          "alt": "North Deming Overlook",
+          "alt": "Lower Deming Ridge",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/5899764f565/400x220/18532289a6ed6609ac12d32fa6764480.jpg",
-          "alt": "North Deming Overlook",
+          "alt": "Lower Deming Ridge",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/3d10e30430c/400x220/25f6b22cd2fab921b158e73f41f7c8ff.jpg",
-          "alt": "North Deming Overlook",
+          "alt": "Lower Deming Ridge",
           "caption": ""
         }
       ]
@@ -6465,9 +6396,9 @@
     "sourceName": "Three Adjacent Lots on Maintained Ocotillo Road - Power Available"
   },
   {
-    "id": "lot-094",
-    "date": "2026-06-05",
-    "name": "Moriarty Stake",
+    "id": "lot-093",
+    "date": "2026-06-04",
+    "name": "Moriarty Hollow",
     "tagline": "1 Acres, Torrance County, New Mexico",
     "location": {
       "city": "Moriarty",
@@ -6506,22 +6437,22 @@
       "photos": [
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/9a6d91a44a1/400x220/d17cd29b0945ade4b86278d653bfed51.jpg",
-          "alt": "Moriarty Stake",
+          "alt": "Moriarty Hollow",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/95ace9fa4a7/400x220/38cf896447cf386859e912381ae5553b.jpg",
-          "alt": "Moriarty Stake",
+          "alt": "Moriarty Hollow",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/20506f57fe1/400x220/bc7823a3c545ed714ba611a813b99266.jpg",
-          "alt": "Moriarty Stake",
+          "alt": "Moriarty Hollow",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/afa66e5d7a1/400x220/4231c8bab187a0cc415f4e6ba1aa8ea8.jpg",
-          "alt": "Moriarty Stake",
+          "alt": "Moriarty Hollow",
           "caption": ""
         }
       ]
@@ -6535,9 +6466,9 @@
     "sourceName": "One Full Acre - Estancia Ranchettes - Albuquerque East Valley"
   },
   {
-    "id": "lot-095",
-    "date": "2026-06-06",
-    "name": "Moriarty Wilds",
+    "id": "lot-094",
+    "date": "2026-06-05",
+    "name": "Moriarty Stake",
     "tagline": "1 Acres, Torrance County, New Mexico",
     "location": {
       "city": "Moriarty",
@@ -6575,22 +6506,22 @@
       "photos": [
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/1b87ada4998/400x220/4d1f9307bde1c0d1278d41249686ffd1.jpg",
-          "alt": "Moriarty Wilds",
+          "alt": "Moriarty Stake",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/a4fcc15ff8d/400x220/b2d612f60586d09847bc3ab5491dac5c.jpg",
-          "alt": "Moriarty Wilds",
+          "alt": "Moriarty Stake",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/63ad309b92c/400x220/ee6b7ae6db616bf4689e1e2fdb9a1c79.jpg",
-          "alt": "Moriarty Wilds",
+          "alt": "Moriarty Stake",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/c88122362e8/400x220/3973fa5f683d87ba158137a992c12ee7.jpg",
-          "alt": "Moriarty Wilds",
+          "alt": "Moriarty Stake",
           "caption": ""
         }
       ]
@@ -6604,9 +6535,9 @@
     "sourceName": "Albuquerque East Valley - One Full Acre"
   },
   {
-    "id": "lot-096",
-    "date": "2026-06-07",
-    "name": "Veguita Open Range",
+    "id": "lot-095",
+    "date": "2026-06-06",
+    "name": "Veguita Wilds",
     "tagline": "1.02 Acres, Socorro County, New Mexico",
     "location": {
       "city": "Veguita",
@@ -6646,22 +6577,22 @@
       "photos": [
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/09a415f011f/400x220/09badd7b4c8e5a85b0ddea8db06e62a9.jpg",
-          "alt": "Veguita Open Range",
+          "alt": "Veguita Wilds",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/8bf292d0f76/400x220/bc6a07bf6b3631834e5a68e50e23842a.jpg",
-          "alt": "Veguita Open Range",
+          "alt": "Veguita Wilds",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/551ec394a91/400x220/94a84fd197635ff0411966bbca4fee00.jpg",
-          "alt": "Veguita Open Range",
+          "alt": "Veguita Wilds",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/99a1d3bfc56/400x220/0de7ae4e8ac16309dd2d070d089d4489.jpg",
-          "alt": "Veguita Open Range",
+          "alt": "Veguita Wilds",
           "caption": ""
         }
       ]
@@ -6675,9 +6606,9 @@
     "sourceName": "One+ Acre Lot - Great Road 2WD Road - Rio Grande Estates, Socorro County NM"
   },
   {
-    "id": "lot-097",
-    "date": "2026-06-08",
-    "name": "Tres Piedras Retreat",
+    "id": "lot-096",
+    "date": "2026-06-07",
+    "name": "Tres Piedras Homesite",
     "tagline": "2 Acres, Taos County, New Mexico",
     "location": {
       "city": "Tres Piedras",
@@ -6715,22 +6646,22 @@
       "photos": [
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/726778b9629/400x220/ba8ce2e2efc9a3443727334f9ff1f1c9.jpg",
-          "alt": "Tres Piedras Retreat",
+          "alt": "Tres Piedras Homesite",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/75bf2e91f41/400x220/883e1edcbb0685145a66d495e1a3076c.jpg",
-          "alt": "Tres Piedras Retreat",
+          "alt": "Tres Piedras Homesite",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/e9484ecb905/400x220/4e4f89ace58ab8168bcd9b2d0a09592e.jpg",
-          "alt": "Tres Piedras Retreat",
+          "alt": "Tres Piedras Homesite",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/11fdeaef38d/400x220/a623cc075a47a1f1674ba562e2fe3e09.jpg",
-          "alt": "Tres Piedras Retreat",
+          "alt": "Tres Piedras Homesite",
           "caption": ""
         }
       ]
@@ -6744,9 +6675,9 @@
     "sourceName": "NW Taos 1/2 Acre Lot"
   },
   {
-    "id": "lot-098",
-    "date": "2026-06-09",
-    "name": "Tres Piedras Acre",
+    "id": "lot-097",
+    "date": "2026-06-08",
+    "name": "Tres Piedras Retreat",
     "tagline": "2 Acres, Taos County, New Mexico",
     "location": {
       "city": "Tres Piedras",
@@ -6784,22 +6715,22 @@
       "photos": [
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/8fc92003f5a/400x220/d374d00ebba65c0ccaf47770c9d49381.jpg",
-          "alt": "Tres Piedras Acre",
+          "alt": "Tres Piedras Retreat",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/f8419a96641/400x220/3febabe330742e52cb54e8b2af46c120.jpg",
-          "alt": "Tres Piedras Acre",
+          "alt": "Tres Piedras Retreat",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/901c3e100a5/400x220/dea7b9c9e0d52ab4ab6dc78f13ce6808.jpg",
-          "alt": "Tres Piedras Acre",
+          "alt": "Tres Piedras Retreat",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/6654143d87d/400x220/560b234add88f964b5b8e01159f6fcb7.jpg",
-          "alt": "Tres Piedras Acre",
+          "alt": "Tres Piedras Retreat",
           "caption": ""
         }
       ]
@@ -6813,9 +6744,9 @@
     "sourceName": "Bring Your RV - 1/2 Acre Lot - Taos Area"
   },
   {
-    "id": "lot-099",
-    "date": "2026-06-10",
-    "name": "Hachita Lot",
+    "id": "lot-098",
+    "date": "2026-06-09",
+    "name": "Hachita Bluff",
     "tagline": "0.172 Acres, Grant County, New Mexico",
     "location": {
       "city": "Hachita",
@@ -6852,22 +6783,22 @@
       "photos": [
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/a43da568510/400x220/875f290395d6a921dd70de60f7aefdc7.jpg",
-          "alt": "Hachita Lot",
+          "alt": "Hachita Bluff",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/2f241f7d713/400x220/4a8788e4864a5b409e9954d3aa60890b.jpg",
-          "alt": "Hachita Lot",
+          "alt": "Hachita Bluff",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/0cf454fd05d/400x220/9fe86f79823be7b3396b4292440c2708.jpg",
-          "alt": "Hachita Lot",
+          "alt": "Hachita Bluff",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/ad14f87e443/400x220/6e62d170344315a51dc294f4e4850bd3.jpg",
-          "alt": "Hachita Lot",
+          "alt": "Hachita Bluff",
           "caption": ""
         }
       ]
@@ -6881,9 +6812,9 @@
     "sourceName": "Hachita Corner Lot with Power – Great Roads"
   },
   {
-    "id": "lot-100",
-    "date": "2026-06-11",
-    "name": "South Deming Stake",
+    "id": "lot-099",
+    "date": "2026-06-10",
+    "name": "North Deming Hollow",
     "tagline": "1 Acres, Luna County, New Mexico",
     "location": {
       "city": "Deming",
@@ -6922,22 +6853,22 @@
       "photos": [
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/811cb62f1a3/400x220/cff9f0451aeaf59f2712e88de53ceb7a.jpg",
-          "alt": "South Deming Stake",
+          "alt": "North Deming Hollow",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/2a7b1263441/400x220/72663b5eee81e3ba2f2d42b405da3fab.jpg",
-          "alt": "South Deming Stake",
+          "alt": "North Deming Hollow",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/d5ed6198fcc/400x220/2d6a0471c0bf8ce6130e6fb23326aa05.jpg",
-          "alt": "South Deming Stake",
+          "alt": "North Deming Hollow",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/47e11250ebe/400x220/9637334a13127a39bc8882fb52666c69.jpg",
-          "alt": "South Deming Stake",
+          "alt": "North Deming Hollow",
           "caption": ""
         }
       ]
@@ -6951,9 +6882,9 @@
     "sourceName": "Two Lots - One Acre on Cana Road in SE Deming - Maintained Road - Power"
   },
   {
-    "id": "lot-101",
-    "date": "2026-06-12",
-    "name": "Tres Piedras Stake",
+    "id": "lot-100",
+    "date": "2026-06-11",
+    "name": "Tres Piedras Acre",
     "tagline": "2 Acres, Taos County, New Mexico",
     "location": {
       "city": "Tres Piedras",
@@ -6991,22 +6922,22 @@
       "photos": [
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/b87624b9769/400x220/8b4e376ca96c46f60f58a6883f014b4b.jpg",
-          "alt": "Tres Piedras Stake",
+          "alt": "Tres Piedras Acre",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/1a85d27dd10/400x220/b74dbbaec6344086b60694a778c25719.jpg",
-          "alt": "Tres Piedras Stake",
+          "alt": "Tres Piedras Acre",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/18718611d2d/400x220/5e9a03503473edcb7682a4b5a2b4b867.jpg",
-          "alt": "Tres Piedras Stake",
+          "alt": "Tres Piedras Acre",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/7cf7a8207d5/400x220/98c4de6d74be059646933a055edabcb6.jpg",
-          "alt": "Tres Piedras Stake",
+          "alt": "Tres Piedras Acre",
           "caption": ""
         }
       ]
@@ -7020,9 +6951,9 @@
     "sourceName": "1/2 Acre Unrestricted Lot - Taos County"
   },
   {
-    "id": "lot-102",
-    "date": "2026-06-13",
-    "name": "Hachita Plot",
+    "id": "lot-101",
+    "date": "2026-06-12",
+    "name": "Hachita Lot",
     "tagline": "0.172 Acres, Grant County, New Mexico",
     "location": {
       "city": "Hachita",
@@ -7060,22 +6991,22 @@
       "photos": [
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/594cd4e021a/400x220/27b468e97e48e35bea45fd02f4aa88d3.jpg",
-          "alt": "Hachita Plot",
+          "alt": "Hachita Lot",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/be3c5f1ba28/400x220/48621fab88fc621120d67b10d0c621b8.jpg",
-          "alt": "Hachita Plot",
+          "alt": "Hachita Lot",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/6e081bc3dbe/400x220/6d0e5f4d683a91c055eee18e64bc5c54.jpg",
-          "alt": "Hachita Plot",
+          "alt": "Hachita Lot",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/153190e032d/400x220/a6a6740e2c8617b747869ea156f632b6.jpg",
-          "alt": "Hachita Plot",
+          "alt": "Hachita Lot",
           "caption": ""
         }
       ]
@@ -7089,9 +7020,9 @@
     "sourceName": "Corner Lot Just South of HWY 9 in Hachita - Power at the Lot"
   },
   {
-    "id": "lot-103",
-    "date": "2026-06-14",
-    "name": "Kingman Pull-In",
+    "id": "lot-102",
+    "date": "2026-06-13",
+    "name": "Kingman Basecamp",
     "tagline": "1.06 Acres, Mohave County, Arizona",
     "location": {
       "city": "Kingman",
@@ -7129,22 +7060,22 @@
       "photos": [
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/17a207e0e82/400x220/47f78bcf07dc93341a0b3c4a3c96cf4a.jpg",
-          "alt": "Kingman Pull-In",
+          "alt": "Kingman Basecamp",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/20d3683cfae/400x220/13b96c82c1fb2899304ab8757d427364.jpg",
-          "alt": "Kingman Pull-In",
+          "alt": "Kingman Basecamp",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/08aadb90e44/400x220/5c6611d7adf4fae8a941c092edc48c65.jpg",
-          "alt": "Kingman Pull-In",
+          "alt": "Kingman Basecamp",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/8fe23de08f8/400x220/0c0bc371439a3ca8ad9987b282c4b9fc.jpg",
-          "alt": "Kingman Pull-In",
+          "alt": "Kingman Basecamp",
           "caption": ""
         }
       ]
@@ -7158,9 +7089,9 @@
     "sourceName": "One Acre - Two Lots From 149 Road - Dirt Road Access"
   },
   {
-    "id": "lot-104",
-    "date": "2026-06-15",
-    "name": "Moriarty Open Range",
+    "id": "lot-103",
+    "date": "2026-06-14",
+    "name": "Moriarty Wilds",
     "tagline": "1 Acres, Torrance County, New Mexico",
     "location": {
       "city": "Moriarty",
@@ -7199,22 +7130,22 @@
       "photos": [
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/f0930324561/400x220/df53ab6e3aaeca55224c0ea63c3de480.jpg",
-          "alt": "Moriarty Open Range",
+          "alt": "Moriarty Wilds",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/fa7dd8b6f3a/400x220/6abcc85863f915449c3434d32ece46ea.jpg",
-          "alt": "Moriarty Open Range",
+          "alt": "Moriarty Wilds",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/0cfb77ce4ef/400x220/40923185e15d172947efcb6f9e323145.jpg",
-          "alt": "Moriarty Open Range",
+          "alt": "Moriarty Wilds",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/9cbe6f4dc29/400x220/2720632875ccde26db60e3b47d576104.jpg",
-          "alt": "Moriarty Open Range",
+          "alt": "Moriarty Wilds",
           "caption": ""
         }
       ]
@@ -7228,9 +7159,9 @@
     "sourceName": "One Full Acre East of Albuquerque"
   },
   {
-    "id": "lot-105",
-    "date": "2026-06-16",
-    "name": "Hachita Stake",
+    "id": "lot-104",
+    "date": "2026-06-15",
+    "name": "Hachita Hideaway",
     "tagline": "0.172 Acres, Grant County, New Mexico",
     "location": {
       "city": "Hachita",
@@ -7267,22 +7198,22 @@
       "photos": [
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/c282f54b5c0/400x220/d6ec1c872af1175c58d11f237b3a1a0c.jpg",
-          "alt": "Hachita Stake",
+          "alt": "Hachita Hideaway",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/05a3656e589/400x220/865e2c4275f723df26163d2b169277ac.jpg",
-          "alt": "Hachita Stake",
+          "alt": "Hachita Hideaway",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/941cc9419f8/400x220/cd2e1bc7c4a307675e446909c7819d4f.jpg",
-          "alt": "Hachita Stake",
+          "alt": "Hachita Hideaway",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/c5eaab93644/400x220/dff37fa400dbd8abec6df7fa1a22b949.jpg",
-          "alt": "Hachita Stake",
+          "alt": "Hachita Hideaway",
           "caption": ""
         }
       ]
@@ -7296,8 +7227,8 @@
     "sourceName": "Affordable Lot in Hachita – Secluded – Power Available"
   },
   {
-    "id": "lot-106",
-    "date": "2026-06-17",
+    "id": "lot-105",
+    "date": "2026-06-16",
     "name": "Tres Piedras Overlook",
     "tagline": "4 Acres, Taos County, New Mexico",
     "location": {
@@ -7365,9 +7296,9 @@
     "sourceName": "Tres Piedras 1/4 acre Lot - Near HWY 64"
   },
   {
-    "id": "lot-107",
-    "date": "2026-06-18",
-    "name": "Tres Piedras Camp",
+    "id": "lot-106",
+    "date": "2026-06-17",
+    "name": "Tres Piedras Perch",
     "tagline": "0.25 Acres, Taos County, New Mexico",
     "location": {
       "city": "Tres Piedras",
@@ -7404,22 +7335,22 @@
       "photos": [
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/978a085a7fc/400x220/1c78760dbb64f0837c43fa49d7d55bcc.jpg",
-          "alt": "Tres Piedras Camp",
+          "alt": "Tres Piedras Perch",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/55417f78d59/400x220/a0b1b8329a3d6ee9737f5e08812b7962.jpg",
-          "alt": "Tres Piedras Camp",
+          "alt": "Tres Piedras Perch",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/37fbc9a8f57/400x220/e57d131cbc2cafadfc6b0c2962cdddbd.jpg",
-          "alt": "Tres Piedras Camp",
+          "alt": "Tres Piedras Perch",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/9dfb75e6b69/400x220/f49412c82f8fb1cdfc75947282191400.jpg",
-          "alt": "Tres Piedras Camp",
+          "alt": "Tres Piedras Perch",
           "caption": ""
         }
       ]
@@ -7433,9 +7364,9 @@
     "sourceName": "Taos Area - Some Development Around - Recreational Use Allowed"
   },
   {
-    "id": "lot-108",
-    "date": "2026-06-19",
-    "name": "West Deming Vista",
+    "id": "lot-107",
+    "date": "2026-06-18",
+    "name": "East Deming Overlook",
     "tagline": "1.16 Acres, Luna County, New Mexico",
     "location": {
       "city": "Deming",
@@ -7475,22 +7406,22 @@
       "photos": [
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/ea1729b0bb6/400x220/72a00fde7c76224d7e20dfd67906c1b7.jpg",
-          "alt": "West Deming Vista",
+          "alt": "East Deming Overlook",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/4468f2416de/400x220/6658cd464332bca6c4df0f3e06807382.jpg",
-          "alt": "West Deming Vista",
+          "alt": "East Deming Overlook",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/d2610e1a8bd/400x220/63142393923f3d7ba784e08d8cc1dcc9.jpg",
-          "alt": "West Deming Vista",
+          "alt": "East Deming Overlook",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/4f900557a69/400x220/ced256295d6667c5c7563b8396e742a1.jpg",
-          "alt": "West Deming Vista",
+          "alt": "East Deming Overlook",
           "caption": ""
         }
       ]
@@ -7504,9 +7435,9 @@
     "sourceName": "Corner Lots - Power Available at the Lots - Over One Acre Total"
   },
   {
-    "id": "lot-109",
-    "date": "2026-06-20",
-    "name": "Tres Piedras Parcel",
+    "id": "lot-108",
+    "date": "2026-06-19",
+    "name": "Tres Piedras Bluff",
     "tagline": "4 Acres, Taos County, New Mexico",
     "location": {
       "city": "Tres Piedras",
@@ -7544,22 +7475,22 @@
       "photos": [
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/f5fa7e32011/400x220/5130b0045d91ef79453731b5425101bb.jpg",
-          "alt": "Tres Piedras Parcel",
+          "alt": "Tres Piedras Bluff",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/57102dfc269/400x220/f35225ad3eddecf9f3ca026dc2cac7fa.jpg",
-          "alt": "Tres Piedras Parcel",
+          "alt": "Tres Piedras Bluff",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/5354d46d7b1/400x220/75c168cef00ba17a9c41fcd19d977019.jpg",
-          "alt": "Tres Piedras Parcel",
+          "alt": "Tres Piedras Bluff",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/b366fecfcd8/400x220/081aa4a2145590413f683d38fd9fe34a.jpg",
-          "alt": "Tres Piedras Parcel",
+          "alt": "Tres Piedras Bluff",
           "caption": ""
         }
       ]
@@ -7573,9 +7504,9 @@
     "sourceName": "Tres Piedras Unit 6 -  1/4 Acre Lot - RV's Permitted"
   },
   {
-    "id": "lot-110",
-    "date": "2026-06-21",
-    "name": "Tres Piedras Basecamp",
+    "id": "lot-109",
+    "date": "2026-06-20",
+    "name": "Tres Piedras Stake",
     "tagline": "0.27 Acres, Taos County, New Mexico",
     "location": {
       "city": "Tres Piedras",
@@ -7613,22 +7544,22 @@
       "photos": [
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/76671a4e4bc/400x220/4c4407ad08b99581d715b82911fb2c01.jpg",
-          "alt": "Tres Piedras Basecamp",
+          "alt": "Tres Piedras Stake",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/cb4aa42834e/400x220/439defcca9cead3993f45a2bef152842.jpg",
-          "alt": "Tres Piedras Basecamp",
+          "alt": "Tres Piedras Stake",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/87ce8c312a7/400x220/744af21c3dbdcd4a6a6f0d6fb61b29f4.jpg",
-          "alt": "Tres Piedras Basecamp",
+          "alt": "Tres Piedras Stake",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/240dfc689a3/400x220/621809969a292c80db580be854e902a0.jpg",
-          "alt": "Tres Piedras Basecamp",
+          "alt": "Tres Piedras Stake",
           "caption": ""
         }
       ]
@@ -7642,8 +7573,8 @@
     "sourceName": "Taos Area Lot - No Restrictions"
   },
   {
-    "id": "lot-111",
-    "date": "2026-06-22",
+    "id": "lot-110",
+    "date": "2026-06-21",
     "name": "Tres Piedras Vista",
     "tagline": "4 Acres, Taos County, New Mexico",
     "location": {
@@ -7711,8 +7642,8 @@
     "sourceName": "Easy Access - Right off HWY 64 - West of Taos - 1/4 Acre"
   },
   {
-    "id": "lot-112",
-    "date": "2026-06-23",
+    "id": "lot-111",
+    "date": "2026-06-22",
     "name": "Tres Piedras Wilds",
     "tagline": "4 Acres, Taos County, New Mexico",
     "location": {
@@ -7781,8 +7712,8 @@
     "sourceName": "Tres Piedras 1/4 Acre Lot - No Restrictions - Great Views - Near Taos"
   },
   {
-    "id": "lot-113",
-    "date": "2026-06-24",
+    "id": "lot-112",
+    "date": "2026-06-23",
     "name": "Tres Piedras Open Range",
     "tagline": "4 Acres, Taos County, New Mexico",
     "location": {
@@ -7850,9 +7781,9 @@
     "sourceName": "1/4 Acre Unrestricted Lot - Taos County"
   },
   {
-    "id": "lot-114",
-    "date": "2026-06-25",
-    "name": "North Deming Acre",
+    "id": "lot-113",
+    "date": "2026-06-24",
+    "name": "Lower Deming Retreat",
     "tagline": "1 Acres, Luna County, New Mexico",
     "location": {
       "city": "Deming",
@@ -7890,22 +7821,22 @@
       "photos": [
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/02a71a945eb/400x220/49b3c88f7a4d6358d391839914984852.jpg",
-          "alt": "North Deming Acre",
+          "alt": "Lower Deming Retreat",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/524f2adde22/400x220/7ab6f02ecb638a164df9fb077dc6c4d2.jpg",
-          "alt": "North Deming Acre",
+          "alt": "Lower Deming Retreat",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/81bb86ad692/400x220/b0155e8a877941a4f230af0e6a88ff2a.jpg",
-          "alt": "North Deming Acre",
+          "alt": "Lower Deming Retreat",
           "caption": ""
         },
         {
           "url": "https://www.governmentlandsales.us/storage/property-images/d270665f6f2/400x220/95aa642b9c2de5a0037f7279e026f042.jpg",
-          "alt": "North Deming Acre",
+          "alt": "Lower Deming Retreat",
           "caption": ""
         }
       ]
